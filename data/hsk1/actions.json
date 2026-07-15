@@ -276,31 +276,6 @@
       "usage_notes": "Most common word for 'like', softer than 爱"
     },
     {
-      "simplified": "想",
-      "traditional": "想",
-      "pinyin": "xiǎng",
-      "english": "to think; to want; to miss",
-      "hsk_level": 1,
-      "word_type": "verb",
-      "emoji": "💭",
-      "mnemonic": "Heart (心) + look (相) - THINK with heart and mind",
-      "etymology": "Heart under eye, representing thought",
-      "examples": [
-        {
-          "chinese": "我想去中国。",
-          "pinyin": "Wǒ xiǎng qù Zhōngguó.",
-          "english": "I want to go to China."
-        },
-        {
-          "chinese": "我想你。",
-          "pinyin": "Wǒ xiǎng nǐ.",
-          "english": "I miss you."
-        }
-      ],
-      "related_words": ["想念", "思想", "理想"],
-      "usage_notes": "Multiple meanings: think, want, miss"
-    },
-    {
       "simplified": "认识",
       "traditional": "認識",
       "pinyin": "rènshi",
@@ -324,56 +299,6 @@
       ],
       "related_words": ["知道", "了解", "认得"],
       "usage_notes": "Used for knowing people or recognizing things"
-    },
-    {
-      "simplified": "会",
-      "traditional": "會",
-      "pinyin": "huì",
-      "english": "can; to be able to; will",
-      "hsk_level": 1,
-      "word_type": "verb",
-      "emoji": "✅",
-      "mnemonic": "Person + cloud (simplified) - CAN reach the clouds",
-      "etymology": "Simplified from meeting/gathering, means capability",
-      "examples": [
-        {
-          "chinese": "我会说中文。",
-          "pinyin": "Wǒ huì shuō Zhōngwén.",
-          "english": "I can speak Chinese."
-        },
-        {
-          "chinese": "他会来吗？",
-          "pinyin": "Tā huì lái ma?",
-          "english": "Will he come?"
-        }
-      ],
-      "related_words": ["能", "可以", "开会"],
-      "usage_notes": "Indicates learned ability or future possibility"
-    },
-    {
-      "simplified": "能",
-      "traditional": "能",
-      "pinyin": "néng",
-      "english": "can; to be able to",
-      "hsk_level": 1,
-      "word_type": "verb",
-      "emoji": "💪",
-      "mnemonic": "Bear with strength - CAN do things",
-      "etymology": "Ancient pictograph of a bear, symbol of ability",
-      "examples": [
-        {
-          "chinese": "我能帮你吗？",
-          "pinyin": "Wǒ néng bāng nǐ ma?",
-          "english": "Can I help you?"
-        },
-        {
-          "chinese": "你能来吗？",
-          "pinyin": "Nǐ néng lái ma?",
-          "english": "Can you come?"
-        }
-      ],
-      "related_words": ["会", "可以", "能力"],
-      "usage_notes": "Indicates physical ability or possibility"
     },
     {
       "simplified": "工作",

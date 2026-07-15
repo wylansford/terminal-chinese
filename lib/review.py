@@ -116,7 +116,7 @@ def _ensure_vocabulary(db: Database) -> bool:
     imported = sync_bundled(db, data_dir)
     if imported:
         ui.console.print(
-            f'[bold bright_cyan]terminal-chinese[/] - imported {imported} new bundled words.\n'
+            f'[bold bright_cyan]terminal-chinese[/] - synchronized {imported} bundled words.\n'
             f'[dim]Starting with HSK 1 - widen anytime: ct config --hsk 1,2,3[/]\n'
         )
     return db.conn.execute("SELECT COUNT(*) FROM vocabulary").fetchone()[0] > 0

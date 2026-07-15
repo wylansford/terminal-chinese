@@ -1,7 +1,7 @@
 """Vocabulary import/export (JSON files and the auto-import drop directory)"""
 
-import json
 import hashlib
+import json
 import shutil
 import sys
 from datetime import datetime
@@ -56,7 +56,12 @@ def sync_bundled(db: Database, data_dir: Path) -> int:
         if previous and previous[0] == digest:
             continue
 
-        total += import_json(file_path, db)
+        with open(file_path, encoding='utf-8') as f:
+            data = json.load(f)
+        for word in data.get('vocabulary', []):
+            word = serialize_json_fields(word)
+            db.update_bundled_vocabulary(word, key)
+            total += 1
         db.conn.execute(
             "INSERT INTO bundled_imports (path, sha256) VALUES (?, ?) "
             "ON CONFLICT(path) DO UPDATE SET sha256 = excluded.sha256, "

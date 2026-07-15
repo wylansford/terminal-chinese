@@ -54,6 +54,8 @@ fi""",
 
 
 def _migrate_old_config():
+    if PROFILE != 'default':
+        return
     old = Path.home() / '.config' / 'chinese-tutor'
     if old.is_dir() and not CONFIG_DIR.exists():
         old.rename(CONFIG_DIR)
