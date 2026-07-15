@@ -53,6 +53,18 @@ python3 -m py_compile bin/terminal-chinese lib/*.py
 bash -n install.sh uninstall.sh
 ```
 
+To publish a version to GitHub and Homebrew after merging to `main`:
+
+```sh
+scripts/release.sh 1.1.4
+```
+
+If a GitHub release already exists and only the tap update remains:
+
+```sh
+scripts/release.sh --tap-only 1.1.3
+```
+
 More vocab packs: `cp data/hsk2/*.json ~/.config/terminal-chinese/vocabulary/`
 
 ## Reviewing
