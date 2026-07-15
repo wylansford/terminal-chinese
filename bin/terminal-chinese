@@ -14,7 +14,13 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR.parent / 'lib'))
 
-CONFIG_DIR = Path.home() / '.config' / 'terminal-chinese'
+PROFILE = os.environ.get('TERMINAL_CHINESE_PROFILE', 'default')
+if PROFILE not in ('default', 'dev'):
+    raise SystemExit("TERMINAL_CHINESE_PROFILE must be 'default' or 'dev'")
+if PROFILE == 'default':
+    CONFIG_DIR = Path.home() / '.config' / 'terminal-chinese'
+else:
+    CONFIG_DIR = Path.home() / '.config' / f'terminal-chinese-{PROFILE}'
 DB_PATH = CONFIG_DIR / 'tutor.db'
 CONFIG_PATH = CONFIG_DIR / 'config.json'
 VOCAB_DIR = CONFIG_DIR / 'vocabulary'
@@ -63,14 +69,14 @@ def load_config():
 
 def open_db():
     from db import Database
-    first_run = not DB_PATH.exists()
     db = Database(DB_PATH)
-    if first_run:
-        VOCAB_DIR.mkdir(parents=True, exist_ok=True)
-        with db:
-            db.init_schema()
-        db = Database(DB_PATH)
-    return db
+    VOCAB_DIR.mkdir(parents=True, exist_ok=True)
+    with db:
+        db.init_schema()
+        # Keep existing installs in sync with vocabulary shipped by upgrades.
+        from importer import sync_bundled
+        sync_bundled(db, DATA_DIR)
+    return Database(DB_PATH)
 
 
 def cmd_init(args):

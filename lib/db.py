@@ -113,6 +113,12 @@ class Database:
                 imported_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             );
 
+            CREATE TABLE IF NOT EXISTS bundled_imports (
+                path TEXT PRIMARY KEY,
+                sha256 TEXT NOT NULL,
+                imported_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            );
+
             CREATE TABLE IF NOT EXISTS daily_stats (
                 date TEXT PRIMARY KEY,
                 reviews_done INTEGER DEFAULT 0,

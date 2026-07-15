@@ -1,6 +1,7 @@
 """Vocabulary import/export (JSON files and the auto-import drop directory)"""
 
 import json
+import hashlib
 import shutil
 import sys
 from datetime import datetime
@@ -36,6 +37,34 @@ def import_json(file_path: Path, db: Database) -> int:
     )
     db.conn.commit()
     return count
+
+
+def sync_bundled(db: Database, data_dir: Path) -> int:
+    """Import bundled HSK packs that are new or changed since the last sync.
+
+    The manifest avoids rechecking and reinserting every bundled word on each
+    shell startup, while allowing later releases to add or update packs in an
+    existing user's database.
+    """
+    total = 0
+    for file_path in sorted(data_dir.glob('hsk*/*.json')):
+        digest = hashlib.sha256(file_path.read_bytes()).hexdigest()
+        key = str(file_path.relative_to(data_dir))
+        previous = db.conn.execute(
+            "SELECT sha256 FROM bundled_imports WHERE path = ?", (key,)
+        ).fetchone()
+        if previous and previous[0] == digest:
+            continue
+
+        total += import_json(file_path, db)
+        db.conn.execute(
+            "INSERT INTO bundled_imports (path, sha256) VALUES (?, ?) "
+            "ON CONFLICT(path) DO UPDATE SET sha256 = excluded.sha256, "
+            "imported_at = CURRENT_TIMESTAMP",
+            (key, digest),
+        )
+        db.conn.commit()
+    return total
 
 
 def auto_import(db: Database, vocab_dir: Path) -> List[Tuple[str, int]]:
