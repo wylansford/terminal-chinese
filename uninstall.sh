@@ -25,8 +25,9 @@ cat <<'EOF'
 
 ✅ Uninstalled.
 
-To finish, remove this line from your ~/.zshrc (or ~/.bashrc):
-  eval "$(terminal-chinese init zsh)"
+To finish, remove the terminal-chinese block from your ~/.zshrc (or
+~/.bashrc) -- it starts with the comment "# terminal-chinese —" and
+ends at the matching "fi".
 
 Installed via Homebrew instead? Use: brew uninstall terminal-chinese
 EOF

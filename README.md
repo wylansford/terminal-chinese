@@ -37,14 +37,13 @@ Answer a card and it reveals pinyin, meaning, mnemonic, etymology, translated ex
 curl -fsSL https://raw.githubusercontent.com/wylansford/terminal-chinese/main/install.sh | bash
 ```
 
-**Or with Homebrew** — then add the one-line hook to `~/.zshrc` (or `~/.bashrc` with `init bash`):
+**Or with Homebrew** — `brew install` prints the hook to add to `~/.zshrc` (or `~/.bashrc`) as part of its post-install caveats:
 
 ```sh
 brew install wylansford/tap/terminal-chinese
-echo 'eval "$(terminal-chinese init zsh)"' >> ~/.zshrc
 ```
 
-That one line is the entire shell footprint: it defines the `ct` alias and shows one card per new terminal window. Open a new terminal — you'll be offered the HSK 1 starter pack. Set `TERMINAL_CHINESE_DISABLE=1` to temporarily silence startup cards, or `TERMINAL_CHINESE_NO_RC=1` to keep the install script out of your rc file.
+The hook is a few lines that define the `ct` alias and show one card per new terminal window — nothing runs in the background, nothing re-executes itself on every shell. Open a new terminal — HSK 1-6 vocabulary imports automatically. Set `TERMINAL_CHINESE_DISABLE=1` to temporarily silence startup cards.
 
 More vocab packs: `cp data/hsk2/*.json ~/.config/terminal-chinese/vocabulary/`
 

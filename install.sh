@@ -31,20 +31,24 @@ exec "$APP_DIR/.venv/bin/python3" "$APP_DIR/bin/terminal-chinese" "\$@"
 EOF
 chmod +x "$BIN_DIR/terminal-chinese"
 
-# Hook the shell so cards appear on terminal startup.
+# Hook the shell so cards appear on terminal startup. The hook text is
+# generated once, here, and written as-is -- not re-generated via
+# `eval "$(...)"` on every shell, which would cost a full Python startup
+# on every subshell just to reproduce identical text.
 case "${SHELL:-}" in
     */bash) RC_FILE="$HOME/.bashrc"; SHELL_NAME="bash" ;;
     *)      RC_FILE="$HOME/.zshrc";  SHELL_NAME="zsh"  ;;
 esac
-HOOK_LINE="[ -x \"\$HOME/.local/bin/terminal-chinese\" ] && eval \"\$(\"\$HOME/.local/bin/terminal-chinese\" init $SHELL_NAME)\""
+MARKER="# terminal-chinese — vocabulary card on terminal startup"
 
-if grep -qs "terminal-chinese.*init" "$RC_FILE"; then
+if grep -qs "$MARKER" "$RC_FILE"; then
     HOOK_MSG="terminal-chinese is already wired into $RC_FILE."
 else
+    HOOK_TEXT="$(TERMINAL_CHINESE_BIN="$BIN_DIR/terminal-chinese" "$BIN_DIR/terminal-chinese" init "$SHELL_NAME")"
     {
         echo ""
-        echo "# terminal-chinese — vocabulary card on terminal startup (terminal-chinese.lansford.dev)"
-        echo "$HOOK_LINE"
+        echo "$MARKER (terminal-chinese.lansford.dev)"
+        echo "$HOOK_TEXT"
     } >> "$RC_FILE"
     HOOK_MSG="Just added terminal-chinese to $RC_FILE! It'll run automatically on every terminal startup from now on."
 fi

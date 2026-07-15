@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """terminal-chinese — FSRS-based Chinese vocabulary in your terminal"""
 
-import argparse
 import json
 import os
 import shlex
 import sys
 from pathlib import Path
+# argparse (and the re/shutil it pulls in, ~7ms) is imported lazily in main(),
+# after the review fast path -- the one command run on every terminal open.
 
 # Heavy modules (anthropic, fsrs, rich) are imported inside the commands
 # that need them, so every command starts fast.
@@ -21,20 +22,29 @@ DATA_DIR = SCRIPT_DIR.parent / 'data'
 
 DEFAULT_CONFIG = {'max_new_cards_per_day': 10, 'hsk_levels': [1]}
 
-# {bin} is the absolute path of the running binary, so the hook works
-# even when the install location is not on PATH yet.
+# {bin} is the absolute path of the running binary, so the hook works even
+# when the install location isn't on PATH yet. The [ -x {bin} ] guard makes
+# the written hook self-contained: it degrades silently if uninstalled
+# without cleaning up the rc file. This text is meant to be captured ONCE
+# at install time and written statically into the shell rc file -- not
+# re-run via `eval "$(...)"` on every shell, which would pay a full Python
+# startup on every subshell just to regenerate identical text.
 SHELL_HOOKS = {
     'zsh': """\
-alias ct={bin}
-if [[ -o interactive && -t 0 && $SHLVL -eq 1 && "$TERM_PROGRAM" != "vscode" \\
-      && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
-    {bin} review
+if [ -x {bin} ]; then
+    alias ct={bin}
+    if [[ -o interactive && -t 0 && $SHLVL -eq 1 && "$TERM_PROGRAM" != "vscode" \\
+          && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
+        {bin} review
+    fi
 fi""",
     'bash': """\
-alias ct={bin}
-if [[ $- == *i* && -t 0 && $SHLVL -eq 1 && "$TERM_PROGRAM" != "vscode" \\
-      && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
-    {bin} review
+if [ -x {bin} ]; then
+    alias ct={bin}
+    if [[ $- == *i* && -t 0 && $SHLVL -eq 1 && "$TERM_PROGRAM" != "vscode" \\
+          && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
+        {bin} review
+    fi
 fi""",
 }
 
@@ -66,8 +76,14 @@ def open_db():
 
 
 def cmd_init(args):
-    bin_path = shlex.quote(os.path.abspath(sys.argv[0]))
-    print(SHELL_HOOKS[args.shell].format(bin=bin_path))
+    # sys.argv[0] is only correct when this file is the actual entry point
+    # (e.g. the dev symlink). A venv-wrapper install (install.sh, Homebrew)
+    # execs into this script directly, bypassing the wrapper it was called
+    # through -- so sys.argv[0] here would bake in the *inner* venv script,
+    # skipping the wrapper's venv activation entirely. Callers that wrap
+    # this script must set TERMINAL_CHINESE_BIN to their own stable path.
+    bin_path = os.environ.get('TERMINAL_CHINESE_BIN') or os.path.abspath(sys.argv[0])
+    print(SHELL_HOOKS[args.shell].format(bin=shlex.quote(bin_path)))
 
 
 def cmd_review(args):
@@ -276,6 +292,10 @@ def cmd_generate(args):
 def main():
     _migrate_old_config()
 
+    if sys.argv[1:] == ['review']:  # the hot path: skip argparse entirely
+        return cmd_review(None)
+
+    import argparse
     parser = argparse.ArgumentParser(
         prog='terminal-chinese',
         description='FSRS-based Chinese vocabulary learning in your terminal.',
