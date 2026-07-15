@@ -1,0 +1,534 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "去",
+      "traditional": "去",
+      "pinyin": "qù",
+      "english": "to go",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🚶",
+      "mnemonic": "Person in a box lid - GO away from here",
+      "etymology": "Ancient character showing person leaving",
+      "examples": [
+        {
+          "chinese": "我去学校。",
+          "pinyin": "Wǒ qù xuéxiào.",
+          "english": "I go to school."
+        },
+        {
+          "chinese": "你去哪儿？",
+          "pinyin": "Nǐ qù nǎr?",
+          "english": "Where are you going?"
+        }
+      ],
+      "related_words": ["来", "回去", "去年"],
+      "usage_notes": "Most basic movement verb"
+    },
+    {
+      "simplified": "来",
+      "traditional": "來",
+      "pinyin": "lái",
+      "english": "to come",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "👋",
+      "mnemonic": "Wheat (来) growing - COME harvest time",
+      "etymology": "Originally depicted wheat, now means 'come'",
+      "examples": [
+        {
+          "chinese": "你来吗？",
+          "pinyin": "Nǐ lái ma?",
+          "english": "Are you coming?"
+        },
+        {
+          "chinese": "他来了！",
+          "pinyin": "Tā lái le!",
+          "english": "He's here! / He came!"
+        }
+      ],
+      "related_words": ["去", "回来", "来自"],
+      "usage_notes": "Movement toward speaker"
+    },
+    {
+      "simplified": "看",
+      "traditional": "看",
+      "pinyin": "kàn",
+      "english": "to see; to look; to watch",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "👀",
+      "mnemonic": "Hand (手) over eye (目) - LOOK/SEE",
+      "etymology": "Hand shading eye to see better",
+      "examples": [
+        {
+          "chinese": "我在看书。",
+          "pinyin": "Wǒ zài kàn shū.",
+          "english": "I'm reading a book."
+        },
+        {
+          "chinese": "看电影",
+          "pinyin": "kàn diànyǐng",
+          "english": "to watch a movie"
+        }
+      ],
+      "related_words": ["看见", "好看", "看书"],
+      "usage_notes": "Very versatile verb for visual perception"
+    },
+    {
+      "simplified": "读",
+      "traditional": "讀",
+      "pinyin": "dú",
+      "english": "to read; to study",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "📖",
+      "mnemonic": "Words (讠) + sell (卖) - READ words to learn",
+      "etymology": "Speech radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "读书",
+          "pinyin": "dú shū",
+          "english": "to read; to study"
+        },
+        {
+          "chinese": "我在读大学。",
+          "pinyin": "Wǒ zài dú dàxué.",
+          "english": "I'm in university."
+        }
+      ],
+      "related_words": ["阅读", "朗读", "读者"],
+      "usage_notes": "Used for reading and studying"
+    },
+    {
+      "simplified": "写",
+      "traditional": "寫",
+      "pinyin": "xiě",
+      "english": "to write",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "✍️",
+      "mnemonic": "Roof (宀) + brush (?) - WRITE under shelter",
+      "etymology": "Simplified from complex character showing writing action",
+      "examples": [
+        {
+          "chinese": "写字",
+          "pinyin": "xiě zì",
+          "english": "to write characters"
+        },
+        {
+          "chinese": "我在写作业。",
+          "pinyin": "Wǒ zài xiě zuòyè.",
+          "english": "I'm doing homework."
+        }
+      ],
+      "related_words": ["书写", "写作", "手写"],
+      "usage_notes": "Essential verb for writing"
+    },
+    {
+      "simplified": "说",
+      "traditional": "說",
+      "pinyin": "shuō",
+      "english": "to say; to speak",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "💬",
+      "mnemonic": "Words (讠) + opening (兑) - SPEAK words",
+      "etymology": "Speech radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "说中文",
+          "pinyin": "shuō Zhōngwén",
+          "english": "to speak Chinese"
+        },
+        {
+          "chinese": "你说什么？",
+          "pinyin": "Nǐ shuō shénme?",
+          "english": "What did you say?"
+        }
+      ],
+      "related_words": ["说话", "小说", "听说"],
+      "usage_notes": "Basic verb for speaking"
+    },
+    {
+      "simplified": "听",
+      "traditional": "聽",
+      "pinyin": "tīng",
+      "english": "to listen; to hear",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "👂",
+      "mnemonic": "Mouth (口) + diagonal lines - LISTEN to sounds",
+      "etymology": "Simplified from 聽, ear + virtue",
+      "examples": [
+        {
+          "chinese": "听音乐",
+          "pinyin": "tīng yīnyuè",
+          "english": "to listen to music"
+        },
+        {
+          "chinese": "我在听。",
+          "pinyin": "Wǒ zài tīng.",
+          "english": "I'm listening."
+        }
+      ],
+      "related_words": ["听说", "好听", "听懂"],
+      "usage_notes": "Used for listening and hearing"
+    },
+    {
+      "simplified": "做",
+      "traditional": "做",
+      "pinyin": "zuò",
+      "english": "to do; to make",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🔨",
+      "mnemonic": "Person (亻) + work (故) - DO things",
+      "etymology": "Person radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "做作业",
+          "pinyin": "zuò zuòyè",
+          "english": "to do homework"
+        },
+        {
+          "chinese": "你在做什么？",
+          "pinyin": "Nǐ zài zuò shénme?",
+          "english": "What are you doing?"
+        }
+      ],
+      "related_words": ["工作", "制作", "做事"],
+      "usage_notes": "General verb for doing and making"
+    },
+    {
+      "simplified": "坐",
+      "traditional": "坐",
+      "pinyin": "zuò",
+      "english": "to sit; to travel by",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🪑",
+      "mnemonic": "Two people (人人) on earth (土) - SIT down",
+      "etymology": "Two people sitting on ground",
+      "examples": [
+        {
+          "chinese": "请坐。",
+          "pinyin": "Qǐng zuò.",
+          "english": "Please sit."
+        },
+        {
+          "chinese": "坐车",
+          "pinyin": "zuò chē",
+          "english": "to take a vehicle"
+        }
+      ],
+      "related_words": ["坐下", "坐飞机", "座位"],
+      "usage_notes": "Same pronunciation as 做 but different meaning"
+    },
+    {
+      "simplified": "爱",
+      "traditional": "愛",
+      "pinyin": "ài",
+      "english": "to love",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "❤️",
+      "mnemonic": "Claw + cover + friend + heart - LOVE from the heart",
+      "etymology": "Complex character with heart at bottom showing love",
+      "examples": [
+        {
+          "chinese": "我爱你。",
+          "pinyin": "Wǒ ài nǐ.",
+          "english": "I love you."
+        },
+        {
+          "chinese": "我爱中国。",
+          "pinyin": "Wǒ ài Zhōngguó.",
+          "english": "I love China."
+        }
+      ],
+      "related_words": ["喜爱", "爱情", "可爱"],
+      "usage_notes": "Strong emotional word for love"
+    },
+    {
+      "simplified": "喜欢",
+      "traditional": "喜歡",
+      "pinyin": "xǐhuan",
+      "english": "to like; to be fond of",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "😍",
+      "mnemonic": "Happy (喜) + joyful (欢) - LIKE something with joy",
+      "etymology": "喜 (happiness) + 欢 (joy)",
+      "examples": [
+        {
+          "chinese": "我喜欢吃苹果。",
+          "pinyin": "Wǒ xǐhuan chī píngguǒ.",
+          "english": "I like eating apples."
+        },
+        {
+          "chinese": "你喜欢什么？",
+          "pinyin": "Nǐ xǐhuan shénme?",
+          "english": "What do you like?"
+        }
+      ],
+      "related_words": ["爱", "喜爱", "讨厌"],
+      "usage_notes": "Most common word for 'like', softer than 爱"
+    },
+    {
+      "simplified": "想",
+      "traditional": "想",
+      "pinyin": "xiǎng",
+      "english": "to think; to want; to miss",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "💭",
+      "mnemonic": "Heart (心) + look (相) - THINK with heart and mind",
+      "etymology": "Heart under eye, representing thought",
+      "examples": [
+        {
+          "chinese": "我想去中国。",
+          "pinyin": "Wǒ xiǎng qù Zhōngguó.",
+          "english": "I want to go to China."
+        },
+        {
+          "chinese": "我想你。",
+          "pinyin": "Wǒ xiǎng nǐ.",
+          "english": "I miss you."
+        }
+      ],
+      "related_words": ["想念", "思想", "理想"],
+      "usage_notes": "Multiple meanings: think, want, miss"
+    },
+    {
+      "simplified": "认识",
+      "traditional": "認識",
+      "pinyin": "rènshi",
+      "english": "to know; to recognize",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🤝",
+      "mnemonic": "Words (讠) + knowledge (识) - KNOW/RECOGNIZE",
+      "etymology": "认 (recognize) + 识 (knowledge)",
+      "examples": [
+        {
+          "chinese": "认识你很高兴。",
+          "pinyin": "Rènshi nǐ hěn gāoxìng.",
+          "english": "Nice to meet you."
+        },
+        {
+          "chinese": "我不认识他。",
+          "pinyin": "Wǒ bù rènshi tā.",
+          "english": "I don't know him."
+        }
+      ],
+      "related_words": ["知道", "了解", "认得"],
+      "usage_notes": "Used for knowing people or recognizing things"
+    },
+    {
+      "simplified": "会",
+      "traditional": "會",
+      "pinyin": "huì",
+      "english": "can; to be able to; will",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "✅",
+      "mnemonic": "Person + cloud (simplified) - CAN reach the clouds",
+      "etymology": "Simplified from meeting/gathering, means capability",
+      "examples": [
+        {
+          "chinese": "我会说中文。",
+          "pinyin": "Wǒ huì shuō Zhōngwén.",
+          "english": "I can speak Chinese."
+        },
+        {
+          "chinese": "他会来吗？",
+          "pinyin": "Tā huì lái ma?",
+          "english": "Will he come?"
+        }
+      ],
+      "related_words": ["能", "可以", "开会"],
+      "usage_notes": "Indicates learned ability or future possibility"
+    },
+    {
+      "simplified": "能",
+      "traditional": "能",
+      "pinyin": "néng",
+      "english": "can; to be able to",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "💪",
+      "mnemonic": "Bear with strength - CAN do things",
+      "etymology": "Ancient pictograph of a bear, symbol of ability",
+      "examples": [
+        {
+          "chinese": "我能帮你吗？",
+          "pinyin": "Wǒ néng bāng nǐ ma?",
+          "english": "Can I help you?"
+        },
+        {
+          "chinese": "你能来吗？",
+          "pinyin": "Nǐ néng lái ma?",
+          "english": "Can you come?"
+        }
+      ],
+      "related_words": ["会", "可以", "能力"],
+      "usage_notes": "Indicates physical ability or possibility"
+    },
+    {
+      "simplified": "工作",
+      "traditional": "工作",
+      "pinyin": "gōngzuò",
+      "english": "to work; work; job",
+      "hsk_level": 1,
+      "word_type": "verb/noun",
+      "emoji": "💼",
+      "mnemonic": "Work (工) + do (作) - WORK/JOB",
+      "etymology": "工 (work/craft) + 作 (do/make)",
+      "measure_word": {
+        "character": "份",
+        "pinyin": "fèn",
+        "example": "一份工作"
+      },
+      "examples": [
+        {
+          "chinese": "我在工作。",
+          "pinyin": "Wǒ zài gōngzuò.",
+          "english": "I'm working."
+        },
+        {
+          "chinese": "你的工作是什么？",
+          "pinyin": "Nǐ de gōngzuò shì shénme?",
+          "english": "What is your job?"
+        }
+      ],
+      "related_words": ["工人", "作业", "上班"],
+      "usage_notes": "Can be verb or noun"
+    },
+    {
+      "simplified": "学习",
+      "traditional": "學習",
+      "pinyin": "xuéxí",
+      "english": "to study; to learn",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "📚",
+      "mnemonic": "Learn (学) + practice (习) - STUDY through practice",
+      "etymology": "学 (learn) + 习 (practice)",
+      "examples": [
+        {
+          "chinese": "我在学习中文。",
+          "pinyin": "Wǒ zài xuéxí Zhōngwén.",
+          "english": "I'm learning Chinese."
+        },
+        {
+          "chinese": "好好学习！",
+          "pinyin": "Hǎohǎo xuéxí!",
+          "english": "Study hard!"
+        }
+      ],
+      "related_words": ["学", "学校", "学生"],
+      "usage_notes": "Common verb for studying"
+    },
+    {
+      "simplified": "住",
+      "traditional": "住",
+      "pinyin": "zhù",
+      "english": "to live; to stay",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🏠",
+      "mnemonic": "Person (亻) + master (主) - person LIVES as master of house",
+      "etymology": "Person radical + master/main",
+      "examples": [
+        {
+          "chinese": "你住哪儿？",
+          "pinyin": "Nǐ zhù nǎr?",
+          "english": "Where do you live?"
+        },
+        {
+          "chinese": "我住在北京。",
+          "pinyin": "Wǒ zhù zài Běijīng.",
+          "english": "I live in Beijing."
+        }
+      ],
+      "related_words": ["住宅", "居住", "住址"],
+      "usage_notes": "Used for living or staying somewhere"
+    },
+    {
+      "simplified": "打电话",
+      "traditional": "打電話",
+      "pinyin": "dǎ diànhuà",
+      "english": "to make a phone call",
+      "hsk_level": 1,
+      "word_type": "verb phrase",
+      "emoji": "📞",
+      "mnemonic": "Hit (打) + electric (电) + speech (话) - make PHONE CALL",
+      "etymology": "打 (hit/do) + 电话 (telephone)",
+      "examples": [
+        {
+          "chinese": "我给你打电话。",
+          "pinyin": "Wǒ gěi nǐ dǎ diànhuà.",
+          "english": "I'll call you."
+        },
+        {
+          "chinese": "他在打电话。",
+          "pinyin": "Tā zài dǎ diànhuà.",
+          "english": "He's making a phone call."
+        }
+      ],
+      "related_words": ["电话", "手机", "打"],
+      "usage_notes": "Common phrase for making calls"
+    },
+    {
+      "simplified": "睡觉",
+      "traditional": "睡覺",
+      "pinyin": "shuì jiào",
+      "english": "to sleep",
+      "hsk_level": 1,
+      "word_type": "verb phrase",
+      "emoji": "😴",
+      "mnemonic": "Sleep (睡) + feel (觉) - SLEEP/rest",
+      "etymology": "睡 (sleep) + 觉 (sense/feel)",
+      "examples": [
+        {
+          "chinese": "我要睡觉了。",
+          "pinyin": "Wǒ yào shuì jiào le.",
+          "english": "I'm going to sleep."
+        },
+        {
+          "chinese": "晚安，睡觉吧。",
+          "pinyin": "Wǎn'ān, shuì jiào ba.",
+          "english": "Good night, go to sleep."
+        }
+      ],
+      "related_words": ["睡", "睡眠", "觉"],
+      "usage_notes": "Common expression for sleeping"
+    },
+    {
+      "simplified": "回",
+      "traditional": "回",
+      "pinyin": "huí",
+      "english": "to return; back",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "↩️",
+      "mnemonic": "Enclosure rotating - RETURN back to start",
+      "etymology": "Depicts rotation or returning",
+      "examples": [
+        {
+          "chinese": "回家",
+          "pinyin": "huí jiā",
+          "english": "to go home"
+        },
+        {
+          "chinese": "我们回去吧。",
+          "pinyin": "Wǒmen huí qù ba.",
+          "english": "Let's go back."
+        }
+      ],
+      "related_words": ["回来", "回去", "返回"],
+      "usage_notes": "Indicates returning to a place"
+    }
+  ]
+}

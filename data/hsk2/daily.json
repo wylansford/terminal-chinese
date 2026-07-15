@@ -1,0 +1,579 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "早上",
+      "traditional": "早上",
+      "pinyin": "zǎoshang",
+      "english": "morning; early morning",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🌅",
+      "mnemonic": "Early (早) + above (上) - EARLY MORNING",
+      "etymology": "早 (early) + 上 (up/above)",
+      "examples": [
+        {
+          "chinese": "早上好！",
+          "pinyin": "Zǎoshang hǎo!",
+          "english": "Good morning!"
+        },
+        {
+          "chinese": "我早上六点起床。",
+          "pinyin": "Wǒ zǎoshang liù diǎn qǐchuáng.",
+          "english": "I wake up at 6 am."
+        }
+      ],
+      "related_words": ["上午", "清晨", "早晨"],
+      "usage_notes": "Common morning greeting time"
+    },
+    {
+      "simplified": "晚上",
+      "traditional": "晚上",
+      "pinyin": "wǎnshang",
+      "english": "evening; night",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🌙",
+      "mnemonic": "Late (晚) + above (上) - EVENING/NIGHT",
+      "etymology": "晚 (late) + 上 (time period)",
+      "examples": [
+        {
+          "chinese": "晚上见！",
+          "pinyin": "Wǎnshang jiàn!",
+          "english": "See you tonight!"
+        },
+        {
+          "chinese": "晚上我看电视。",
+          "pinyin": "Wǎnshang wǒ kàn diànshì.",
+          "english": "I watch TV in the evening."
+        }
+      ],
+      "related_words": ["夜晚", "傍晚", "晚间"],
+      "usage_notes": "Roughly 6pm-midnight"
+    },
+    {
+      "simplified": "中午",
+      "traditional": "中午",
+      "pinyin": "zhōngwǔ",
+      "english": "noon; midday",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🌞",
+      "mnemonic": "Middle (中) + noon (午) - MIDDAY",
+      "etymology": "中 (middle) + 午 (noon)",
+      "examples": [
+        {
+          "chinese": "中午吃什么？",
+          "pinyin": "Zhōngwǔ chī shénme?",
+          "english": "What are we eating for lunch?"
+        },
+        {
+          "chinese": "中午十二点",
+          "pinyin": "zhōngwǔ shí'èr diǎn",
+          "english": "12 noon"
+        }
+      ],
+      "related_words": ["上午", "下午", "正午"],
+      "usage_notes": "Lunchtime period around noon"
+    },
+    {
+      "simplified": "小时",
+      "traditional": "小時",
+      "pinyin": "xiǎoshí",
+      "english": "hour",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "⏰",
+      "mnemonic": "Small (小) + time (时) - one HOUR of time",
+      "etymology": "小 (small) + 时 (time)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个小时"
+      },
+      "examples": [
+        {
+          "chinese": "两个小时",
+          "pinyin": "liǎng ge xiǎoshí",
+          "english": "two hours"
+        },
+        {
+          "chinese": "半小时",
+          "pinyin": "bàn xiǎoshí",
+          "english": "half an hour"
+        }
+      ],
+      "related_words": ["分钟", "钟头", "时间"],
+      "usage_notes": "Standard measure word for hours"
+    },
+    {
+      "simplified": "分钟",
+      "traditional": "分鐘",
+      "pinyin": "fēnzhōng",
+      "english": "minute",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "⏱️",
+      "mnemonic": "Divide (分) + clock (钟) - MINUTE on clock",
+      "etymology": "分 (minute/divide) + 钟 (clock)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个分钟"
+      },
+      "examples": [
+        {
+          "chinese": "五分钟",
+          "pinyin": "wǔ fēnzhōng",
+          "english": "five minutes"
+        },
+        {
+          "chinese": "等一分钟。",
+          "pinyin": "Děng yì fēnzhōng.",
+          "english": "Wait a minute."
+        }
+      ],
+      "related_words": ["分", "秒", "小时"],
+      "usage_notes": "More formal than just 分"
+    },
+    {
+      "simplified": "生日",
+      "traditional": "生日",
+      "pinyin": "shēngrì",
+      "english": "birthday",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🎂",
+      "mnemonic": "Birth (生) + day (日) - BIRTHDAY",
+      "etymology": "生 (birth) + 日 (day)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个生日"
+      },
+      "examples": [
+        {
+          "chinese": "生日快乐！",
+          "pinyin": "Shēngrì kuàilè!",
+          "english": "Happy birthday!"
+        },
+        {
+          "chinese": "今天是我的生日。",
+          "pinyin": "Jīntiān shì wǒ de shēngrì.",
+          "english": "Today is my birthday."
+        }
+      ],
+      "related_words": ["生辰", "诞辰", "寿诞"],
+      "usage_notes": "Important celebration in Chinese culture"
+    },
+    {
+      "simplified": "快乐",
+      "traditional": "快樂",
+      "pinyin": "kuàilè",
+      "english": "happy; joyful",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "😄",
+      "mnemonic": "Quick (快) + joy (乐) - HAPPY and lively",
+      "etymology": "快 (fast/pleasant) + 乐 (joy)",
+      "examples": [
+        {
+          "chinese": "祝你快乐！",
+          "pinyin": "Zhù nǐ kuàilè!",
+          "english": "Wish you happiness!"
+        },
+        {
+          "chinese": "我很快乐。",
+          "pinyin": "Wǒ hěn kuàilè.",
+          "english": "I'm very happy."
+        }
+      ],
+      "related_words": ["高兴", "开心", "愉快"],
+      "usage_notes": "Often used in greetings and wishes"
+    },
+    {
+      "simplified": "运动",
+      "traditional": "運動",
+      "pinyin": "yùndòng",
+      "english": "sports; exercise; to exercise",
+      "hsk_level": 2,
+      "word_type": "noun/verb",
+      "emoji": "⚽",
+      "mnemonic": "Move (运) + activity (动) - EXERCISE/SPORTS",
+      "etymology": "运 (move) + 动 (movement)",
+      "measure_word": {
+        "character": "项",
+        "pinyin": "xiàng",
+        "example": "一项运动"
+      },
+      "examples": [
+        {
+          "chinese": "我喜欢运动。",
+          "pinyin": "Wǒ xǐhuan yùndòng.",
+          "english": "I like sports."
+        },
+        {
+          "chinese": "每天运动很重要。",
+          "pinyin": "Měitiān yùndòng hěn zhòngyào.",
+          "english": "Exercising every day is important."
+        }
+      ],
+      "related_words": ["体育", "锻炼", "健身"],
+      "usage_notes": "Can mean sports or exercise"
+    },
+    {
+      "simplified": "游泳",
+      "traditional": "游泳",
+      "pinyin": "yóuyǒng",
+      "english": "to swim; swimming",
+      "hsk_level": 2,
+      "word_type": "verb/noun",
+      "emoji": "🏊",
+      "mnemonic": "Float (游) + water (泳) - SWIM in water",
+      "etymology": "游 (swim) + 泳 (swim)",
+      "examples": [
+        {
+          "chinese": "我会游泳。",
+          "pinyin": "Wǒ huì yóuyǒng.",
+          "english": "I can swim."
+        },
+        {
+          "chinese": "去游泳吧！",
+          "pinyin": "Qù yóuyǒng ba!",
+          "english": "Let's go swimming!"
+        }
+      ],
+      "related_words": ["游泳池", "游", "泳"],
+      "usage_notes": "Popular summer activity"
+    },
+    {
+      "simplified": "唱歌",
+      "traditional": "唱歌",
+      "pinyin": "chàng gē",
+      "english": "to sing",
+      "hsk_level": 2,
+      "word_type": "verb phrase",
+      "emoji": "🎤",
+      "mnemonic": "Sing (唱) + song (歌) - SING songs",
+      "etymology": "唱 (sing) + 歌 (song)",
+      "examples": [
+        {
+          "chinese": "我喜欢唱歌。",
+          "pinyin": "Wǒ xǐhuan chàng gē.",
+          "english": "I like singing."
+        },
+        {
+          "chinese": "她唱歌很好听。",
+          "pinyin": "Tā chàng gē hěn hǎotīng.",
+          "english": "She sings very well."
+        }
+      ],
+      "related_words": ["歌", "唱", "歌唱"],
+      "usage_notes": "Popular karaoke activity in China"
+    },
+    {
+      "simplified": "跳舞",
+      "traditional": "跳舞",
+      "pinyin": "tiào wǔ",
+      "english": "to dance",
+      "hsk_level": 2,
+      "word_type": "verb phrase",
+      "emoji": "💃",
+      "mnemonic": "Jump (跳) + dance (舞) - DANCE by jumping",
+      "etymology": "跳 (jump) + 舞 (dance)",
+      "examples": [
+        {
+          "chinese": "我们去跳舞吧！",
+          "pinyin": "Wǒmen qù tiào wǔ ba!",
+          "english": "Let's go dancing!"
+        },
+        {
+          "chinese": "她很会跳舞。",
+          "pinyin": "Tā hěn huì tiào wǔ.",
+          "english": "She's very good at dancing."
+        }
+      ],
+      "related_words": ["舞", "跳", "舞蹈"],
+      "usage_notes": "Common social activity"
+    },
+    {
+      "simplified": "电影",
+      "traditional": "電影",
+      "pinyin": "diànyǐng",
+      "english": "movie; film",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🎬",
+      "mnemonic": "Electric (电) + shadow (影) - moving pictures, MOVIE",
+      "etymology": "电 (electric) + 影 (shadow/image)",
+      "measure_word": {
+        "character": "部",
+        "pinyin": "bù",
+        "example": "一部电影"
+      },
+      "examples": [
+        {
+          "chinese": "看电影",
+          "pinyin": "kàn diànyǐng",
+          "english": "to watch a movie"
+        },
+        {
+          "chinese": "这部电影很好看。",
+          "pinyin": "Zhè bù diànyǐng hěn hǎokàn.",
+          "english": "This movie is very good."
+        }
+      ],
+      "related_words": ["电视", "影片", "影院"],
+      "usage_notes": "Popular entertainment"
+    },
+    {
+      "simplified": "电视",
+      "traditional": "電視",
+      "pinyin": "diànshì",
+      "english": "television; TV",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "📺",
+      "mnemonic": "Electric (电) + look (视) - TELEVISION",
+      "etymology": "电 (electric) + 视 (vision)",
+      "measure_word": {
+        "character": "台",
+        "pinyin": "tái",
+        "example": "一台电视"
+      },
+      "examples": [
+        {
+          "chinese": "看电视",
+          "pinyin": "kàn diànshì",
+          "english": "to watch TV"
+        },
+        {
+          "chinese": "我不常看电视。",
+          "pinyin": "Wǒ bù cháng kàn diànshì.",
+          "english": "I don't often watch TV."
+        }
+      ],
+      "related_words": ["电影", "电视剧", "电脑"],
+      "usage_notes": "Common household item"
+    },
+    {
+      "simplified": "手机",
+      "traditional": "手機",
+      "pinyin": "shǒujī",
+      "english": "cell phone; mobile phone",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "📱",
+      "mnemonic": "Hand (手) + machine (机) - handheld PHONE",
+      "etymology": "手 (hand) + 机 (machine)",
+      "measure_word": {
+        "character": "部",
+        "pinyin": "bù",
+        "example": "一部手机"
+      },
+      "examples": [
+        {
+          "chinese": "我的手机在哪儿？",
+          "pinyin": "Wǒ de shǒujī zài nǎr?",
+          "english": "Where is my phone?"
+        },
+        {
+          "chinese": "玩手机",
+          "pinyin": "wán shǒujī",
+          "english": "to play on phone"
+        }
+      ],
+      "related_words": ["电话", "手提电话", "移动电话"],
+      "usage_notes": "Essential in modern life"
+    },
+    {
+      "simplified": "电脑",
+      "traditional": "電腦",
+      "pinyin": "diànnǎo",
+      "english": "computer",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "💻",
+      "mnemonic": "Electric (电) + brain (脑) - electronic brain, COMPUTER",
+      "etymology": "电 (electric) + 脑 (brain)",
+      "measure_word": {
+        "character": "台",
+        "pinyin": "tái",
+        "example": "一台电脑"
+      },
+      "examples": [
+        {
+          "chinese": "我在用电脑。",
+          "pinyin": "Wǒ zài yòng diànnǎo.",
+          "english": "I'm using the computer."
+        },
+        {
+          "chinese": "笔记本电脑",
+          "pinyin": "bǐjìběn diànnǎo",
+          "english": "laptop computer"
+        }
+      ],
+      "related_words": ["计算机", "电视", "手机"],
+      "usage_notes": "Work and study essential"
+    },
+    {
+      "simplified": "照片",
+      "traditional": "照片",
+      "pinyin": "zhàopiàn",
+      "english": "photo; picture",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "📷",
+      "mnemonic": "Shine (照) + slice (片) - PHOTO/PICTURE",
+      "etymology": "照 (shine/reflect) + 片 (slice/sheet)",
+      "measure_word": {
+        "character": "张",
+        "pinyin": "zhāng",
+        "example": "一张照片"
+      },
+      "examples": [
+        {
+          "chinese": "拍照片",
+          "pinyin": "pāi zhàopiàn",
+          "english": "to take a photo"
+        },
+        {
+          "chinese": "这张照片很漂亮。",
+          "pinyin": "Zhè zhāng zhàopiàn hěn piàoliang.",
+          "english": "This photo is very beautiful."
+        }
+      ],
+      "related_words": ["相片", "图片", "照相"],
+      "usage_notes": "Common with smartphones"
+    },
+    {
+      "simplified": "颜色",
+      "traditional": "顏色",
+      "pinyin": "yánsè",
+      "english": "color",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🎨",
+      "mnemonic": "Face (颜) + color (色) - COLOR on face",
+      "etymology": "颜 (face/appearance) + 色 (color)",
+      "measure_word": {
+        "character": "种",
+        "pinyin": "zhǒng",
+        "example": "一种颜色"
+      },
+      "examples": [
+        {
+          "chinese": "什么颜色？",
+          "pinyin": "Shénme yánsè?",
+          "english": "What color?"
+        },
+        {
+          "chinese": "我喜欢这个颜色。",
+          "pinyin": "Wǒ xǐhuan zhège yánsè.",
+          "english": "I like this color."
+        }
+      ],
+      "related_words": ["色彩", "红色", "蓝色"],
+      "usage_notes": "Basic descriptor"
+    },
+    {
+      "simplified": "红",
+      "traditional": "紅",
+      "pinyin": "hóng",
+      "english": "red",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "🔴",
+      "mnemonic": "Thread (纟) + work (工) - RED dyed thread",
+      "etymology": "Silk radical + phonetic, represents dyed silk",
+      "examples": [
+        {
+          "chinese": "红色",
+          "pinyin": "hóngsè",
+          "english": "red color"
+        },
+        {
+          "chinese": "红茶",
+          "pinyin": "hóngchá",
+          "english": "black tea (literally 'red tea')"
+        }
+      ],
+      "related_words": ["红色", "火红", "通红"],
+      "usage_notes": "Lucky color in Chinese culture"
+    },
+    {
+      "simplified": "白",
+      "traditional": "白",
+      "pinyin": "bái",
+      "english": "white",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "⚪",
+      "mnemonic": "Sun (日) with ray - WHITE light",
+      "etymology": "Depicts white sunlight",
+      "examples": [
+        {
+          "chinese": "白色",
+          "pinyin": "báisè",
+          "english": "white color"
+        },
+        {
+          "chinese": "白天",
+          "pinyin": "báitiān",
+          "english": "daytime"
+        }
+      ],
+      "related_words": ["白色", "洁白", "苍白"],
+      "usage_notes": "Basic color word"
+    },
+    {
+      "simplified": "黑",
+      "traditional": "黑",
+      "pinyin": "hēi",
+      "english": "black",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "⚫",
+      "mnemonic": "Fire (火) with soot above - BLACK smoke",
+      "etymology": "Shows fire producing black soot",
+      "examples": [
+        {
+          "chinese": "黑色",
+          "pinyin": "hēisè",
+          "english": "black color"
+        },
+        {
+          "chinese": "黑咖啡",
+          "pinyin": "hēi kāfēi",
+          "english": "black coffee"
+        }
+      ],
+      "related_words": ["黑色", "漆黑", "乌黑"],
+      "usage_notes": "Basic color word"
+    },
+    {
+      "simplified": "天气",
+      "traditional": "天氣",
+      "pinyin": "tiānqì",
+      "english": "weather",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🌤️",
+      "mnemonic": "Sky (天) + air/gas (气) - WEATHER in the sky",
+      "etymology": "天 (sky) + 气 (air/atmosphere)",
+      "examples": [
+        {
+          "chinese": "今天天气很好。",
+          "pinyin": "Jīntiān tiānqì hěn hǎo.",
+          "english": "The weather is nice today."
+        },
+        {
+          "chinese": "天气预报",
+          "pinyin": "tiānqì yùbào",
+          "english": "weather forecast"
+        }
+      ],
+      "related_words": ["气候", "天色", "气象"],
+      "usage_notes": "Common conversation topic"
+    }
+  ]
+}

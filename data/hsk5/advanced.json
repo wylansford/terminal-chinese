@@ -1,0 +1,554 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "抱怨",
+      "traditional": "抱怨",
+      "pinyin": "bàoyuàn",
+      "english": "to complain; to grumble",
+      "hsk_level": 5,
+      "word_type": "verb",
+      "emoji": "😤",
+      "mnemonic": "Embrace (抱) + resentment (怨) - hold resentment, COMPLAIN",
+      "etymology": "抱 (embrace/hold) + 怨 (resentment)",
+      "examples": [
+        {
+          "chinese": "别总是抱怨。",
+          "pinyin": "Bié zǒngshì bàoyuàn.",
+          "english": "Don't always complain."
+        },
+        {
+          "chinese": "他抱怨工作太累。",
+          "pinyin": "Tā bàoyuàn gōngzuò tài lèi.",
+          "english": "He complains that work is too tiring."
+        }
+      ],
+      "related_words": ["埋怨", "牢骚", "不满"],
+      "usage_notes": "Negative connotation"
+    },
+    {
+      "simplified": "报酬",
+      "traditional": "報酬",
+      "pinyin": "bàochóu",
+      "english": "reward; remuneration; pay",
+      "hsk_level": 5,
+      "word_type": "noun",
+      "emoji": "💰",
+      "mnemonic": "Report (报) + reward (酬) - REMUNERATION/PAY",
+      "etymology": "报 (repay) + 酬 (reward)",
+      "measure_word": {
+        "character": "份",
+        "pinyin": "fèn",
+        "example": "一份报酬"
+      },
+      "examples": [
+        {
+          "chinese": "获得报酬",
+          "pinyin": "huòdé bàochóu",
+          "english": "to receive payment"
+        },
+        {
+          "chinese": "合理的报酬",
+          "pinyin": "hélǐ de bàochóu",
+          "english": "reasonable pay"
+        }
+      ],
+      "related_words": ["酬劳", "报答", "工资"],
+      "usage_notes": "Formal term for payment"
+    },
+    {
+      "simplified": "报告",
+      "traditional": "報告",
+      "pinyin": "bàogào",
+      "english": "report; to report",
+      "hsk_level": 5,
+      "word_type": "noun/verb",
+      "emoji": "📊",
+      "mnemonic": "Report (报) + tell (告) - REPORT information",
+      "etymology": "报 (report/announce) + 告 (tell/inform)",
+      "measure_word": {
+        "character": "份",
+        "pinyin": "fèn",
+        "example": "一份报告"
+      },
+      "examples": [
+        {
+          "chinese": "写报告",
+          "pinyin": "xiě bàogào",
+          "english": "to write a report"
+        },
+        {
+          "chinese": "工作报告",
+          "pinyin": "gōngzuò bàogào",
+          "english": "work report"
+        }
+      ],
+      "related_words": ["汇报", "报道", "报表"],
+      "usage_notes": "Common in formal settings"
+    },
+    {
+      "simplified": "标志",
+      "traditional": "標志",
+      "pinyin": "biāozhì",
+      "english": "sign; mark; symbol",
+      "hsk_level": 5,
+      "word_type": "noun",
+      "emoji": "🚩",
+      "mnemonic": "Mark (标) + record (志) - SIGN/SYMBOL marking",
+      "etymology": "标 (mark/标) + 志 (mark/record)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个标志"
+      },
+      "examples": [
+        {
+          "chinese": "这是成功的标志。",
+          "pinyin": "Zhè shì chénggōng de biāozhì.",
+          "english": "This is a sign of success."
+        },
+        {
+          "chinese": "路标",
+          "pinyin": "lùbiāo",
+          "english": "road sign"
+        }
+      ],
+      "related_words": ["标记", "符号", "象征"],
+      "usage_notes": "Represents something"
+    },
+    {
+      "simplified": "财产",
+      "traditional": "財產",
+      "pinyin": "cáichǎn",
+      "english": "property; assets",
+      "hsk_level": 5,
+      "word_type": "noun",
+      "emoji": "🏠",
+      "mnemonic": "Wealth (财) + produce (产) - PROPERTY/ASSETS",
+      "etymology": "财 (wealth) + 产 (property/produce)",
+      "measure_word": {
+        "character": "份",
+        "pinyin": "fèn",
+        "example": "一份财产"
+      },
+      "examples": [
+        {
+          "chinese": "个人财产",
+          "pinyin": "gèrén cáichǎn",
+          "english": "personal property"
+        },
+        {
+          "chinese": "保护财产",
+          "pinyin": "bǎohù cáichǎn",
+          "english": "to protect assets"
+        }
+      ],
+      "related_words": ["资产", "财富", "财物"],
+      "usage_notes": "Legal and financial term"
+    },
+    {
+      "simplified": "成熟",
+      "traditional": "成熟",
+      "pinyin": "chéngshú",
+      "english": "mature; ripe",
+      "hsk_level": 5,
+      "word_type": "adjective",
+      "emoji": "🍎",
+      "mnemonic": "Become (成) + cooked (熟) - MATURE/RIPE",
+      "etymology": "成 (become) + 熟 (ripe/cooked)",
+      "examples": [
+        {
+          "chinese": "成熟的想法",
+          "pinyin": "chéngshú de xiǎngfǎ",
+          "english": "mature ideas"
+        },
+        {
+          "chinese": "他很成熟。",
+          "pinyin": "Tā hěn chéngshú.",
+          "english": "He's very mature."
+        }
+      ],
+      "related_words": ["幼稚", "成年", "老练"],
+      "usage_notes": "Describes maturity"
+    },
+    {
+      "simplified": "诚恳",
+      "traditional": "誠懇",
+      "pinyin": "chéngkěn",
+      "english": "sincere; honest",
+      "hsk_level": 5,
+      "word_type": "adjective",
+      "emoji": "🤝",
+      "mnemonic": "Sincere (诚) + earnest (恳) - SINCERE/HONEST",
+      "etymology": "诚 (sincere) + 恳 (earnest)",
+      "examples": [
+        {
+          "chinese": "诚恳的态度",
+          "pinyin": "chéngkěn de tàidu",
+          "english": "sincere attitude"
+        },
+        {
+          "chinese": "他很诚恳。",
+          "pinyin": "Tā hěn chéngkěn.",
+          "english": "He's very sincere."
+        }
+      ],
+      "related_words": ["真诚", "诚实", "恳切"],
+      "usage_notes": "Positive character trait"
+    },
+    {
+      "simplified": "传播",
+      "traditional": "傳播",
+      "pinyin": "chuánbō",
+      "english": "to spread; to disseminate",
+      "hsk_level": 5,
+      "word_type": "verb",
+      "emoji": "📡",
+      "mnemonic": "Transmit (传) + broadcast (播) - SPREAD/DISSEMINATE",
+      "etymology": "传 (transmit) + 播 (broadcast/sow)",
+      "examples": [
+        {
+          "chinese": "传播知识",
+          "pinyin": "chuánbō zhīshi",
+          "english": "to spread knowledge"
+        },
+        {
+          "chinese": "信息传播",
+          "pinyin": "xìnxī chuánbō",
+          "english": "information dissemination"
+        }
+      ],
+      "related_words": ["传递", "传达", "散布"],
+      "usage_notes": "Used for information spread"
+    },
+    {
+      "simplified": "促进",
+      "traditional": "促進",
+      "pinyin": "cùjìn",
+      "english": "to promote; to advance",
+      "hsk_level": 5,
+      "word_type": "verb",
+      "emoji": "📈",
+      "mnemonic": "Urge (促) + advance (进) - PROMOTE/ADVANCE",
+      "etymology": "促 (urge/press) + 进 (advance)",
+      "examples": [
+        {
+          "chinese": "促进发展",
+          "pinyin": "cùjìn fāzhǎn",
+          "english": "to promote development"
+        },
+        {
+          "chinese": "促进交流",
+          "pinyin": "cùjìn jiāoliú",
+          "english": "to promote exchange"
+        }
+      ],
+      "related_words": ["推动", "推进", "阻碍"],
+      "usage_notes": "Formal promotion verb"
+    },
+    {
+      "simplified": "打交道",
+      "traditional": "打交道",
+      "pinyin": "dǎ jiāodao",
+      "english": "to deal with; to have contact with",
+      "hsk_level": 5,
+      "word_type": "verb phrase",
+      "emoji": "🤝",
+      "mnemonic": "Strike (打) + exchange (交) + way (道) - DEAL WITH",
+      "etymology": "打 (do/strike) + 交道 (contact/交)",
+      "examples": [
+        {
+          "chinese": "和人打交道",
+          "pinyin": "hé rén dǎ jiāodao",
+          "english": "to deal with people"
+        },
+        {
+          "chinese": "我经常跟他打交道。",
+          "pinyin": "Wǒ jīngcháng gēn tā dǎ jiāodao.",
+          "english": "I often deal with him."
+        }
+      ],
+      "related_words": ["交往", "接触", "来往"],
+      "usage_notes": "Common interaction phrase"
+    },
+    {
+      "simplified": "独立",
+      "traditional": "獨立",
+      "pinyin": "dúlì",
+      "english": "independent; independence",
+      "hsk_level": 5,
+      "word_type": "adjective/noun",
+      "emoji": "🦅",
+      "mnemonic": "Alone (独) + stand (立) - INDEPENDENT standing alone",
+      "etymology": "独 (alone/single) + 立 (stand)",
+      "examples": [
+        {
+          "chinese": "独立思考",
+          "pinyin": "dúlì sīkǎo",
+          "english": "to think independently"
+        },
+        {
+          "chinese": "经济独立",
+          "pinyin": "jīngjì dúlì",
+          "english": "financially independent"
+        }
+      ],
+      "related_words": ["自主", "自立", "依赖"],
+      "usage_notes": "Important quality"
+    },
+    {
+      "simplified": "恩爱",
+      "traditional": "恩愛",
+      "pinyin": "ēn'ài",
+      "english": "loving (of a couple); conjugal love",
+      "hsk_level": 5,
+      "word_type": "adjective",
+      "emoji": "💑",
+      "mnemonic": "Kindness (恩) + love (爱) - LOVING couple",
+      "etymology": "恩 (grace/kindness) + 爱 (love)",
+      "examples": [
+        {
+          "chinese": "他们很恩爱。",
+          "pinyin": "Tāmen hěn ēn'ài.",
+          "english": "They are very loving."
+        },
+        {
+          "chinese": "恩爱夫妻",
+          "pinyin": "ēn'ài fūqī",
+          "english": "loving couple"
+        }
+      ],
+      "related_words": ["亲密", "相爱", "和睦"],
+      "usage_notes": "Used for couples"
+    },
+    {
+      "simplified": "反映",
+      "traditional": "反映",
+      "pinyin": "fǎnyìng",
+      "english": "to reflect; to mirror",
+      "hsk_level": 5,
+      "word_type": "verb",
+      "emoji": "🪞",
+      "mnemonic": "Reverse (反) + reflect (映) - REFLECT back",
+      "etymology": "反 (reverse/oppose) + 映 (reflect)",
+      "examples": [
+        {
+          "chinese": "反映情况",
+          "pinyin": "fǎnyìng qíngkuàng",
+          "english": "to reflect the situation"
+        },
+        {
+          "chinese": "这反映了问题。",
+          "pinyin": "Zhè fǎnyìng le wèntí.",
+          "english": "This reflects the problem."
+        }
+      ],
+      "related_words": ["反应", "体现", "表现"],
+      "usage_notes": "Shows or reveals something"
+    },
+    {
+      "simplified": "否则",
+      "traditional": "否則",
+      "pinyin": "fǒuzé",
+      "english": "otherwise; or else",
+      "hsk_level": 5,
+      "word_type": "conjunction",
+      "emoji": "⚠️",
+      "mnemonic": "Not (否) + then (则) - OTHERWISE if not",
+      "etymology": "否 (not/negate) + 则 (then/rule)",
+      "examples": [
+        {
+          "chinese": "快点，否则就迟到了。",
+          "pinyin": "Kuài diǎn, fǒuzé jiù chídào le.",
+          "english": "Hurry up, otherwise you'll be late."
+        },
+        {
+          "chinese": "必须努力，否则会失败。",
+          "pinyin": "Bìxū nǔlì, fǒuzé huì shībài.",
+          "english": "Must work hard, otherwise will fail."
+        }
+      ],
+      "related_words": ["要不然", "不然", "否"],
+      "usage_notes": "Shows consequence"
+    },
+    {
+      "simplified": "敷衍",
+      "traditional": "敷衍",
+      "pinyin": "fūyǎn",
+      "english": "perfunctory; to do sth. half-heartedly",
+      "hsk_level": 5,
+      "word_type": "adjective/verb",
+      "emoji": "😑",
+      "mnemonic": "Spread (敷) + extend (衍) - spread thinly, PERFUNCTORY",
+      "etymology": "敷 (spread/apply) + 衍 (extend/overflow)",
+      "examples": [
+        {
+          "chinese": "别敷衍了事。",
+          "pinyin": "Bié fūyǎn liǎoshì.",
+          "english": "Don't be perfunctory."
+        },
+        {
+          "chinese": "敷衍的态度",
+          "pinyin": "fūyǎn de tàidu",
+          "english": "perfunctory attitude"
+        }
+      ],
+      "related_words": ["应付", "草率", "认真"],
+      "usage_notes": "Negative connotation"
+    },
+    {
+      "simplified": "概括",
+      "traditional": "概括",
+      "pinyin": "gàikuò",
+      "english": "to summarize; to generalize",
+      "hsk_level": 5,
+      "word_type": "verb",
+      "emoji": "📝",
+      "mnemonic": "General (概) + include (括) - SUMMARIZE/GENERALIZE",
+      "etymology": "概 (general/approximate) + 括 (include/embrace)",
+      "examples": [
+        {
+          "chinese": "概括起来说",
+          "pinyin": "gàikuò qǐlái shuō",
+          "english": "to summarize; in summary"
+        },
+        {
+          "chinese": "简单概括",
+          "pinyin": "jiǎndān gàikuò",
+          "english": "brief summary"
+        }
+      ],
+      "related_words": ["总结", "归纳", "具体"],
+      "usage_notes": "Academic and formal"
+    },
+    {
+      "simplified": "干脆",
+      "traditional": "乾脆",
+      "pinyin": "gāncuì",
+      "english": "simply; directly; clear-cut",
+      "hsk_level": 5,
+      "word_type": "adverb/adjective",
+      "emoji": "✂️",
+      "mnemonic": "Dry (干) + crisp (脆) - DIRECT/STRAIGHTFORWARD",
+      "etymology": "干 (dry/clean) + 脆 (crisp/brittle)",
+      "examples": [
+        {
+          "chinese": "干脆别去了。",
+          "pinyin": "Gāncuì bié qù le.",
+          "english": "Simply don't go."
+        },
+        {
+          "chinese": "说话很干脆",
+          "pinyin": "shuōhuà hěn gāncuì",
+          "english": "speak very directly"
+        }
+      ],
+      "related_words": ["直接", "爽快", "犹豫"],
+      "usage_notes": "Indicates decisiveness"
+    },
+    {
+      "simplified": "格外",
+      "traditional": "格外",
+      "pinyin": "géwài",
+      "english": "especially; particularly",
+      "hsk_level": 5,
+      "word_type": "adverb",
+      "emoji": "⭐",
+      "mnemonic": "Pattern (格) + outside (外) - ESPECIALLY beyond normal",
+      "etymology": "格 (standard/pattern) + 外 (outside/beyond)",
+      "examples": [
+        {
+          "chinese": "今天格外冷。",
+          "pinyin": "Jīntiān géwài lěng.",
+          "english": "Today is especially cold."
+        },
+        {
+          "chinese": "格外注意",
+          "pinyin": "géwài zhùyì",
+          "english": "pay special attention"
+        }
+      ],
+      "related_words": ["特别", "尤其", "特地"],
+      "usage_notes": "Emphasizes degree"
+    },
+    {
+      "simplified": "鼓舞",
+      "traditional": "鼓舞",
+      "pinyin": "gǔwǔ",
+      "english": "to inspire; to encourage",
+      "hsk_level": 5,
+      "word_type": "verb",
+      "emoji": "🎺",
+      "mnemonic": "Drum (鼓) + dance (舞) - INSPIRE with drums and dancing",
+      "etymology": "鼓 (drum/inspire) + 舞 (dance/encourage)",
+      "examples": [
+        {
+          "chinese": "鼓舞人心",
+          "pinyin": "gǔwǔ rénxīn",
+          "english": "to inspire people; heart-stirring"
+        },
+        {
+          "chinese": "受到鼓舞",
+          "pinyin": "shòudào gǔwǔ",
+          "english": "to be encouraged"
+        }
+      ],
+      "related_words": ["鼓励", "激励", "鼓动"],
+      "usage_notes": "Motivational word"
+    },
+    {
+      "simplified": "灌溉",
+      "traditional": "灌溉",
+      "pinyin": "guàngài",
+      "english": "to irrigate; irrigation",
+      "hsk_level": 5,
+      "word_type": "verb/noun",
+      "emoji": "💧",
+      "mnemonic": "Pour (灌) + irrigate (溉) - IRRIGATE crops",
+      "etymology": "灌 (pour/fill) + 溉 (wash/irrigate)",
+      "examples": [
+        {
+          "chinese": "灌溉农田",
+          "pinyin": "guàngài nóngtián",
+          "english": "to irrigate farmland"
+        },
+        {
+          "chinese": "灌溉系统",
+          "pinyin": "guàngài xìtǒng",
+          "english": "irrigation system"
+        }
+      ],
+      "related_words": ["浇水", "灌水", "灌输"],
+      "usage_notes": "Agricultural term"
+    },
+    {
+      "simplified": "规范",
+      "traditional": "規範",
+      "pinyin": "guīfàn",
+      "english": "standard; norm; to standardize",
+      "hsk_level": 5,
+      "word_type": "noun/verb",
+      "emoji": "📏",
+      "mnemonic": "Rule (规) + model (范) - STANDARD/NORM",
+      "etymology": "规 (rule/regulation) + 范 (model/pattern)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个规范"
+      },
+      "examples": [
+        {
+          "chinese": "语言规范",
+          "pinyin": "yǔyán guīfàn",
+          "english": "language standard"
+        },
+        {
+          "chinese": "规范管理",
+          "pinyin": "guīfàn guǎnlǐ",
+          "english": "standardized management"
+        }
+      ],
+      "related_words": ["标准", "规则", "规定"],
+      "usage_notes": "Formal standard term"
+    }
+  ]
+}

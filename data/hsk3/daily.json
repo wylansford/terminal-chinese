@@ -1,0 +1,529 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "为了",
+      "traditional": "為了",
+      "pinyin": "wèile",
+      "english": "in order to; for the sake of",
+      "hsk_level": 3,
+      "word_type": "preposition",
+      "emoji": "🎯",
+      "mnemonic": "For (为) + completed (了) - FOR THE PURPOSE OF",
+      "etymology": "为 (for/do) + 了 (completed)",
+      "examples": [
+        {
+          "chinese": "为了学好中文，我每天练习。",
+          "pinyin": "Wèile xué hǎo Zhōngwén, wǒ měitiān liànxí.",
+          "english": "In order to learn Chinese well, I practice every day."
+        },
+        {
+          "chinese": "为了健康，要多运动。",
+          "pinyin": "Wèile jiànkāng, yào duō yùndòng.",
+          "english": "For the sake of health, exercise more."
+        }
+      ],
+      "related_words": ["为", "因为", "所以"],
+      "usage_notes": "Indicates purpose or goal"
+    },
+    {
+      "simplified": "虽然",
+      "traditional": "雖然",
+      "pinyin": "suīrán",
+      "english": "although; even though",
+      "hsk_level": 3,
+      "word_type": "conjunction",
+      "emoji": "🤔",
+      "mnemonic": "Although (虽) + like that (然) - ALTHOUGH/EVEN THOUGH",
+      "etymology": "虽 (although) + 然 (so/like that)",
+      "examples": [
+        {
+          "chinese": "虽然很难，但是我会努力。",
+          "pinyin": "Suīrán hěn nán, dànshì wǒ huì nǔlì.",
+          "english": "Although it's difficult, I will try hard."
+        },
+        {
+          "chinese": "虽然下雨，我还是去了。",
+          "pinyin": "Suīrán xià yǔ, wǒ háishì qù le.",
+          "english": "Even though it rained, I still went."
+        }
+      ],
+      "related_words": ["尽管", "即使", "但是"],
+      "usage_notes": "Usually paired with 但是 (but)"
+    },
+    {
+      "simplified": "但是",
+      "traditional": "但是",
+      "pinyin": "dànshì",
+      "english": "but; however",
+      "hsk_level": 3,
+      "word_type": "conjunction",
+      "emoji": "↔️",
+      "mnemonic": "But (但) + be (是) - BUT/HOWEVER",
+      "etymology": "但 (but/only) + 是 (is)",
+      "examples": [
+        {
+          "chinese": "我想去，但是没时间。",
+          "pinyin": "Wǒ xiǎng qù, dànshì méi shíjiān.",
+          "english": "I want to go, but I don't have time."
+        },
+        {
+          "chinese": "很贵，但是很好。",
+          "pinyin": "Hěn guì, dànshì hěn hǎo.",
+          "english": "It's expensive, but it's good."
+        }
+      ],
+      "related_words": ["可是", "不过", "然而"],
+      "usage_notes": "Introduces contrasting statement"
+    },
+    {
+      "simplified": "如果",
+      "traditional": "如果",
+      "pinyin": "rúguǒ",
+      "english": "if; in case",
+      "hsk_level": 3,
+      "word_type": "conjunction",
+      "emoji": "❓",
+      "mnemonic": "As if (如) + result (果) - IF something results",
+      "etymology": "如 (like/if) + 果 (result)",
+      "examples": [
+        {
+          "chinese": "如果下雨，我就不去了。",
+          "pinyin": "Rúguǒ xià yǔ, wǒ jiù bù qù le.",
+          "english": "If it rains, I won't go."
+        },
+        {
+          "chinese": "如果你有时间，来找我。",
+          "pinyin": "Rúguǒ nǐ yǒu shíjiān, lái zhǎo wǒ.",
+          "english": "If you have time, come find me."
+        }
+      ],
+      "related_words": ["假如", "要是", "倘若"],
+      "usage_notes": "Often paired with 就 in result clause"
+    },
+    {
+      "simplified": "因为",
+      "traditional": "因為",
+      "pinyin": "yīnwèi",
+      "english": "because",
+      "hsk_level": 3,
+      "word_type": "conjunction",
+      "emoji": "💡",
+      "mnemonic": "Cause (因) + for (为) - BECAUSE (the cause)",
+      "etymology": "因 (cause/reason) + 为 (for/because of)",
+      "examples": [
+        {
+          "chinese": "因为下雨，我没去。",
+          "pinyin": "Yīnwèi xià yǔ, wǒ méi qù.",
+          "english": "Because it rained, I didn't go."
+        },
+        {
+          "chinese": "因为太累了，所以早点睡。",
+          "pinyin": "Yīnwèi tài lèi le, suǒyǐ zǎo diǎn shuì.",
+          "english": "Because I'm too tired, I'll sleep early."
+        }
+      ],
+      "related_words": ["由于", "所以", "原因"],
+      "usage_notes": "Often paired with 所以 (therefore)"
+    },
+    {
+      "simplified": "所以",
+      "traditional": "所以",
+      "pinyin": "suǒyǐ",
+      "english": "therefore; so",
+      "hsk_level": 3,
+      "word_type": "conjunction",
+      "emoji": "➡️",
+      "mnemonic": "That which (所) + using (以) - THEREFORE/SO",
+      "etymology": "所 (that which) + 以 (with/by means of)",
+      "examples": [
+        {
+          "chinese": "太贵了，所以我没买。",
+          "pinyin": "Tài guì le, suǒyǐ wǒ méi mǎi.",
+          "english": "It was too expensive, so I didn't buy it."
+        },
+        {
+          "chinese": "因为生病，所以没来。",
+          "pinyin": "Yīnwèi shēngbìng, suǒyǐ méi lái.",
+          "english": "Because of illness, (I) didn't come."
+        }
+      ],
+      "related_words": ["因此", "因而", "因为"],
+      "usage_notes": "Shows result or consequence"
+    },
+    {
+      "simplified": "除了",
+      "traditional": "除了",
+      "pinyin": "chúle",
+      "english": "except; besides",
+      "hsk_level": 3,
+      "word_type": "preposition",
+      "emoji": "➖",
+      "mnemonic": "Remove (除) + completed (了) - EXCEPT/BESIDES",
+      "etymology": "除 (remove/divide) + 了 (particle)",
+      "examples": [
+        {
+          "chinese": "除了周末，我每天上班。",
+          "pinyin": "Chúle zhōumò, wǒ měitiān shàngbān.",
+          "english": "Except for weekends, I work every day."
+        },
+        {
+          "chinese": "除了中文，我还会英文。",
+          "pinyin": "Chúle Zhōngwén, wǒ hái huì Yīngwén.",
+          "english": "Besides Chinese, I also know English."
+        }
+      ],
+      "related_words": ["除", "以外", "之外"],
+      "usage_notes": "Can mean 'except' or 'besides'"
+    },
+    {
+      "simplified": "刚才",
+      "traditional": "剛才",
+      "pinyin": "gāngcái",
+      "english": "just now; a moment ago",
+      "hsk_level": 3,
+      "word_type": "noun",
+      "emoji": "⏮️",
+      "mnemonic": "Just (刚) + moment (才) - JUST NOW",
+      "etymology": "刚 (just/barely) + 才 (just/only then)",
+      "examples": [
+        {
+          "chinese": "刚才你说什么？",
+          "pinyin": "Gāngcái nǐ shuō shénme?",
+          "english": "What did you say just now?"
+        },
+        {
+          "chinese": "他刚才还在这儿。",
+          "pinyin": "Tā gāngcái hái zài zhèr.",
+          "english": "He was still here just now."
+        }
+      ],
+      "related_words": ["刚", "刚刚", "刚才"],
+      "usage_notes": "Refers to very recent past"
+    },
+    {
+      "simplified": "突然",
+      "traditional": "突然",
+      "pinyin": "tūrán",
+      "english": "suddenly; all of a sudden",
+      "hsk_level": 3,
+      "word_type": "adverb",
+      "emoji": "⚡",
+      "mnemonic": "Burst through (突) + so (然) - SUDDENLY",
+      "etymology": "突 (突) + 然 (so/like that)",
+      "examples": [
+        {
+          "chinese": "突然下雨了。",
+          "pinyin": "Tūrán xià yǔ le.",
+          "english": "It suddenly started raining."
+        },
+        {
+          "chinese": "他突然来了。",
+          "pinyin": "Tā tūrán lái le.",
+          "english": "He suddenly came."
+        }
+      ],
+      "related_words": ["忽然", "猛然", "骤然"],
+      "usage_notes": "Indicates unexpected change"
+    },
+    {
+      "simplified": "终于",
+      "traditional": "終於",
+      "pinyin": "zhōngyú",
+      "english": "finally; at last",
+      "hsk_level": 3,
+      "word_type": "adverb",
+      "emoji": "🏁",
+      "mnemonic": "End (终) + at (于) - FINALLY reached",
+      "etymology": "终 (end) + 于 (at)",
+      "examples": [
+        {
+          "chinese": "我终于明白了。",
+          "pinyin": "Wǒ zhōngyú míngbai le.",
+          "english": "I finally understand."
+        },
+        {
+          "chinese": "终于到了！",
+          "pinyin": "Zhōngyú dào le!",
+          "english": "Finally arrived!"
+        }
+      ],
+      "related_words": ["最终", "最后", "总算"],
+      "usage_notes": "Emphasizes long-awaited result"
+    },
+    {
+      "simplified": "原来",
+      "traditional": "原來",
+      "pinyin": "yuánlái",
+      "english": "original; originally; it turns out",
+      "hsk_level": 3,
+      "word_type": "adjective/adverb",
+      "emoji": "💡",
+      "mnemonic": "Origin (原) + come (来) - ORIGINALLY/IT TURNS OUT",
+      "etymology": "原 (origin) + 来 (come)",
+      "examples": [
+        {
+          "chinese": "原来是你！",
+          "pinyin": "Yuánlái shì nǐ!",
+          "english": "So it's you! / It turns out it's you!"
+        },
+        {
+          "chinese": "原来如此。",
+          "pinyin": "Yuánlái rúcǐ.",
+          "english": "So that's how it is."
+        }
+      ],
+      "related_words": ["本来", "起初", "最初"],
+      "usage_notes": "Shows realization or discovery"
+    },
+    {
+      "simplified": "努力",
+      "traditional": "努力",
+      "pinyin": "nǔlì",
+      "english": "to make an effort; to strive",
+      "hsk_level": 3,
+      "word_type": "verb/adjective",
+      "emoji": "💪",
+      "mnemonic": "Slave (奴) + strength (力) - work hard with EFFORT",
+      "etymology": "奴 (slave/servant) + 力 (strength)",
+      "examples": [
+        {
+          "chinese": "我会努力学习。",
+          "pinyin": "Wǒ huì nǔlì xuéxí.",
+          "english": "I will study hard."
+        },
+        {
+          "chinese": "努力工作",
+          "pinyin": "nǔlì gōngzuò",
+          "english": "to work hard"
+        }
+      ],
+      "related_words": ["刻苦", "勤奋", "用功"],
+      "usage_notes": "Important value in Chinese culture"
+    },
+    {
+      "simplified": "放心",
+      "traditional": "放心",
+      "pinyin": "fàngxīn",
+      "english": "to be at ease; to rest assured",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "😌",
+      "mnemonic": "Release (放) + heart (心) - let go worry, BE AT EASE",
+      "etymology": "放 (release) + 心 (heart)",
+      "examples": [
+        {
+          "chinese": "你放心吧。",
+          "pinyin": "Nǐ fàngxīn ba.",
+          "english": "Don't worry. / Rest assured."
+        },
+        {
+          "chinese": "我不放心。",
+          "pinyin": "Wǒ bù fàngxīn.",
+          "english": "I'm worried. / I'm not at ease."
+        }
+      ],
+      "related_words": ["担心", "安心", "放松"],
+      "usage_notes": "Common reassurance phrase"
+    },
+    {
+      "simplified": "担心",
+      "traditional": "擔心",
+      "pinyin": "dānxīn",
+      "english": "to worry; to be anxious",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "😟",
+      "mnemonic": "Carry (担) + heart (心) - heart carries burden, WORRY",
+      "etymology": "担 (carry burden) + 心 (heart)",
+      "examples": [
+        {
+          "chinese": "别担心！",
+          "pinyin": "Bié dānxīn!",
+          "english": "Don't worry!"
+        },
+        {
+          "chinese": "我很担心你。",
+          "pinyin": "Wǒ hěn dānxīn nǐ.",
+          "english": "I'm very worried about you."
+        }
+      ],
+      "related_words": ["放心", "忧虑", "顾虑"],
+      "usage_notes": "Opposite of 放心"
+    },
+    {
+      "simplified": "害怕",
+      "traditional": "害怕",
+      "pinyin": "hàipà",
+      "english": "to be afraid; to fear",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "😨",
+      "mnemonic": "Harm (害) + fear (怕) - AFRAID of harm",
+      "etymology": "害 (harm) + 怕 (fear)",
+      "examples": [
+        {
+          "chinese": "我不害怕。",
+          "pinyin": "Wǒ bù hàipà.",
+          "english": "I'm not afraid."
+        },
+        {
+          "chinese": "他害怕黑暗。",
+          "pinyin": "Tā hàipà hēi'àn.",
+          "english": "He's afraid of darkness."
+        }
+      ],
+      "related_words": ["恐怕", "怕", "恐惧"],
+      "usage_notes": "Common emotion word"
+    },
+    {
+      "simplified": "后悔",
+      "traditional": "後悔",
+      "pinyin": "hòuhuǐ",
+      "english": "to regret",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "😔",
+      "mnemonic": "After (后) + repent (悔) - REGRET after the fact",
+      "etymology": "后 (after) + 悔 (repent)",
+      "examples": [
+        {
+          "chinese": "我很后悔。",
+          "pinyin": "Wǒ hěn hòuhuǐ.",
+          "english": "I really regret it."
+        },
+        {
+          "chinese": "不要后悔。",
+          "pinyin": "Bùyào hòuhuǐ.",
+          "english": "Don't regret it."
+        }
+      ],
+      "related_words": ["懊悔", "悔恨", "遗憾"],
+      "usage_notes": "Strong emotional word"
+    },
+    {
+      "simplified": "生气",
+      "traditional": "生氣",
+      "pinyin": "shēngqì",
+      "english": "to get angry",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "😠",
+      "mnemonic": "Generate (生) + energy (气) - generate negative energy, GET ANGRY",
+      "etymology": "生 (generate) + 气 (anger/energy)",
+      "examples": [
+        {
+          "chinese": "别生气！",
+          "pinyin": "Bié shēngqì!",
+          "english": "Don't be angry!"
+        },
+        {
+          "chinese": "他生气了。",
+          "pinyin": "Tā shēngqì le.",
+          "english": "He got angry."
+        }
+      ],
+      "related_words": ["发火", "生命", "愤怒"],
+      "usage_notes": "Common emotional expression"
+    },
+    {
+      "simplified": "难过",
+      "traditional": "難過",
+      "pinyin": "nánguò",
+      "english": "sad; upset",
+      "hsk_level": 3,
+      "word_type": "adjective",
+      "emoji": "😢",
+      "mnemonic": "Difficult (难) + pass (过) - hard to get through, SAD",
+      "etymology": "难 (difficult) + 过 (pass/endure)",
+      "examples": [
+        {
+          "chinese": "我很难过。",
+          "pinyin": "Wǒ hěn nánguò.",
+          "english": "I'm very sad."
+        },
+        {
+          "chinese": "别难过了。",
+          "pinyin": "Bié nánguò le.",
+          "english": "Don't be sad."
+        }
+      ],
+      "related_words": ["伤心", "悲伤", "痛苦"],
+      "usage_notes": "Common emotion word"
+    },
+    {
+      "simplified": "相信",
+      "traditional": "相信",
+      "pinyin": "xiāngxìn",
+      "english": "to believe; to trust",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "🤝",
+      "mnemonic": "Mutual (相) + trust (信) - BELIEVE/TRUST each other",
+      "etymology": "相 (mutual) + 信 (trust/believe)",
+      "examples": [
+        {
+          "chinese": "我相信你。",
+          "pinyin": "Wǒ xiāngxìn nǐ.",
+          "english": "I believe you."
+        },
+        {
+          "chinese": "相信自己！",
+          "pinyin": "Xiāngxìn zìjǐ!",
+          "english": "Believe in yourself!"
+        }
+      ],
+      "related_words": ["信任", "信赖", "怀疑"],
+      "usage_notes": "Important in relationships"
+    },
+    {
+      "simplified": "希望",
+      "traditional": "希望",
+      "pinyin": "xīwàng",
+      "english": "to hope; hope",
+      "hsk_level": 3,
+      "word_type": "verb/noun",
+      "emoji": "🌟",
+      "mnemonic": "Rare (希) + gaze (望) - gaze toward rare thing, HOPE",
+      "etymology": "希 (rare/hope) + 望 (look/expect)",
+      "examples": [
+        {
+          "chinese": "我希望你快乐。",
+          "pinyin": "Wǒ xīwàng nǐ kuàilè.",
+          "english": "I hope you're happy."
+        },
+        {
+          "chinese": "充满希望",
+          "pinyin": "chōngmǎn xīwàng",
+          "english": "full of hope"
+        }
+      ],
+      "related_words": ["期望", "盼望", "愿望"],
+      "usage_notes": "Expresses wishes and desires"
+    },
+    {
+      "simplified": "记得",
+      "traditional": "記得",
+      "pinyin": "jìde",
+      "english": "to remember",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "🧠",
+      "mnemonic": "Record (记) + obtain (得) - obtain in memory, REMEMBER",
+      "etymology": "记 (remember/record) + 得 (obtain)",
+      "examples": [
+        {
+          "chinese": "我记得你。",
+          "pinyin": "Wǒ jìde nǐ.",
+          "english": "I remember you."
+        },
+        {
+          "chinese": "你记得吗？",
+          "pinyin": "Nǐ jìde ma?",
+          "english": "Do you remember?"
+        }
+      ],
+      "related_words": ["忘记", "回忆", "记住"],
+      "usage_notes": "Common memory verb"
+    }
+  ]
+}

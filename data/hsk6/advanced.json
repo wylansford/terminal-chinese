@@ -1,0 +1,544 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "包裹",
+      "traditional": "包裹",
+      "pinyin": "bāoguǒ",
+      "english": "package; parcel; to wrap",
+      "hsk_level": 6,
+      "word_type": "noun/verb",
+      "emoji": "📦",
+      "mnemonic": "Wrap (包) + wrap (裹) - PACKAGE wrapped up",
+      "etymology": "包 (wrap/包) + 裹 (wrap/bind)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个包裹"
+      },
+      "examples": [
+        {
+          "chinese": "收到包裹",
+          "pinyin": "shōudào bāoguǒ",
+          "english": "to receive a package"
+        },
+        {
+          "chinese": "邮寄包裹",
+          "pinyin": "yóujì bāoguǒ",
+          "english": "to mail a parcel"
+        }
+      ],
+      "related_words": ["包装", "包", "裹"],
+      "usage_notes": "Common in shipping"
+    },
+    {
+      "simplified": "卑鄙",
+      "traditional": "卑鄙",
+      "pinyin": "bēibǐ",
+      "english": "mean; despicable",
+      "hsk_level": 6,
+      "word_type": "adjective",
+      "emoji": "😠",
+      "mnemonic": "Low (卑) + mean (鄙) - DESPICABLE/MEAN",
+      "etymology": "卑 (low/humble) + 鄙 (despise/mean)",
+      "examples": [
+        {
+          "chinese": "卑鄙的行为",
+          "pinyin": "bēibǐ de xíngwéi",
+          "english": "despicable behavior"
+        },
+        {
+          "chinese": "太卑鄙了！",
+          "pinyin": "Tài bēibǐ le!",
+          "english": "Too despicable!"
+        }
+      ],
+      "related_words": ["下流", "无耻", "高尚"],
+      "usage_notes": "Strong negative word"
+    },
+    {
+      "simplified": "崩溃",
+      "traditional": "崩潰",
+      "pinyin": "bēngkuì",
+      "english": "to collapse; to break down",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "💥",
+      "mnemonic": "Collapse (崩) + disintegrate (溃) - COLLAPSE/BREAKDOWN",
+      "etymology": "崩 (collapse) + 溃 (burst/collapse)",
+      "examples": [
+        {
+          "chinese": "精神崩溃",
+          "pinyin": "jīngshén bēngkuì",
+          "english": "mental breakdown"
+        },
+        {
+          "chinese": "他快崩溃了。",
+          "pinyin": "Tā kuài bēngkuì le.",
+          "english": "He's about to break down."
+        }
+      ],
+      "related_words": ["瓦解", "破碎", "崩塌"],
+      "usage_notes": "Dramatic failure"
+    },
+    {
+      "simplified": "辨认",
+      "traditional": "辨認",
+      "pinyin": "biànrèn",
+      "english": "to identify; to recognize",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "🔍",
+      "mnemonic": "Distinguish (辨) + recognize (认) - IDENTIFY/RECOGNIZE",
+      "etymology": "辨 (distinguish) + 认 (recognize)",
+      "examples": [
+        {
+          "chinese": "辨认方向",
+          "pinyin": "biànrèn fāngxiàng",
+          "english": "to identify direction"
+        },
+        {
+          "chinese": "很难辨认",
+          "pinyin": "hěn nán biànrèn",
+          "english": "hard to recognize"
+        }
+      ],
+      "related_words": ["识别", "认出", "辨别"],
+      "usage_notes": "Careful recognition"
+    },
+    {
+      "simplified": "捕捉",
+      "traditional": "捕捉",
+      "pinyin": "bǔzhuō",
+      "english": "to catch; to capture",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "🪤",
+      "mnemonic": "Catch (捕) + seize (捉) - CATCH/CAPTURE",
+      "etymology": "捕 (catch/arrest) + 捉 (catch/grasp)",
+      "examples": [
+        {
+          "chinese": "捕捉机会",
+          "pinyin": "bǔzhuō jīhuì",
+          "english": "to seize opportunities"
+        },
+        {
+          "chinese": "捕捉昆虫",
+          "pinyin": "bǔzhuō kūnchóng",
+          "english": "to catch insects"
+        }
+      ],
+      "related_words": ["捕获", "抓住", "捕"],
+      "usage_notes": "Active catching"
+    },
+    {
+      "simplified": "猜测",
+      "traditional": "猜測",
+      "pinyin": "cāicè",
+      "english": "to guess; to conjecture",
+      "hsk_level": 6,
+      "word_type": "verb/noun",
+      "emoji": "🤔",
+      "mnemonic": "Guess (猜) + measure (测) - GUESS/CONJECTURE",
+      "etymology": "猜 (guess/suspect) + 测 (measure/estimate)",
+      "examples": [
+        {
+          "chinese": "随便猜测",
+          "pinyin": "suíbiàn cāicè",
+          "english": "to guess randomly"
+        },
+        {
+          "chinese": "大胆猜测",
+          "pinyin": "dàdǎn cāicè",
+          "english": "to make a bold guess"
+        }
+      ],
+      "related_words": ["推测", "猜想", "估计"],
+      "usage_notes": "Uncertain prediction"
+    },
+    {
+      "simplified": "裁判",
+      "traditional": "裁判",
+      "pinyin": "cáipàn",
+      "english": "referee; judge; to referee",
+      "hsk_level": 6,
+      "word_type": "noun/verb",
+      "emoji": "👨‍⚖️",
+      "mnemonic": "Cut (裁) + judge (判) - JUDGE/REFEREE who decides",
+      "etymology": "裁 (cut/judge) + 判 (judge/decide)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个裁判"
+      },
+      "examples": [
+        {
+          "chinese": "比赛裁判",
+          "pinyin": "bǐsài cáipàn",
+          "english": "match referee"
+        },
+        {
+          "chinese": "公正裁判",
+          "pinyin": "gōngzhèng cáipàn",
+          "english": "fair judgment"
+        }
+      ],
+      "related_words": ["裁决", "判断", "仲裁"],
+      "usage_notes": "Sports and legal contexts"
+    },
+    {
+      "simplified": "惭愧",
+      "traditional": "慚愧",
+      "pinyin": "cánkuì",
+      "english": "ashamed; guilty",
+      "hsk_level": 6,
+      "word_type": "adjective",
+      "emoji": "😔",
+      "mnemonic": "Ashamed (惭) + ashamed (愧) - deeply ASHAMED",
+      "etymology": "惭 (ashamed) + 愧 (ashamed/guilty)",
+      "examples": [
+        {
+          "chinese": "感到惭愧",
+          "pinyin": "gǎndào cánkuì",
+          "english": "to feel ashamed"
+        },
+        {
+          "chinese": "我很惭愧。",
+          "pinyin": "Wǒ hěn cánkuì.",
+          "english": "I'm very ashamed."
+        }
+      ],
+      "related_words": ["羞愧", "羞耻", "自豪"],
+      "usage_notes": "Strong emotion word"
+    },
+    {
+      "simplified": "沧桑",
+      "traditional": "滄桑",
+      "pinyin": "cāngsāng",
+      "english": "vicissitudes; hardship",
+      "hsk_level": 6,
+      "word_type": "noun",
+      "emoji": "🌊",
+      "mnemonic": "Blue sea (沧) + mulberry (桑) - VICISSITUDES (sea to mulberry field)",
+      "etymology": "沧 (blue/sea) + 桑 (mulberry), from idiom about change",
+      "examples": [
+        {
+          "chinese": "饱经沧桑",
+          "pinyin": "bǎojīng cāngsāng",
+          "english": "weathered by hardship"
+        },
+        {
+          "chinese": "历史沧桑",
+          "pinyin": "lìshǐ cāngsāng",
+          "english": "vicissitudes of history"
+        }
+      ],
+      "related_words": ["变迁", "沧海桑田", "变化"],
+      "usage_notes": "Literary and philosophical"
+    },
+    {
+      "simplified": "操劳",
+      "traditional": "操勞",
+      "pinyin": "cāoláo",
+      "english": "to work hard; to look after",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "😰",
+      "mnemonic": "Handle (操) + labor (劳) - WORK HARD managing",
+      "etymology": "操 (operate/handle) + 劳 (labor/toil)",
+      "examples": [
+        {
+          "chinese": "为家操劳",
+          "pinyin": "wèi jiā cāoláo",
+          "english": "to work hard for the family"
+        },
+        {
+          "chinese": "过度操劳",
+          "pinyin": "guòdù cāoláo",
+          "english": "to overwork"
+        }
+      ],
+      "related_words": ["劳累", "辛劳", "操心"],
+      "usage_notes": "Shows dedication and hard work"
+    },
+    {
+      "simplified": "策划",
+      "traditional": "策劃",
+      "pinyin": "cèhuà",
+      "english": "to plan; to plot",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "📋",
+      "mnemonic": "策略 (strategy) + plan (划) - PLAN/PLOT strategically",
+      "etymology": "策 (策略/plan) + 划 (draw/plan)",
+      "examples": [
+        {
+          "chinese": "策划活动",
+          "pinyin": "cèhuà huódòng",
+          "english": "to plan an event"
+        },
+        {
+          "chinese": "精心策划",
+          "pinyin": "jīngxīn cèhuà",
+          "english": "to plan carefully"
+        }
+      ],
+      "related_words": ["计划", "筹划", "谋划"],
+      "usage_notes": "Project planning"
+    },
+    {
+      "simplified": "诧异",
+      "traditional": "詫異",
+      "pinyin": "chàyì",
+      "english": "surprised; amazed",
+      "hsk_level": 6,
+      "word_type": "adjective",
+      "emoji": "😲",
+      "mnemonic": "Strange (诧) + different (异) - SURPRISED by strangeness",
+      "etymology": "诧 (surprised) + 异 (different/strange)",
+      "examples": [
+        {
+          "chinese": "感到诧异",
+          "pinyin": "gǎndào chàyì",
+          "english": "to feel surprised"
+        },
+        {
+          "chinese": "令人诧异",
+          "pinyin": "lìng rén chàyì",
+          "english": "surprising"
+        }
+      ],
+      "related_words": ["惊讶", "惊奇", "奇怪"],
+      "usage_notes": "Stronger than 惊讶"
+    },
+    {
+      "simplified": "颤抖",
+      "traditional": "顫抖",
+      "pinyin": "chàndǒu",
+      "english": "to tremble; to shiver",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "🥶",
+      "mnemonic": "Shake (颤) + shake (抖) - TREMBLE/SHIVER",
+      "etymology": "颤 (shake/tremble) + 抖 (shake/shiver)",
+      "examples": [
+        {
+          "chinese": "冷得颤抖",
+          "pinyin": "lěng de chàndǒu",
+          "english": "shivering from cold"
+        },
+        {
+          "chinese": "害怕得颤抖",
+          "pinyin": "hàipà de chàndǒu",
+          "english": "trembling with fear"
+        }
+      ],
+      "related_words": ["发抖", "哆嗦", "颤"],
+      "usage_notes": "Physical shaking"
+    },
+    {
+      "simplified": "沉淀",
+      "traditional": "沉澱",
+      "pinyin": "chéndiàn",
+      "english": "to settle; to precipitate; sediment",
+      "hsk_level": 6,
+      "word_type": "verb/noun",
+      "emoji": "⬇️",
+      "mnemonic": "Sink (沉) + settle (淀) - SETTLE/PRECIPITATE down",
+      "etymology": "沉 (sink) + 淀 (settle/sediment)",
+      "examples": [
+        {
+          "chinese": "文化沉淀",
+          "pinyin": "wénhuà chéndiàn",
+          "english": "cultural accumulation"
+        },
+        {
+          "chinese": "时间的沉淀",
+          "pinyin": "shíjiān de chéndiàn",
+          "english": "accumulation over time"
+        }
+      ],
+      "related_words": ["沉积", "积累", "沉"],
+      "usage_notes": "Literal and metaphorical"
+    },
+    {
+      "simplified": "沉闷",
+      "traditional": "沉悶",
+      "pinyin": "chénmèn",
+      "english": "dull; depressed",
+      "hsk_level": 6,
+      "word_type": "adjective",
+      "emoji": "😞",
+      "mnemonic": "Heavy (沉) + stuffy (闷) - DULL/DEPRESSED atmosphere",
+      "etymology": "沉 (heavy/sink) + 闷 (stuffy/depressed)",
+      "examples": [
+        {
+          "chinese": "气氛很沉闷。",
+          "pinyin": "Qìfēn hěn chénmèn.",
+          "english": "The atmosphere is very dull."
+        },
+        {
+          "chinese": "心情沉闷",
+          "pinyin": "xīnqíng chénmèn",
+          "english": "in a depressed mood"
+        }
+      ],
+      "related_words": ["压抑", "郁闷", "沉重"],
+      "usage_notes": "Negative atmosphere"
+    },
+    {
+      "simplified": "陈旧",
+      "traditional": "陳舊",
+      "pinyin": "chénjiù",
+      "english": "old; outdated",
+      "hsk_level": 6,
+      "word_type": "adjective",
+      "emoji": "📜",
+      "mnemonic": "Display (陈) + old (旧) - OLD/OUTDATED",
+      "etymology": "陈 (arrange/old) + 旧 (old)",
+      "examples": [
+        {
+          "chinese": "陈旧的观念",
+          "pinyin": "chénjiù de guānniàn",
+          "english": "outdated concepts"
+        },
+        {
+          "chinese": "设备陈旧",
+          "pinyin": "shèbèi chénjiù",
+          "english": "outdated equipment"
+        }
+      ],
+      "related_words": ["古老", "过时", "老旧"],
+      "usage_notes": "Negative connotation"
+    },
+    {
+      "simplified": "称赞",
+      "traditional": "稱讚",
+      "pinyin": "chēngzàn",
+      "english": "to praise; to acclaim",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "👏",
+      "mnemonic": "Name (称) + praise (赞) - PRAISE by naming virtues",
+      "etymology": "称 (call/name) + 赞 (praise/support)",
+      "examples": [
+        {
+          "chinese": "受到称赞",
+          "pinyin": "shòudào chēngzàn",
+          "english": "to be praised"
+        },
+        {
+          "chinese": "称赞他的工作",
+          "pinyin": "chēngzàn tā de gōngzuò",
+          "english": "to praise his work"
+        }
+      ],
+      "related_words": ["赞扬", "表扬", "夸奖"],
+      "usage_notes": "Formal praise"
+    },
+    {
+      "simplified": "趁",
+      "traditional": "趁",
+      "pinyin": "chèn",
+      "english": "to take advantage of; while",
+      "hsk_level": 6,
+      "word_type": "preposition",
+      "emoji": "⏰",
+      "mnemonic": "Walk (走) + east (东) - take advantage WHILE going",
+      "etymology": "Shows seizing opportunity while moving",
+      "examples": [
+        {
+          "chinese": "趁机会",
+          "pinyin": "chèn jīhuì",
+          "english": "to seize the opportunity"
+        },
+        {
+          "chinese": "趁现在还早",
+          "pinyin": "chèn xiànzài hái zǎo",
+          "english": "while it's still early"
+        }
+      ],
+      "related_words": ["趁机", "趁势", "趁着"],
+      "usage_notes": "Seizing timing"
+    },
+    {
+      "simplified": "澄清",
+      "traditional": "澄清",
+      "pinyin": "chéngqīng",
+      "english": "to clarify; to clear up",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "💡",
+      "mnemonic": "Clear water (澄) + clear (清) - CLARIFY/CLEAR UP",
+      "etymology": "澄 (clear/settle) + 清 (clear/pure)",
+      "examples": [
+        {
+          "chinese": "澄清事实",
+          "pinyin": "chéngqīng shìshí",
+          "english": "to clarify the facts"
+        },
+        {
+          "chinese": "需要澄清",
+          "pinyin": "xūyào chéngqīng",
+          "english": "needs clarification"
+        }
+      ],
+      "related_words": ["说明", "解释", "澄"],
+      "usage_notes": "Formal clarification"
+    },
+    {
+      "simplified": "承包",
+      "traditional": "承包",
+      "pinyin": "chéngbāo",
+      "english": "to contract; to undertake",
+      "hsk_level": 6,
+      "word_type": "verb",
+      "emoji": "📋",
+      "mnemonic": "Undertake (承) + wrap/contract (包) - CONTRACT/UNDERTAKE",
+      "etymology": "承 (undertake/bear) + 包 (wrap/包)",
+      "examples": [
+        {
+          "chinese": "承包工程",
+          "pinyin": "chéngbāo gōngchéng",
+          "english": "to contract a project"
+        },
+        {
+          "chinese": "承包商",
+          "pinyin": "chéngbāoshāng",
+          "english": "contractor"
+        }
+      ],
+      "related_words": ["承担", "包办", "承揽"],
+      "usage_notes": "Business term"
+    },
+    {
+      "simplified": "承诺",
+      "traditional": "承諾",
+      "pinyin": "chéngnuò",
+      "english": "to promise; commitment",
+      "hsk_level": 6,
+      "word_type": "verb/noun",
+      "emoji": "🤝",
+      "mnemonic": "Accept (承) + promise (诺) - PROMISE/COMMITMENT",
+      "etymology": "承 (accept/undertake) + 诺 (promise)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个承诺"
+      },
+      "examples": [
+        {
+          "chinese": "信守承诺",
+          "pinyin": "xìnshǒu chéngnuò",
+          "english": "to keep one's promise"
+        },
+        {
+          "chinese": "作出承诺",
+          "pinyin": "zuòchū chéngnuò",
+          "english": "to make a commitment"
+        }
+      ],
+      "related_words": ["保证", "诺言", "答应"],
+      "usage_notes": "Formal commitment"
+    }
+  ]
+}

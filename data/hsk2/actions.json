@@ -1,0 +1,554 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "帮助",
+      "traditional": "幫助",
+      "pinyin": "bāngzhù",
+      "english": "to help; help",
+      "hsk_level": 2,
+      "word_type": "verb/noun",
+      "emoji": "🤝",
+      "mnemonic": "Help (帮) + assist (助) - HELP someone",
+      "etymology": "帮 (help/gang) + 助 (assist)",
+      "examples": [
+        {
+          "chinese": "帮助别人",
+          "pinyin": "bāngzhù biérén",
+          "english": "to help others"
+        },
+        {
+          "chinese": "谢谢你的帮助。",
+          "pinyin": "Xièxie nǐ de bāngzhù.",
+          "english": "Thanks for your help."
+        }
+      ],
+      "related_words": ["帮", "帮忙", "协助"],
+      "usage_notes": "Very common helping verb"
+    },
+    {
+      "simplified": "帮忙",
+      "traditional": "幫忙",
+      "pinyin": "bāngmáng",
+      "english": "to help; to do a favor",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "💪",
+      "mnemonic": "Help (帮) + busy (忙) - HELP when busy",
+      "etymology": "帮 (help) + 忙 (busy)",
+      "examples": [
+        {
+          "chinese": "帮忙一下",
+          "pinyin": "bāngmáng yíxià",
+          "english": "help out a bit"
+        },
+        {
+          "chinese": "我来帮忙。",
+          "pinyin": "Wǒ lái bāngmáng.",
+          "english": "Let me help."
+        }
+      ],
+      "related_words": ["帮助", "帮", "忙"],
+      "usage_notes": "More casual than 帮助"
+    },
+    {
+      "simplified": "变化",
+      "traditional": "變化",
+      "pinyin": "biànhuà",
+      "english": "change; to change",
+      "hsk_level": 2,
+      "word_type": "noun/verb",
+      "emoji": "🔄",
+      "mnemonic": "Transform (变) + transform (化) - CHANGE",
+      "etymology": "变 (change) + 化 (transform)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个变化"
+      },
+      "examples": [
+        {
+          "chinese": "很大的变化",
+          "pinyin": "hěn dà de biànhuà",
+          "english": "big change"
+        },
+        {
+          "chinese": "天气变化",
+          "pinyin": "tiānqì biànhuà",
+          "english": "weather change"
+        }
+      ],
+      "related_words": ["改变", "变", "化"],
+      "usage_notes": "General change word"
+    },
+    {
+      "simplified": "表演",
+      "traditional": "表演",
+      "pinyin": "biǎoyǎn",
+      "english": "to perform; performance",
+      "hsk_level": 2,
+      "word_type": "verb/noun",
+      "emoji": "🎭",
+      "mnemonic": "Display (表) + perform (演) - PERFORM/SHOW",
+      "etymology": "表 (show/exterior) + 演 (perform/act)",
+      "measure_word": {
+        "character": "场",
+        "pinyin": "chǎng",
+        "example": "一场表演"
+      },
+      "examples": [
+        {
+          "chinese": "表演节目",
+          "pinyin": "biǎoyǎn jiémù",
+          "english": "to perform a show"
+        },
+        {
+          "chinese": "精彩的表演",
+          "pinyin": "jīngcǎi de biǎoyǎn",
+          "english": "wonderful performance"
+        }
+      ],
+      "related_words": ["演出", "演", "表"],
+      "usage_notes": "Entertainment context"
+    },
+    {
+      "simplified": "打扫",
+      "traditional": "打掃",
+      "pinyin": "dǎsǎo",
+      "english": "to clean; to sweep",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "🧹",
+      "mnemonic": "Strike (打) + sweep (扫) - CLEAN/SWEEP",
+      "etymology": "打 (strike/do) + 扫 (sweep)",
+      "examples": [
+        {
+          "chinese": "打扫房间",
+          "pinyin": "dǎsǎo fángjiān",
+          "english": "to clean the room"
+        },
+        {
+          "chinese": "打扫卫生",
+          "pinyin": "dǎsǎo wèishēng",
+          "english": "to do cleaning"
+        }
+      ],
+      "related_words": ["扫", "清洁", "打"],
+      "usage_notes": "Common household task"
+    },
+    {
+      "simplified": "带",
+      "traditional": "帶",
+      "pinyin": "dài",
+      "english": "to bring; to carry; to take",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "🎒",
+      "mnemonic": "Belt (带) carries things - BRING/CARRY",
+      "etymology": "Originally depicted a belt or band",
+      "examples": [
+        {
+          "chinese": "带钱",
+          "pinyin": "dài qián",
+          "english": "to bring money"
+        },
+        {
+          "chinese": "带孩子",
+          "pinyin": "dài háizi",
+          "english": "to take care of a child"
+        }
+      ],
+      "related_words": ["携带", "带来", "带走"],
+      "usage_notes": "Very versatile verb"
+    },
+    {
+      "simplified": "到",
+      "traditional": "到",
+      "pinyin": "dào",
+      "english": "to arrive; to reach; until",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "🎯",
+      "mnemonic": "Arrive at knife (到) - ARRIVE/REACH destination",
+      "etymology": "Knife radical suggesting reaching a point",
+      "examples": [
+        {
+          "chinese": "到了！",
+          "pinyin": "Dào le!",
+          "english": "We've arrived!"
+        },
+        {
+          "chinese": "从早到晚",
+          "pinyin": "cóng zǎo dào wǎn",
+          "english": "from morning until night"
+        }
+      ],
+      "related_words": ["到达", "到来", "到处"],
+      "usage_notes": "Essential arrival verb"
+    },
+    {
+      "simplified": "等",
+      "traditional": "等",
+      "pinyin": "děng",
+      "english": "to wait; and so on",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "⏳",
+      "mnemonic": "Bamboo (竹) + temple (寺) - WAIT at temple",
+      "etymology": "Bamboo radical + temple component",
+      "examples": [
+        {
+          "chinese": "等一下",
+          "pinyin": "děng yíxià",
+          "english": "wait a moment"
+        },
+        {
+          "chinese": "等等",
+          "pinyin": "děngděng",
+          "english": "and so on; wait"
+        }
+      ],
+      "related_words": ["等待", "等候", "等于"],
+      "usage_notes": "Common waiting verb"
+    },
+    {
+      "simplified": "懂",
+      "traditional": "懂",
+      "pinyin": "dǒng",
+      "english": "to understand; to know",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "💡",
+      "mnemonic": "Heart (忄) + heavy (董) - heart UNDERSTANDS deeply",
+      "etymology": "Heart radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "我懂了。",
+          "pinyin": "Wǒ dǒng le.",
+          "english": "I understand."
+        },
+        {
+          "chinese": "听懂了吗？",
+          "pinyin": "Tīng dǒng le ma?",
+          "english": "Did you understand?"
+        }
+      ],
+      "related_words": ["明白", "理解", "不懂"],
+      "usage_notes": "Understanding comprehension"
+    },
+    {
+      "simplified": "锻炼",
+      "traditional": "鍛鍊",
+      "pinyin": "duànliàn",
+      "english": "to exercise; to work out",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "💪",
+      "mnemonic": "Forge (锻) + refine (炼) - EXERCISE to forge body",
+      "etymology": "锻 (forge) + 炼 (refine), like forging metal",
+      "examples": [
+        {
+          "chinese": "锻炼身体",
+          "pinyin": "duànliàn shēntǐ",
+          "english": "to exercise one's body"
+        },
+        {
+          "chinese": "每天锻炼",
+          "pinyin": "měitiān duànliàn",
+          "english": "to exercise every day"
+        }
+      ],
+      "related_words": ["运动", "健身", "练习"],
+      "usage_notes": "Physical exercise"
+    },
+    {
+      "simplified": "发生",
+      "traditional": "發生",
+      "pinyin": "fāshēng",
+      "english": "to happen; to occur",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "⚡",
+      "mnemonic": "Send out (发) + born (生) - something HAPPENS/OCCURS",
+      "etymology": "发 (emit/send) + 生 (born/arise)",
+      "examples": [
+        {
+          "chinese": "发生了什么？",
+          "pinyin": "Fāshēng le shénme?",
+          "english": "What happened?"
+        },
+        {
+          "chinese": "事故发生",
+          "pinyin": "shìgù fāshēng",
+          "english": "accident occurred"
+        }
+      ],
+      "related_words": ["发", "生", "产生"],
+      "usage_notes": "Events occurring"
+    },
+    {
+      "simplified": "放",
+      "traditional": "放",
+      "pinyin": "fàng",
+      "english": "to put; to place; to release",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "📍",
+      "mnemonic": "Direction (方) + strike (攵) - PUT/PLACE in direction",
+      "etymology": "Direction radical + action component",
+      "examples": [
+        {
+          "chinese": "放在桌子上",
+          "pinyin": "fàng zài zhuōzi shàng",
+          "english": "to put on the table"
+        },
+        {
+          "chinese": "放假",
+          "pinyin": "fàng jià",
+          "english": "to have a vacation"
+        }
+      ],
+      "related_words": ["放下", "释放", "放学"],
+      "usage_notes": "Very versatile placement verb"
+    },
+    {
+      "simplified": "复习",
+      "traditional": "復習",
+      "pinyin": "fùxí",
+      "english": "to review; to revise",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "📚",
+      "mnemonic": "Return (复) + practice (习) - REVIEW by practicing again",
+      "etymology": "复 (repeat/return) + 习 (practice)",
+      "examples": [
+        {
+          "chinese": "复习功课",
+          "pinyin": "fùxí gōngkè",
+          "english": "to review lessons"
+        },
+        {
+          "chinese": "考试前要复习。",
+          "pinyin": "Kǎoshì qián yào fùxí.",
+          "english": "Need to review before the exam."
+        }
+      ],
+      "related_words": ["学习", "预习", "温习"],
+      "usage_notes": "Study review"
+    },
+    {
+      "simplified": "感冒",
+      "traditional": "感冒",
+      "pinyin": "gǎnmào",
+      "english": "cold; flu; to catch cold",
+      "hsk_level": 2,
+      "word_type": "noun/verb",
+      "emoji": "🤧",
+      "mnemonic": "Feel (感) + risk (冒) - CATCH COLD",
+      "etymology": "感 (feel/catch) + 冒 (risk/emit)",
+      "measure_word": {
+        "character": "次",
+        "pinyin": "cì",
+        "example": "一次感冒"
+      },
+      "examples": [
+        {
+          "chinese": "我感冒了。",
+          "pinyin": "Wǒ gǎnmào le.",
+          "english": "I caught a cold."
+        },
+        {
+          "chinese": "预防感冒",
+          "pinyin": "yùfáng gǎnmào",
+          "english": "to prevent colds"
+        }
+      ],
+      "related_words": ["发烧", "咳嗽", "生病"],
+      "usage_notes": "Common illness"
+    },
+    {
+      "simplified": "刚",
+      "traditional": "剛",
+      "pinyin": "gāng",
+      "english": "just; just now",
+      "hsk_level": 2,
+      "word_type": "adverb",
+      "emoji": "⏰",
+      "mnemonic": "Knife (刂) + hard steel (冈) - JUST happened, still sharp",
+      "etymology": "Metal radical + phonetic, means hard/just",
+      "examples": [
+        {
+          "chinese": "刚到",
+          "pinyin": "gāng dào",
+          "english": "just arrived"
+        },
+        {
+          "chinese": "我刚吃完。",
+          "pinyin": "Wǒ gāng chī wán.",
+          "english": "I just finished eating."
+        }
+      ],
+      "related_words": ["刚才", "刚刚", "刚好"],
+      "usage_notes": "Recent past"
+    },
+    {
+      "simplified": "关系",
+      "traditional": "關係",
+      "pinyin": "guānxi",
+      "english": "relationship; connection",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🔗",
+      "mnemonic": "Close (关) + connect (系) - RELATIONSHIP/CONNECTION",
+      "etymology": "关 (close/concern) + 系 (connect/tie)",
+      "measure_word": {
+        "character": "种",
+        "pinyin": "zhǒng",
+        "example": "一种关系"
+      },
+      "examples": [
+        {
+          "chinese": "没关系",
+          "pinyin": "méi guānxi",
+          "english": "no problem; it doesn't matter"
+        },
+        {
+          "chinese": "朋友关系",
+          "pinyin": "péngyou guānxi",
+          "english": "friendship relationship"
+        }
+      ],
+      "related_words": ["关", "系", "联系"],
+      "usage_notes": "Important social concept"
+    },
+    {
+      "simplified": "过去",
+      "traditional": "過去",
+      "pinyin": "guòqù",
+      "english": "past; to pass by",
+      "hsk_level": 2,
+      "word_type": "noun/verb",
+      "emoji": "⏪",
+      "mnemonic": "Pass (过) + go (去) - PAST time passed by",
+      "etymology": "过 (pass/cross) + 去 (go)",
+      "examples": [
+        {
+          "chinese": "过去的事",
+          "pinyin": "guòqù de shì",
+          "english": "past matters"
+        },
+        {
+          "chinese": "时间过去了。",
+          "pinyin": "Shíjiān guòqù le.",
+          "english": "Time has passed."
+        }
+      ],
+      "related_words": ["过", "去", "以前"],
+      "usage_notes": "Past time reference"
+    },
+    {
+      "simplified": "害怕",
+      "traditional": "害怕",
+      "pinyin": "hàipà",
+      "english": "to be afraid; to fear",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "😨",
+      "mnemonic": "Harm (害) + fear (怕) - AFRAID of harm",
+      "etymology": "害 (harm) + 怕 (fear)",
+      "examples": [
+        {
+          "chinese": "别害怕！",
+          "pinyin": "Bié hàipà!",
+          "english": "Don't be afraid!"
+        },
+        {
+          "chinese": "我不害怕。",
+          "pinyin": "Wǒ bù hàipà.",
+          "english": "I'm not afraid."
+        }
+      ],
+      "related_words": ["怕", "害", "恐怕"],
+      "usage_notes": "Common emotion"
+    },
+    {
+      "simplified": "护照",
+      "traditional": "護照",
+      "pinyin": "hùzhào",
+      "english": "passport",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🛂",
+      "mnemonic": "Protect (护) + document (照) - PASSPORT protecting identity",
+      "etymology": "护 (protect) + 照 (document/permit)",
+      "measure_word": {
+        "character": "本",
+        "pinyin": "běn",
+        "example": "一本护照"
+      },
+      "examples": [
+        {
+          "chinese": "办护照",
+          "pinyin": "bàn hùzhào",
+          "english": "to apply for a passport"
+        },
+        {
+          "chinese": "带上护照",
+          "pinyin": "dàishàng hùzhào",
+          "english": "bring the passport"
+        }
+      ],
+      "related_words": ["签证", "身份证", "证件"],
+      "usage_notes": "Travel essential"
+    },
+    {
+      "simplified": "检查",
+      "traditional": "檢查",
+      "pinyin": "jiǎnchá",
+      "english": "to inspect; to check",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "🔍",
+      "mnemonic": "Inspect (检) + check (查) - INSPECT/CHECK carefully",
+      "etymology": "检 (inspect) + 查 (examine/investigate)",
+      "examples": [
+        {
+          "chinese": "检查身体",
+          "pinyin": "jiǎnchá shēntǐ",
+          "english": "to have a physical examination"
+        },
+        {
+          "chinese": "仔细检查",
+          "pinyin": "zǐxì jiǎnchá",
+          "english": "to inspect carefully"
+        }
+      ],
+      "related_words": ["检验", "查", "检"],
+      "usage_notes": "Formal inspection"
+    },
+    {
+      "simplified": "简单",
+      "traditional": "簡單",
+      "pinyin": "jiǎndān",
+      "english": "simple; easy",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "✨",
+      "mnemonic": "Bamboo slips (简) + single (单) - SIMPLE like one slip",
+      "etymology": "简 (simple/brief) + 单 (single)",
+      "examples": [
+        {
+          "chinese": "很简单",
+          "pinyin": "hěn jiǎndān",
+          "english": "very simple"
+        },
+        {
+          "chinese": "简单的问题",
+          "pinyin": "jiǎndān de wèntí",
+          "english": "simple question"
+        }
+      ],
+      "related_words": ["容易", "简易", "复杂"],
+      "usage_notes": "Opposite of 复杂"
+    }
+  ]
+}

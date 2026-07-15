@@ -1,0 +1,352 @@
+#!/usr/bin/env python3
+"""terminal-chinese — FSRS-based Chinese vocabulary in your terminal"""
+
+import argparse
+import json
+import os
+import shlex
+import sys
+from pathlib import Path
+
+# Heavy modules (anthropic, fsrs, rich) are imported inside the commands
+# that need them, so every command starts fast.
+SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPT_DIR.parent / 'lib'))
+
+CONFIG_DIR = Path.home() / '.config' / 'terminal-chinese'
+DB_PATH = CONFIG_DIR / 'tutor.db'
+CONFIG_PATH = CONFIG_DIR / 'config.json'
+VOCAB_DIR = CONFIG_DIR / 'vocabulary'
+DATA_DIR = SCRIPT_DIR.parent / 'data'
+
+DEFAULT_CONFIG = {'max_new_cards_per_day': 10, 'hsk_levels': [1]}
+
+# {bin} is the absolute path of the running binary, so the hook works
+# even when the install location is not on PATH yet.
+SHELL_HOOKS = {
+    'zsh': """\
+alias ct={bin}
+if [[ -o interactive && -t 0 && $SHLVL -eq 1 && "$TERM_PROGRAM" != "vscode" \\
+      && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
+    {bin} review
+fi""",
+    'bash': """\
+alias ct={bin}
+if [[ $- == *i* && -t 0 && $SHLVL -eq 1 && "$TERM_PROGRAM" != "vscode" \\
+      && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
+    {bin} review
+fi""",
+}
+
+
+def _migrate_old_config():
+    old = Path.home() / '.config' / 'chinese-tutor'
+    if old.is_dir() and not CONFIG_DIR.exists():
+        old.rename(CONFIG_DIR)
+
+
+def load_config():
+    config = dict(DEFAULT_CONFIG)
+    if CONFIG_PATH.exists():
+        with open(CONFIG_PATH) as f:
+            config.update(json.load(f))
+    return config
+
+
+def open_db():
+    from db import Database
+    first_run = not DB_PATH.exists()
+    db = Database(DB_PATH)
+    if first_run:
+        VOCAB_DIR.mkdir(parents=True, exist_ok=True)
+        with db:
+            db.init_schema()
+        db = Database(DB_PATH)
+    return db
+
+
+def cmd_init(args):
+    bin_path = shlex.quote(os.path.abspath(sys.argv[0]))
+    print(SHELL_HOOKS[args.shell].format(bin=bin_path))
+
+
+def cmd_review(args):
+    if not sys.stdin.isatty():
+        return  # non-interactive shell: nothing to review against
+    from review import run_session
+    with open_db() as db:
+        run_session(db, load_config(), VOCAB_DIR)
+
+
+def cmd_stats(args):
+    import grapher
+    import ui
+    with open_db() as db:
+        stats = db.get_stats()
+        data = grapher.fill_missing_dates(db.get_graph_data(30))
+    spark = grapher.sparkline([d['reviews_done'] for d in data]) if data else None
+    ui.render_stats(stats, spark)
+
+
+def cmd_graph(args):
+    import grapher
+    with open_db() as db:
+        data = db.get_graph_data(args.days)
+        stats = db.get_stats()
+    if not data:
+        last = stats['last_review']
+        print(f"No reviews in the last {args.days} days."
+              + (f" Last review: {last[:10]}" if last else " Start reviewing to see progress!"))
+        return
+    print(grapher.line_graph(data, args.metric))
+
+
+def cmd_import(args):
+    from importer import import_json
+    with open_db() as db:
+        count = import_json(Path(args.file), db)
+    print(f"✓ Imported {count} new words from {args.file}")
+
+
+def cmd_auto_import(args):
+    from importer import auto_import
+    VOCAB_DIR.mkdir(parents=True, exist_ok=True)
+    with open_db() as db:
+        results = auto_import(db, VOCAB_DIR)
+    for filename, count in results:
+        print(f"✓ {filename} — {count} new words")
+    if not results and not args.quiet:
+        print("Nothing to import.")
+
+
+def cmd_export(args):
+    from importer import export_json
+    with open_db() as db:
+        count = export_json(Path(args.file), db, args.hsk)
+    print(f"✓ Exported {count} words to {args.file}")
+
+
+def cmd_delete(args):
+    with open_db() as db:
+        deleted = sum(db.delete_word(word) for word in args.words)
+    print(f"✓ Deleted {deleted} word(s)")
+
+
+def cmd_config(args):
+    if args.hsk is None:
+        print(json.dumps(load_config(), indent=2))
+        return
+
+    try:
+        levels = sorted({int(n) for n in args.hsk.split(',')})
+    except ValueError:
+        sys.exit(f"Invalid --hsk value {args.hsk!r} — expected comma-separated levels, e.g. --hsk 1,2,3")
+    if not levels or any(n < 1 or n > 6 for n in levels):
+        sys.exit("HSK levels must be between 1 and 6, e.g. --hsk 1,2,3")
+
+    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+    config = load_config()
+    config['hsk_levels'] = levels
+    with open(CONFIG_PATH, 'w') as f:
+        json.dump(config, f, indent=2)
+    print(f"✓ Now introducing new words from HSK {', '.join(map(str, levels))}. "
+          f"Already-learned words keep their schedule regardless of level.")
+
+
+def cmd_add(args):
+    from word_generator import WordGenerator, save_word, preview
+
+    query = ' '.join(args.query)
+    print(f"🤖 Generating entry for: {query}")
+    generator = WordGenerator()
+    word = generator.generate_word(query)
+
+    while True:
+        print(f"\n{preview(word)}")
+        if word.get('mnemonic'):
+            print(f"💡 {word['mnemonic']}")
+        choice = input("\n[a] add   [c] regenerate with new description   [n] cancel\n→ ").strip().lower()
+        if choice in ('a', ''):
+            break
+        if choice == 'c':
+            new_desc = input("New description: ").strip()
+            if new_desc:
+                print("🤖 Regenerating...")
+                word = generator.generate_word(new_desc)
+            continue
+        print("⊘ Cancelled")
+        return
+
+    with open_db() as db:
+        if save_word(db, word, 'ai-generated'):
+            print(f"✓ Added — you'll see it in your next review")
+        else:
+            print("⚠️  Word already exists")
+
+
+def cmd_add_many(args):
+    from word_generator import WordGenerator, save_word, preview
+
+    description = ' '.join(args.description)
+    print(f"🤖 Generating {args.count} words for: {description}")
+    generator = WordGenerator()
+    words = generator.generate_many_words(description, args.count)
+
+    print()
+    for i, word in enumerate(words, 1):
+        print(preview(word, i))
+
+    choice = input("\n[a] add all   [r] review each   [n] cancel\n→ ").strip().lower()
+    if choice == 'n':
+        print("⊘ Cancelled")
+        return
+    if choice == 'r':
+        keep = []
+        for i, word in enumerate(words, 1):
+            print(f"\n{preview(word, i)}")
+            if word.get('mnemonic'):
+                print(f"   💡 {word['mnemonic']}")
+            answer = input("[a] add   [s] skip   [q] stop\n→ ").strip().lower()
+            if answer == 'q':
+                break
+            if answer != 's':
+                keep.append(word)
+        words = keep
+
+    if not words:
+        print("⊘ No words selected")
+        return
+    with open_db() as db:
+        added = sum(save_word(db, word, 'ai-generated-batch') for word in words)
+    print(f"\n✓ Added {added} word(s)" +
+          (f" ({len(words) - added} already existed)" if added < len(words) else ""))
+
+
+def cmd_generate(args):
+    from word_generator import WordGenerator, preview
+
+    if args.output:
+        output_path = Path(args.output)
+    else:
+        safe = ''.join(c for c in args.description.lower().replace(' ', '_') if c.isalnum() or c == '_')
+        name = f"hsk{args.hsk}_{safe}.json" if args.hsk else f"{safe}.json"
+        output_path = VOCAB_DIR / name  # lands in the auto-import drop directory
+
+    with open_db() as db:
+        existing = db.existing_words()
+    print(f"🤖 Generating {args.count} words for: {args.description}"
+          f"{f' (HSK {args.hsk})' if args.hsk else ''}")
+    print(f"   Skipping duplicates against {len(existing)} existing words → {output_path}\n")
+
+    generator = WordGenerator()
+    description = f"{args.description} (HSK level {args.hsk})" if args.hsk else args.description
+    generated = []
+    while len(generated) < args.count:
+        batch_size = min(20, (args.count - len(generated)) * 2)
+        print(f"   ⏳ Generating batch of {batch_size}... ({len(generated)}/{args.count})")
+        try:
+            batch = generator.generate_many_words(description, batch_size)
+        except Exception as e:
+            print(f"   ❌ Request failed: {e}")
+            break
+        fresh = [w for w in batch if w['simplified'] not in existing]
+        for word in fresh[:args.count - len(generated)]:
+            if args.hsk:
+                word['hsk_level'] = args.hsk
+            generated.append(word)
+            existing.add(word['simplified'])
+        print(f"   ✓ Kept {len(fresh)} new, filtered {len(batch) - len(fresh)} duplicates")
+
+    print()
+    for i, word in enumerate(generated, 1):
+        print(preview(word, i))
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump({'vocabulary': generated}, f, ensure_ascii=False, indent=2)
+    print(f"\n✓ Saved {len(generated)} words to {output_path}")
+
+    if args.import_now:
+        from importer import import_json
+        with open_db() as db:
+            count = import_json(output_path, db)
+        print(f"✓ Imported {count} words")
+
+
+def main():
+    _migrate_old_config()
+
+    parser = argparse.ArgumentParser(
+        prog='terminal-chinese',
+        description='FSRS-based Chinese vocabulary learning in your terminal.',
+        epilog='Drop {"vocabulary": [...]} JSON files into ~/.config/terminal-chinese/vocabulary/ '
+               'to auto-import them on the next review.',
+    )
+    sub = parser.add_subparsers(dest='command', required=True, metavar='command')
+
+    p = sub.add_parser('init', help='print the shell hook (add to ~/.zshrc: eval "$(terminal-chinese init zsh)")')
+    p.add_argument('shell', choices=sorted(SHELL_HOOKS))
+    p.set_defaults(func=cmd_init)
+
+    sub.add_parser('review', help='interactive review session (default on terminal startup)') \
+        .set_defaults(func=cmd_review)
+    sub.add_parser('stats', help='learning statistics').set_defaults(func=cmd_stats)
+
+    p = sub.add_parser('graph', help='progress graph')
+    p.add_argument('--days', type=int, default=30)
+    p.add_argument('--metric', default='knowledge_score',
+                   choices=['knowledge_score', 'reviews_done', 'accuracy', 'new_cards'])
+    p.set_defaults(func=cmd_graph)
+
+    p = sub.add_parser('add', help='AI-generate and add one word (needs ANTHROPIC_API_KEY)')
+    p.add_argument('query', nargs='+', help='English word, Chinese characters, or description')
+    p.set_defaults(func=cmd_add)
+
+    p = sub.add_parser('add-many', help='AI-generate a themed batch of words')
+    p.add_argument('description', nargs='+', help="e.g. 'common food words'")
+    p.add_argument('--count', type=int, default=10)
+    p.set_defaults(func=cmd_add_many)
+
+    p = sub.add_parser('generate', help='AI-generate words to a JSON file, avoiding duplicates')
+    p.add_argument('description')
+    p.add_argument('--count', type=int, required=True)
+    p.add_argument('--hsk', type=int, choices=range(1, 7))
+    p.add_argument('--output', '-o')
+    p.add_argument('--import', dest='import_now', action='store_true',
+                   help='import into the database immediately')
+    p.set_defaults(func=cmd_generate)
+
+    p = sub.add_parser('import', help='import a vocabulary JSON file')
+    p.add_argument('file')
+    p.set_defaults(func=cmd_import)
+
+    p = sub.add_parser('auto-import', help='import files from the vocabulary drop directory')
+    p.add_argument('--quiet', '-q', action='store_true')
+    p.set_defaults(func=cmd_auto_import)
+
+    p = sub.add_parser('export', help='export vocabulary to JSON')
+    p.add_argument('file')
+    p.add_argument('--hsk', type=int, choices=range(1, 7))
+    p.set_defaults(func=cmd_export)
+
+    p = sub.add_parser('delete', help='delete word(s) and their learning history')
+    p.add_argument('words', nargs='+', metavar='word')
+    p.set_defaults(func=cmd_delete)
+
+    p = sub.add_parser('config', help='show configuration, or set which HSK levels introduce new words')
+    p.add_argument('--hsk', metavar='LEVELS', help='comma-separated HSK levels to draw new words from, e.g. --hsk 1,2,3')
+    p.set_defaults(func=cmd_config)
+
+    args = parser.parse_args()
+    return args.func(args)
+
+
+if __name__ == '__main__':
+    try:
+        sys.exit(main())
+    except KeyboardInterrupt:
+        print("\n⊘ Cancelled")
+        sys.exit(0)
+    except (ValueError, RuntimeError) as e:
+        print(f"❌ {e}", file=sys.stderr)
+        sys.exit(1)

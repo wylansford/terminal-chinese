@@ -1,0 +1,564 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "态度",
+      "traditional": "態度",
+      "pinyin": "tàidu",
+      "english": "attitude; manner",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "😌",
+      "mnemonic": "State (态) + measure (度) - ATTITUDE/manner",
+      "etymology": "态 (state/appearance) + 度 (measure/degree)",
+      "measure_word": {
+        "character": "种",
+        "pinyin": "zhǒng",
+        "example": "一种态度"
+      },
+      "examples": [
+        {
+          "chinese": "积极的态度很重要。",
+          "pinyin": "Jījí de tàidu hěn zhòngyào.",
+          "english": "A positive attitude is very important."
+        },
+        {
+          "chinese": "改变态度",
+          "pinyin": "gǎibiàn tàidu",
+          "english": "to change one's attitude"
+        }
+      ],
+      "related_words": ["看法", "观点", "立场"],
+      "usage_notes": "Important for describing perspectives"
+    },
+    {
+      "simplified": "观点",
+      "traditional": "觀點",
+      "pinyin": "guāndiǎn",
+      "english": "viewpoint; opinion",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "💭",
+      "mnemonic": "Observe (观) + point (点) - VIEWPOINT",
+      "etymology": "观 (view/observe) + 点 (point)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个观点"
+      },
+      "examples": [
+        {
+          "chinese": "我同意你的观点。",
+          "pinyin": "Wǒ tóngyì nǐ de guāndiǎn.",
+          "english": "I agree with your viewpoint."
+        },
+        {
+          "chinese": "不同的观点",
+          "pinyin": "bùtóng de guāndiǎn",
+          "english": "different viewpoints"
+        }
+      ],
+      "related_words": ["看法", "意见", "态度"],
+      "usage_notes": "Used in discussions and debates"
+    },
+    {
+      "simplified": "性格",
+      "traditional": "性格",
+      "pinyin": "xìnggé",
+      "english": "personality; character",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "😊",
+      "mnemonic": "Nature (性) + pattern (格) - PERSONALITY pattern",
+      "etymology": "性 (nature/character) + 格 (pattern/standard)",
+      "measure_word": {
+        "character": "种",
+        "pinyin": "zhǒng",
+        "example": "一种性格"
+      },
+      "examples": [
+        {
+          "chinese": "他性格很好。",
+          "pinyin": "Tā xìnggé hěn hǎo.",
+          "english": "He has a good personality."
+        },
+        {
+          "chinese": "开朗的性格",
+          "pinyin": "kāilǎng de xìnggé",
+          "english": "cheerful personality"
+        }
+      ],
+      "related_words": ["脾气", "个性", "品格"],
+      "usage_notes": "Describes character traits"
+    },
+    {
+      "simplified": "资料",
+      "traditional": "資料",
+      "pinyin": "zīliào",
+      "english": "data; material; information",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "📄",
+      "mnemonic": "Resources (资) + material (料) - DATA/MATERIALS",
+      "etymology": "资 (resources) + 料 (material)",
+      "measure_word": {
+        "character": "份",
+        "pinyin": "fèn",
+        "example": "一份资料"
+      },
+      "examples": [
+        {
+          "chinese": "查资料",
+          "pinyin": "chá zīliào",
+          "english": "to look up information"
+        },
+        {
+          "chinese": "收集资料",
+          "pinyin": "shōují zīliào",
+          "english": "to collect data"
+        }
+      ],
+      "related_words": ["材料", "数据", "信息"],
+      "usage_notes": "Common in work and study"
+    },
+    {
+      "simplified": "现象",
+      "traditional": "現象",
+      "pinyin": "xiànxiàng",
+      "english": "phenomenon; appearance",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "🔍",
+      "mnemonic": "Appear (现) + image (象) - PHENOMENON appearing",
+      "etymology": "现 (appear/current) + 象 (image/appearance)",
+      "measure_word": {
+        "character": "种",
+        "pinyin": "zhǒng",
+        "example": "一种现象"
+      },
+      "examples": [
+        {
+          "chinese": "自然现象",
+          "pinyin": "zìrán xiànxiàng",
+          "english": "natural phenomenon"
+        },
+        {
+          "chinese": "这是普遍现象。",
+          "pinyin": "Zhè shì pǔbiàn xiànxiàng.",
+          "english": "This is a common phenomenon."
+        }
+      ],
+      "related_words": ["情况", "状况", "现实"],
+      "usage_notes": "Used for observations"
+    },
+    {
+      "simplified": "情况",
+      "traditional": "情況",
+      "pinyin": "qíngkuàng",
+      "english": "situation; condition; circumstance",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "📊",
+      "mnemonic": "Feeling (情) + state (况) - SITUATION/condition",
+      "etymology": "情 (feeling/situation) + 况 (condition)",
+      "measure_word": {
+        "character": "种",
+        "pinyin": "zhǒng",
+        "example": "一种情况"
+      },
+      "examples": [
+        {
+          "chinese": "了解情况",
+          "pinyin": "liǎojiě qíngkuàng",
+          "english": "to understand the situation"
+        },
+        {
+          "chinese": "紧急情况",
+          "pinyin": "jǐnjí qíngkuàng",
+          "english": "emergency situation"
+        }
+      ],
+      "related_words": ["状况", "状态", "形势"],
+      "usage_notes": "Very common in daily life"
+    },
+    {
+      "simplified": "程度",
+      "traditional": "程度",
+      "pinyin": "chéngdù",
+      "english": "degree; level; extent",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "📏",
+      "mnemonic": "Standard (程) + measure (度) - DEGREE/LEVEL",
+      "etymology": "程 (rule/standard) + 度 (measure)",
+      "examples": [
+        {
+          "chinese": "一定程度上",
+          "pinyin": "yídìng chéngdù shàng",
+          "english": "to a certain extent"
+        },
+        {
+          "chinese": "程度不同",
+          "pinyin": "chéngdù bùtóng",
+          "english": "different degrees"
+        }
+      ],
+      "related_words": ["水平", "层次", "等级"],
+      "usage_notes": "Measure of intensity"
+    },
+    {
+      "simplified": "目的",
+      "traditional": "目的",
+      "pinyin": "mùdì",
+      "english": "purpose; aim; goal",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "🎯",
+      "mnemonic": "Eye (目) + target (的) - PURPOSE/AIM",
+      "etymology": "目 (eye) + 的 (target/goal)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个目的"
+      },
+      "examples": [
+        {
+          "chinese": "达到目的",
+          "pinyin": "dádào mùdì",
+          "english": "to achieve one's goal"
+        },
+        {
+          "chinese": "学习的目的",
+          "pinyin": "xuéxí de mùdì",
+          "english": "the purpose of studying"
+        }
+      ],
+      "related_words": ["目标", "宗旨", "意图"],
+      "usage_notes": "Important for intentions"
+    },
+    {
+      "simplified": "理想",
+      "traditional": "理想",
+      "pinyin": "lǐxiǎng",
+      "english": "ideal; dream",
+      "hsk_level": 4,
+      "word_type": "noun/adjective",
+      "emoji": "💫",
+      "mnemonic": "Logic (理) + think (想) - IDEAL/DREAM",
+      "etymology": "理 (reason/logic) + 想 (think/imagine)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个理想"
+      },
+      "examples": [
+        {
+          "chinese": "实现理想",
+          "pinyin": "shíxiàn lǐxiǎng",
+          "english": "to realize one's dream"
+        },
+        {
+          "chinese": "理想的工作",
+          "pinyin": "lǐxiǎng de gōngzuò",
+          "english": "ideal job"
+        }
+      ],
+      "related_words": ["梦想", "愿望", "志向"],
+      "usage_notes": "Aspirational word"
+    },
+    {
+      "simplified": "困难",
+      "traditional": "困難",
+      "pinyin": "kùnnan",
+      "english": "difficult; difficulty",
+      "hsk_level": 4,
+      "word_type": "adjective/noun",
+      "emoji": "😓",
+      "mnemonic": "Trapped (困) + hard (难) - DIFFICULT/DIFFICULTY",
+      "etymology": "困 (trapped/困) + 难 (difficult)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个困难"
+      },
+      "examples": [
+        {
+          "chinese": "遇到困难",
+          "pinyin": "yùdào kùnnan",
+          "english": "to encounter difficulty"
+        },
+        {
+          "chinese": "克服困难",
+          "pinyin": "kèfú kùnnan",
+          "english": "to overcome difficulties"
+        }
+      ],
+      "related_words": ["难题", "艰难", "容易"],
+      "usage_notes": "Common challenge word"
+    },
+    {
+      "simplified": "幸福",
+      "traditional": "幸福",
+      "pinyin": "xìngfú",
+      "english": "happy; happiness; blessed",
+      "hsk_level": 4,
+      "word_type": "adjective/noun",
+      "emoji": "😊",
+      "mnemonic": "Fortunate (幸) + blessing (福) - HAPPINESS",
+      "etymology": "幸 (fortunate) + 福 (blessing)",
+      "examples": [
+        {
+          "chinese": "幸福的生活",
+          "pinyin": "xìngfú de shēnghuó",
+          "english": "happy life"
+        },
+        {
+          "chinese": "感到很幸福",
+          "pinyin": "gǎndào hěn xìngfú",
+          "english": "to feel very happy"
+        }
+      ],
+      "related_words": ["快乐", "美满", "欢乐"],
+      "usage_notes": "Deep happiness and contentment"
+    },
+    {
+      "simplified": "烦恼",
+      "traditional": "煩惱",
+      "pinyin": "fánnǎo",
+      "english": "worry; vexation; trouble",
+      "hsk_level": 4,
+      "word_type": "noun/verb",
+      "emoji": "😰",
+      "mnemonic": "Annoyed (烦) + troubled (恼) - WORRY/TROUBLE",
+      "etymology": "烦 (annoyed) + 恼 (troubled)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个烦恼"
+      },
+      "examples": [
+        {
+          "chinese": "别烦恼了。",
+          "pinyin": "Bié fánnǎo le.",
+          "english": "Don't worry."
+        },
+        {
+          "chinese": "很多烦恼",
+          "pinyin": "hěnduō fánnǎo",
+          "english": "many troubles"
+        }
+      ],
+      "related_words": ["担心", "忧虑", "苦恼"],
+      "usage_notes": "Common emotional state"
+    },
+    {
+      "simplified": "诚实",
+      "traditional": "誠實",
+      "pinyin": "chéngshí",
+      "english": "honest; sincere",
+      "hsk_level": 4,
+      "word_type": "adjective",
+      "emoji": "🤝",
+      "mnemonic": "Sincere (诚) + real (实) - HONEST/SINCERE",
+      "etymology": "诚 (sincere) + 实 (real/true)",
+      "examples": [
+        {
+          "chinese": "诚实的人",
+          "pinyin": "chéngshí de rén",
+          "english": "honest person"
+        },
+        {
+          "chinese": "要诚实。",
+          "pinyin": "Yào chéngshí.",
+          "english": "Be honest."
+        }
+      ],
+      "related_words": ["老实", "忠实", "真诚"],
+      "usage_notes": "Important virtue"
+    },
+    {
+      "simplified": "勇敢",
+      "traditional": "勇敢",
+      "pinyin": "yǒnggǎn",
+      "english": "brave; courageous",
+      "hsk_level": 4,
+      "word_type": "adjective",
+      "emoji": "🦁",
+      "mnemonic": "Brave (勇) + dare (敢) - BRAVE/COURAGEOUS",
+      "etymology": "勇 (courage) + 敢 (dare)",
+      "examples": [
+        {
+          "chinese": "勇敢的人",
+          "pinyin": "yǒnggǎn de rén",
+          "english": "brave person"
+        },
+        {
+          "chinese": "要勇敢面对。",
+          "pinyin": "Yào yǒnggǎn miànduì.",
+          "english": "Face it bravely."
+        }
+      ],
+      "related_words": ["勇气", "胆量", "英勇"],
+      "usage_notes": "Positive character trait"
+    },
+    {
+      "simplified": "骄傲",
+      "traditional": "驕傲",
+      "pinyin": "jiāo'ào",
+      "english": "proud; arrogant; pride",
+      "hsk_level": 4,
+      "word_type": "adjective/noun",
+      "emoji": "😤",
+      "mnemonic": "Arrogant (骄) + haughty (傲) - PROUD/ARROGANT",
+      "etymology": "骄 (proud/arrogant) + 傲 (haughty)",
+      "examples": [
+        {
+          "chinese": "为你骄傲",
+          "pinyin": "wèi nǐ jiāo'ào",
+          "english": "proud of you"
+        },
+        {
+          "chinese": "不要太骄傲。",
+          "pinyin": "Bùyào tài jiāo'ào.",
+          "english": "Don't be too arrogant."
+        }
+      ],
+      "related_words": ["自豪", "傲慢", "谦虚"],
+      "usage_notes": "Can be positive or negative"
+    },
+    {
+      "simplified": "谦虚",
+      "traditional": "謙虛",
+      "pinyin": "qiānxū",
+      "english": "modest; humble",
+      "hsk_level": 4,
+      "word_type": "adjective",
+      "emoji": "🙏",
+      "mnemonic": "Modest (谦) + humble (虚) - MODEST/HUMBLE",
+      "etymology": "谦 (modest) + 虚 (humble/empty)",
+      "examples": [
+        {
+          "chinese": "谦虚的态度",
+          "pinyin": "qiānxū de tàidu",
+          "english": "modest attitude"
+        },
+        {
+          "chinese": "他很谦虚。",
+          "pinyin": "Tā hěn qiānxū.",
+          "english": "He's very modest."
+        }
+      ],
+      "related_words": ["谦逊", "骄傲", "虚心"],
+      "usage_notes": "Important virtue in Chinese culture"
+    },
+    {
+      "simplified": "耐心",
+      "traditional": "耐心",
+      "pinyin": "nàixīn",
+      "english": "patient; patience",
+      "hsk_level": 4,
+      "word_type": "adjective/noun",
+      "emoji": "⏳",
+      "mnemonic": "Endure (耐) + heart (心) - PATIENT/PATIENCE",
+      "etymology": "耐 (endure/tolerate) + 心 (heart)",
+      "examples": [
+        {
+          "chinese": "要有耐心。",
+          "pinyin": "Yào yǒu nàixīn.",
+          "english": "Need to have patience."
+        },
+        {
+          "chinese": "他很耐心。",
+          "pinyin": "Tā hěn nàixīn.",
+          "english": "He's very patient."
+        }
+      ],
+      "related_words": ["耐性", "忍耐", "急躁"],
+      "usage_notes": "Important quality"
+    },
+    {
+      "simplified": "责任",
+      "traditional": "責任",
+      "pinyin": "zérèn",
+      "english": "responsibility; duty",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "📌",
+      "mnemonic": "Blame (责) + duty (任) - RESPONSIBILITY",
+      "etymology": "责 (blame/responsibility) + 任 (duty/responsibility)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个责任"
+      },
+      "examples": [
+        {
+          "chinese": "负责任",
+          "pinyin": "fù zérèn",
+          "english": "to be responsible"
+        },
+        {
+          "chinese": "这是我的责任。",
+          "pinyin": "Zhè shì wǒ de zérèn.",
+          "english": "This is my responsibility."
+        }
+      ],
+      "related_words": ["义务", "职责", "负担"],
+      "usage_notes": "Important social concept"
+    },
+    {
+      "simplified": "压力",
+      "traditional": "壓力",
+      "pinyin": "yālì",
+      "english": "pressure; stress",
+      "hsk_level": 4,
+      "word_type": "noun",
+      "emoji": "😰",
+      "mnemonic": "Press (压) + strength (力) - PRESSURE/STRESS",
+      "etymology": "压 (press) + 力 (force/strength)",
+      "measure_word": {
+        "character": "种",
+        "pinyin": "zhǒng",
+        "example": "一种压力"
+      },
+      "examples": [
+        {
+          "chinese": "压力很大",
+          "pinyin": "yālì hěn dà",
+          "english": "great pressure"
+        },
+        {
+          "chinese": "缓解压力",
+          "pinyin": "huǎnjiě yālì",
+          "english": "to relieve stress"
+        }
+      ],
+      "related_words": ["负担", "紧张", "放松"],
+      "usage_notes": "Common in modern life"
+    },
+    {
+      "simplified": "轻松",
+      "traditional": "輕鬆",
+      "pinyin": "qīngsōng",
+      "english": "relaxed; easy; light",
+      "hsk_level": 4,
+      "word_type": "adjective",
+      "emoji": "😌",
+      "mnemonic": "Light (轻) + loose (松) - RELAXED/EASY",
+      "etymology": "轻 (light/easy) + 松 (loose/relaxed)",
+      "examples": [
+        {
+          "chinese": "轻松的心情",
+          "pinyin": "qīngsōng de xīnqíng",
+          "english": "relaxed mood"
+        },
+        {
+          "chinese": "感觉很轻松。",
+          "pinyin": "Gǎnjué hěn qīngsōng.",
+          "english": "Feel very relaxed."
+        }
+      ],
+      "related_words": ["放松", "舒服", "紧张"],
+      "usage_notes": "Opposite of 紧张"
+    }
+  ]
+}

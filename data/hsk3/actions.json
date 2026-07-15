@@ -1,0 +1,504 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "发现",
+      "traditional": "發現",
+      "pinyin": "fāxiàn",
+      "english": "to discover; to find",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "🔍",
+      "mnemonic": "Send out (发) + appear (现) - DISCOVER something appearing",
+      "etymology": "发 (emit/send) + 现 (appear)",
+      "examples": [
+        {
+          "chinese": "我发现了一个问题。",
+          "pinyin": "Wǒ fāxiàn le yí ge wèntí.",
+          "english": "I discovered a problem."
+        },
+        {
+          "chinese": "科学发现",
+          "pinyin": "kēxué fāxiàn",
+          "english": "scientific discovery"
+        }
+      ],
+      "related_words": ["发觉", "找到", "发明"],
+      "usage_notes": "Used for discoveries big and small"
+    },
+    {
+      "simplified": "决定",
+      "traditional": "決定",
+      "pinyin": "juédìng",
+      "english": "to decide; decision",
+      "hsk_level": 3,
+      "word_type": "verb/noun",
+      "emoji": "✅",
+      "mnemonic": "Definitely (决) + fixed (定) - DECIDE firmly",
+      "etymology": "决 (decide) + 定 (fix/settle)",
+      "examples": [
+        {
+          "chinese": "我决定去中国。",
+          "pinyin": "Wǒ juédìng qù Zhōngguó.",
+          "english": "I've decided to go to China."
+        },
+        {
+          "chinese": "这是个好决定。",
+          "pinyin": "Zhè shì ge hǎo juédìng.",
+          "english": "This is a good decision."
+        }
+      ],
+      "related_words": ["决心", "确定", "决断"],
+      "usage_notes": "Important action verb"
+    },
+    {
+      "simplified": "选择",
+      "traditional": "選擇",
+      "pinyin": "xuǎnzé",
+      "english": "to choose; choice",
+      "hsk_level": 3,
+      "word_type": "verb/noun",
+      "emoji": "🎯",
+      "mnemonic": "Select (选) + pick (择) - CHOOSE/SELECT",
+      "etymology": "选 (select) + 择 (choose)",
+      "examples": [
+        {
+          "chinese": "你有很多选择。",
+          "pinyin": "Nǐ yǒu hěnduō xuǎnzé.",
+          "english": "You have many choices."
+        },
+        {
+          "chinese": "我选择留下。",
+          "pinyin": "Wǒ xuǎnzé liúxià.",
+          "english": "I choose to stay."
+        }
+      ],
+      "related_words": ["挑选", "选", "抉择"],
+      "usage_notes": "Common decision-making verb"
+    },
+    {
+      "simplified": "同意",
+      "traditional": "同意",
+      "pinyin": "tóngyì",
+      "english": "to agree; to consent",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "👍",
+      "mnemonic": "Same (同) + opinion (意) - AGREE with same view",
+      "etymology": "同 (same) + 意 (meaning/opinion)",
+      "examples": [
+        {
+          "chinese": "我同意你的看法。",
+          "pinyin": "Wǒ tóngyì nǐ de kànfǎ.",
+          "english": "I agree with your view."
+        },
+        {
+          "chinese": "你同意吗？",
+          "pinyin": "Nǐ tóngyì ma?",
+          "english": "Do you agree?"
+        }
+      ],
+      "related_words": ["赞成", "反对", "答应"],
+      "usage_notes": "Formal agreement verb"
+    },
+    {
+      "simplified": "拒绝",
+      "traditional": "拒絕",
+      "pinyin": "jùjué",
+      "english": "to refuse; to reject",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "🚫",
+      "mnemonic": "Resist (拒) + sever (绝) - REFUSE/REJECT firmly",
+      "etymology": "拒 (resist) + 绝 (cut off)",
+      "examples": [
+        {
+          "chinese": "我拒绝了他的请求。",
+          "pinyin": "Wǒ jùjué le tā de qǐngqiú.",
+          "english": "I refused his request."
+        },
+        {
+          "chinese": "不要拒绝帮助。",
+          "pinyin": "Bùyào jùjué bāngzhù.",
+          "english": "Don't refuse help."
+        }
+      ],
+      "related_words": ["接受", "拒", "谢绝"],
+      "usage_notes": "Opposite of 接受 (accept)"
+    },
+    {
+      "simplified": "表示",
+      "traditional": "表示",
+      "pinyin": "biǎoshì",
+      "english": "to express; to indicate",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "💭",
+      "mnemonic": "Surface (表) + show (示) - EXPRESS outwardly",
+      "etymology": "表 (exterior/表) + 示 (show)",
+      "examples": [
+        {
+          "chinese": "表示感谢",
+          "pinyin": "biǎoshì gǎnxiè",
+          "english": "to express thanks"
+        },
+        {
+          "chinese": "他表示同意。",
+          "pinyin": "Tā biǎoshì tóngyì.",
+          "english": "He expressed agreement."
+        }
+      ],
+      "related_words": ["表达", "表明", "显示"],
+      "usage_notes": "Formal expression verb"
+    },
+    {
+      "simplified": "介绍",
+      "traditional": "介紹",
+      "pinyin": "jièshào",
+      "english": "to introduce; introduction",
+      "hsk_level": 3,
+      "word_type": "verb/noun",
+      "emoji": "🤝",
+      "mnemonic": "Between (介) + connect (绍) - INTRODUCE/connect people",
+      "etymology": "介 (between/介) + 绍 (continue)",
+      "examples": [
+        {
+          "chinese": "让我介绍一下。",
+          "pinyin": "Ràng wǒ jièshào yíxià.",
+          "english": "Let me introduce."
+        },
+        {
+          "chinese": "自我介绍",
+          "pinyin": "zìwǒ jièshào",
+          "english": "self-introduction"
+        }
+      ],
+      "related_words": ["推荐", "引见", "介"],
+      "usage_notes": "Important social verb"
+    },
+    {
+      "simplified": "解释",
+      "traditional": "解釋",
+      "pinyin": "jiěshì",
+      "english": "to explain; explanation",
+      "hsk_level": 3,
+      "word_type": "verb/noun",
+      "emoji": "💡",
+      "mnemonic": "Untie (解) + release (释) - EXPLAIN to clarify",
+      "etymology": "解 (untie/solve) + 释 (release/explain)",
+      "examples": [
+        {
+          "chinese": "请解释一下。",
+          "pinyin": "Qǐng jiěshì yíxià.",
+          "english": "Please explain."
+        },
+        {
+          "chinese": "我需要解释。",
+          "pinyin": "Wǒ xūyào jiěshì.",
+          "english": "I need to explain."
+        }
+      ],
+      "related_words": ["说明", "阐述", "解答"],
+      "usage_notes": "Common communication verb"
+    },
+    {
+      "simplified": "讨论",
+      "traditional": "討論",
+      "pinyin": "tǎolùn",
+      "english": "to discuss; discussion",
+      "hsk_level": 3,
+      "word_type": "verb/noun",
+      "emoji": "💬",
+      "mnemonic": "Seek (讨) + discuss (论) - DISCUSS together",
+      "etymology": "讨 (seek/request) + 论 (discuss/theory)",
+      "examples": [
+        {
+          "chinese": "我们讨论一下这个问题。",
+          "pinyin": "Wǒmen tǎolùn yíxià zhège wèntí.",
+          "english": "Let's discuss this issue."
+        },
+        {
+          "chinese": "展开讨论",
+          "pinyin": "zhǎnkāi tǎolùn",
+          "english": "to start a discussion"
+        }
+      ],
+      "related_words": ["商讨", "商量", "议论"],
+      "usage_notes": "Formal discussion verb"
+    },
+    {
+      "simplified": "影响",
+      "traditional": "影響",
+      "pinyin": "yǐngxiǎng",
+      "english": "to influence; influence; effect",
+      "hsk_level": 3,
+      "word_type": "verb/noun",
+      "emoji": "🎯",
+      "mnemonic": "Shadow (影) + sound (响) - INFLUENCE like shadow and echo",
+      "etymology": "影 (shadow) + 响 (sound/echo)",
+      "examples": [
+        {
+          "chinese": "这对我影响很大。",
+          "pinyin": "Zhè duì wǒ yǐngxiǎng hěn dà.",
+          "english": "This has a big influence on me."
+        },
+        {
+          "chinese": "不要影响别人。",
+          "pinyin": "Bùyào yǐngxiǎng biérén.",
+          "english": "Don't influence others."
+        }
+      ],
+      "related_words": ["作用", "效果", "感染"],
+      "usage_notes": "Important abstract verb"
+    },
+    {
+      "simplified": "提高",
+      "traditional": "提高",
+      "pinyin": "tígāo",
+      "english": "to improve; to raise",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "📈",
+      "mnemonic": "Lift (提) + high (高) - RAISE/IMPROVE to higher level",
+      "etymology": "提 (lift/raise) + 高 (high)",
+      "examples": [
+        {
+          "chinese": "提高水平",
+          "pinyin": "tígāo shuǐpíng",
+          "english": "to improve one's level"
+        },
+        {
+          "chinese": "我要提高中文。",
+          "pinyin": "Wǒ yào tígāo Zhōngwén.",
+          "english": "I want to improve my Chinese."
+        }
+      ],
+      "related_words": ["改善", "增强", "提升"],
+      "usage_notes": "Used for improvement"
+    },
+    {
+      "simplified": "减少",
+      "traditional": "減少",
+      "pinyin": "jiǎnshǎo",
+      "english": "to reduce; to decrease",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "📉",
+      "mnemonic": "Reduce (减) + few (少) - REDUCE to less",
+      "etymology": "减 (reduce/subtract) + 少 (few/less)",
+      "examples": [
+        {
+          "chinese": "减少开支",
+          "pinyin": "jiǎnshǎo kāizhī",
+          "english": "to reduce expenses"
+        },
+        {
+          "chinese": "减少浪费",
+          "pinyin": "jiǎnshǎo làngfèi",
+          "english": "to reduce waste"
+        }
+      ],
+      "related_words": ["降低", "削减", "增加"],
+      "usage_notes": "Opposite of 增加"
+    },
+    {
+      "simplified": "增加",
+      "traditional": "增加",
+      "pinyin": "zēngjiā",
+      "english": "to increase; to add",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "➕",
+      "mnemonic": "Increase (增) + add (加) - INCREASE/ADD more",
+      "etymology": "增 (increase) + 加 (add)",
+      "examples": [
+        {
+          "chinese": "增加收入",
+          "pinyin": "zēngjiā shōurù",
+          "english": "to increase income"
+        },
+        {
+          "chinese": "人口增加了。",
+          "pinyin": "Rénkǒu zēngjiā le.",
+          "english": "The population increased."
+        }
+      ],
+      "related_words": ["提高", "增长", "减少"],
+      "usage_notes": "Opposite of 减少"
+    },
+    {
+      "simplified": "改变",
+      "traditional": "改變",
+      "pinyin": "gǎibiàn",
+      "english": "to change; to transform",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "🔄",
+      "mnemonic": "Change (改) + transform (变) - CHANGE/ALTER",
+      "etymology": "改 (change/correct) + 变 (change/transform)",
+      "examples": [
+        {
+          "chinese": "改变主意",
+          "pinyin": "gǎibiàn zhǔyi",
+          "english": "to change one's mind"
+        },
+        {
+          "chinese": "事情改变了。",
+          "pinyin": "Shìqing gǎibiàn le.",
+          "english": "Things have changed."
+        }
+      ],
+      "related_words": ["变化", "转变", "改造"],
+      "usage_notes": "General change verb"
+    },
+    {
+      "simplified": "发展",
+      "traditional": "發展",
+      "pinyin": "fāzhǎn",
+      "english": "to develop; development",
+      "hsk_level": 3,
+      "word_type": "verb/noun",
+      "emoji": "🌱",
+      "mnemonic": "Send out (发) + unfold (展) - DEVELOP/expand",
+      "etymology": "发 (emit/develop) + 展 (unfold/expand)",
+      "examples": [
+        {
+          "chinese": "经济发展",
+          "pinyin": "jīngjì fāzhǎn",
+          "english": "economic development"
+        },
+        {
+          "chinese": "发展很快。",
+          "pinyin": "Fāzhǎn hěn kuài.",
+          "english": "Developing very quickly."
+        }
+      ],
+      "related_words": ["开发", "进展", "发达"],
+      "usage_notes": "Important for progress"
+    },
+    {
+      "simplified": "参加",
+      "traditional": "參加",
+      "pinyin": "cānjiā",
+      "english": "to participate; to attend",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "🙋",
+      "mnemonic": "Join (参) + add (加) - PARTICIPATE by joining",
+      "etymology": "参 (join/participate) + 加 (add/join)",
+      "examples": [
+        {
+          "chinese": "参加会议",
+          "pinyin": "cānjiā huìyì",
+          "english": "to attend a meeting"
+        },
+        {
+          "chinese": "我想参加。",
+          "pinyin": "Wǒ xiǎng cānjiā.",
+          "english": "I want to participate."
+        }
+      ],
+      "related_words": ["出席", "加入", "参与"],
+      "usage_notes": "Active participation"
+    },
+    {
+      "simplified": "继续",
+      "traditional": "繼續",
+      "pinyin": "jìxù",
+      "english": "to continue; to proceed",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "➡️",
+      "mnemonic": "Succeed (继) + connect (续) - CONTINUE onwards",
+      "etymology": "继 (continue/succeed) + 续 (continue/connect)",
+      "examples": [
+        {
+          "chinese": "请继续。",
+          "pinyin": "Qǐng jìxù.",
+          "english": "Please continue."
+        },
+        {
+          "chinese": "继续努力！",
+          "pinyin": "Jìxù nǔlì!",
+          "english": "Keep working hard!"
+        }
+      ],
+      "related_words": ["持续", "延续", "停止"],
+      "usage_notes": "Opposite of 停止"
+    },
+    {
+      "simplified": "停止",
+      "traditional": "停止",
+      "pinyin": "tíngzhǐ",
+      "english": "to stop; to cease",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "⏹️",
+      "mnemonic": "Halt (停) + stop (止) - STOP/CEASE",
+      "etymology": "停 (stop/halt) + 止 (stop)",
+      "examples": [
+        {
+          "chinese": "停止工作",
+          "pinyin": "tíngzhǐ gōngzuò",
+          "english": "to stop working"
+        },
+        {
+          "chinese": "雨停止了。",
+          "pinyin": "Yǔ tíngzhǐ le.",
+          "english": "The rain stopped."
+        }
+      ],
+      "related_words": ["停", "中止", "继续"],
+      "usage_notes": "Opposite of 继续"
+    },
+    {
+      "simplified": "完成",
+      "traditional": "完成",
+      "pinyin": "wánchéng",
+      "english": "to complete; to finish",
+      "hsk_level": 3,
+      "word_type": "verb",
+      "emoji": "✔️",
+      "mnemonic": "Perfect (完) + become (成) - COMPLETE/FINISH",
+      "etymology": "完 (complete/perfect) + 成 (become/accomplish)",
+      "examples": [
+        {
+          "chinese": "完成任务",
+          "pinyin": "wánchéng rènwu",
+          "english": "to complete a task"
+        },
+        {
+          "chinese": "我完成了作业。",
+          "pinyin": "Wǒ wánchéng le zuòyè.",
+          "english": "I finished my homework."
+        }
+      ],
+      "related_words": ["完结", "完毕", "结束"],
+      "usage_notes": "Achievement verb"
+    },
+    {
+      "simplified": "需要",
+      "traditional": "需要",
+      "pinyin": "xūyào",
+      "english": "to need; to require",
+      "hsk_level": 3,
+      "word_type": "verb/auxiliary verb",
+      "emoji": "📌",
+      "mnemonic": "Need (需) + want (要) - NEED/REQUIRE",
+      "etymology": "需 (need/require) + 要 (want/need)",
+      "examples": [
+        {
+          "chinese": "我需要帮助。",
+          "pinyin": "Wǒ xūyào bāngzhù.",
+          "english": "I need help."
+        },
+        {
+          "chinese": "需要时间",
+          "pinyin": "xūyào shíjiān",
+          "english": "need time"
+        }
+      ],
+      "related_words": ["必需", "需求", "要"],
+      "usage_notes": "Essential need verb"
+    }
+  ]
+}

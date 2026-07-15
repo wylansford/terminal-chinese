@@ -1,0 +1,529 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "知道",
+      "traditional": "知道",
+      "pinyin": "zhīdào",
+      "english": "to know; to be aware of",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "🧠",
+      "mnemonic": "Arrow (矢) + mouth (口) + go (辶) - knowing the WAY",
+      "etymology": "知 (wisdom) + 道 (way/path)",
+      "examples": [
+        {
+          "chinese": "我知道了。",
+          "pinyin": "Wǒ zhīdào le.",
+          "english": "I know now. / I understand."
+        },
+        {
+          "chinese": "你知道吗？",
+          "pinyin": "Nǐ zhīdào ma?",
+          "english": "Do you know?"
+        }
+      ],
+      "related_words": ["认识", "了解", "明白"],
+      "usage_notes": "Used for factual knowledge"
+    },
+    {
+      "simplified": "告诉",
+      "traditional": "告訴",
+      "pinyin": "gàosu",
+      "english": "to tell; to inform",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "💬",
+      "mnemonic": "Inform (告) + speak (诉) - TELL someone",
+      "etymology": "告 (announce) + 诉 (inform)",
+      "examples": [
+        {
+          "chinese": "请告诉我。",
+          "pinyin": "Qǐng gàosu wǒ.",
+          "english": "Please tell me."
+        },
+        {
+          "chinese": "我告诉你一个秘密。",
+          "pinyin": "Wǒ gàosu nǐ yí ge mìmì.",
+          "english": "I'll tell you a secret."
+        }
+      ],
+      "related_words": ["说", "通知", "讲"],
+      "usage_notes": "Requires two objects: person told and information"
+    },
+    {
+      "simplified": "觉得",
+      "traditional": "覺得",
+      "pinyin": "juéde",
+      "english": "to feel; to think",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "🤔",
+      "mnemonic": "Sense (觉) + get (得) - FEEL or think something",
+      "etymology": "觉 (perceive) + 得 (obtain)",
+      "examples": [
+        {
+          "chinese": "我觉得很好。",
+          "pinyin": "Wǒ juéde hěn hǎo.",
+          "english": "I think it's very good."
+        },
+        {
+          "chinese": "你觉得怎么样？",
+          "pinyin": "Nǐ juéde zěnmeyàng?",
+          "english": "What do you think?"
+        }
+      ],
+      "related_words": ["感觉", "认为", "以为"],
+      "usage_notes": "Used for subjective feelings and opinions"
+    },
+    {
+      "simplified": "应该",
+      "traditional": "應該",
+      "pinyin": "yīnggāi",
+      "english": "should; ought to",
+      "hsk_level": 2,
+      "word_type": "auxiliary verb",
+      "emoji": "✔️",
+      "mnemonic": "Respond (应) + should (该) - SHOULD do something",
+      "etymology": "应 (should) + 该 (ought to)",
+      "examples": [
+        {
+          "chinese": "你应该休息。",
+          "pinyin": "Nǐ yīnggāi xiūxi.",
+          "english": "You should rest."
+        },
+        {
+          "chinese": "我应该去吗？",
+          "pinyin": "Wǒ yīnggāi qù ma?",
+          "english": "Should I go?"
+        }
+      ],
+      "related_words": ["应当", "必须", "需要"],
+      "usage_notes": "Indicates obligation or advice"
+    },
+    {
+      "simplified": "可以",
+      "traditional": "可以",
+      "pinyin": "kěyǐ",
+      "english": "can; may; to be able to",
+      "hsk_level": 2,
+      "word_type": "auxiliary verb",
+      "emoji": "👍",
+      "mnemonic": "Can (可) + use (以) - CAN do/MAY do",
+      "etymology": "可 (permissible) + 以 (with/by means of)",
+      "examples": [
+        {
+          "chinese": "可以吗？",
+          "pinyin": "Kěyǐ ma?",
+          "english": "Is it okay? / May I?"
+        },
+        {
+          "chinese": "你可以走了。",
+          "pinyin": "Nǐ kěyǐ zǒu le.",
+          "english": "You may go now."
+        }
+      ],
+      "related_words": ["能", "会", "行"],
+      "usage_notes": "Indicates permission or possibility"
+    },
+    {
+      "simplified": "要",
+      "traditional": "要",
+      "pinyin": "yào",
+      "english": "to want; will; to need",
+      "hsk_level": 2,
+      "word_type": "verb/auxiliary verb",
+      "emoji": "🎯",
+      "mnemonic": "Woman (女) + west (覀) - WANT/NEED something",
+      "etymology": "Complex character showing desire",
+      "examples": [
+        {
+          "chinese": "我要水。",
+          "pinyin": "Wǒ yào shuǐ.",
+          "english": "I want water."
+        },
+        {
+          "chinese": "要下雨了。",
+          "pinyin": "Yào xià yǔ le.",
+          "english": "It's going to rain."
+        }
+      ],
+      "related_words": ["想要", "需要", "必要"],
+      "usage_notes": "Multiple uses: want, need, will (future)"
+    },
+    {
+      "simplified": "已经",
+      "traditional": "已經",
+      "pinyin": "yǐjīng",
+      "english": "already",
+      "hsk_level": 2,
+      "word_type": "adverb",
+      "emoji": "✅",
+      "mnemonic": "Stop (已) + pass through (经) - ALREADY completed",
+      "etymology": "已 (already) + 经 (pass through)",
+      "examples": [
+        {
+          "chinese": "我已经吃了。",
+          "pinyin": "Wǒ yǐjīng chī le.",
+          "english": "I already ate."
+        },
+        {
+          "chinese": "已经很晚了。",
+          "pinyin": "Yǐjīng hěn wǎn le.",
+          "english": "It's already very late."
+        }
+      ],
+      "related_words": ["早已", "业已", "都"],
+      "usage_notes": "Emphasizes completion before now"
+    },
+    {
+      "simplified": "还",
+      "traditional": "還",
+      "pinyin": "hái",
+      "english": "still; also; even",
+      "hsk_level": 2,
+      "word_type": "adverb",
+      "emoji": "➕",
+      "mnemonic": "Walking (辶) + not yet (不) - STILL going",
+      "etymology": "Movement radical + phonetic",
+      "examples": [
+        {
+          "chinese": "我还在这儿。",
+          "pinyin": "Wǒ hái zài zhèr.",
+          "english": "I'm still here."
+        },
+        {
+          "chinese": "还有吗？",
+          "pinyin": "Hái yǒu ma?",
+          "english": "Is there more?"
+        }
+      ],
+      "related_words": ["还是", "还有", "仍然"],
+      "usage_notes": "Multiple meanings depending on context"
+    },
+    {
+      "simplified": "比较",
+      "traditional": "比較",
+      "pinyin": "bǐjiào",
+      "english": "comparatively; rather; to compare",
+      "hsk_level": 2,
+      "word_type": "adverb/verb",
+      "emoji": "⚖️",
+      "mnemonic": "Compare (比) + examine (较) - COMPARE/RATHER",
+      "etymology": "比 (compare) + 较 (examine)",
+      "examples": [
+        {
+          "chinese": "比较贵",
+          "pinyin": "bǐjiào guì",
+          "english": "rather expensive; comparatively expensive"
+        },
+        {
+          "chinese": "我比较喜欢这个。",
+          "pinyin": "Wǒ bǐjiào xǐhuan zhège.",
+          "english": "I prefer this one."
+        }
+      ],
+      "related_words": ["比", "相比", "较"],
+      "usage_notes": "Softer than 很, means 'relatively' or 'rather'"
+    },
+    {
+      "simplified": "常常",
+      "traditional": "常常",
+      "pinyin": "chángcháng",
+      "english": "often; frequently",
+      "hsk_level": 2,
+      "word_type": "adverb",
+      "emoji": "🔄",
+      "mnemonic": "Often (常) repeated - FREQUENTLY",
+      "etymology": "常 (constant) duplicated for emphasis",
+      "examples": [
+        {
+          "chinese": "我常常去那儿。",
+          "pinyin": "Wǒ chángcháng qù nàr.",
+          "english": "I often go there."
+        },
+        {
+          "chinese": "他常常迟到。",
+          "pinyin": "Tā chángcháng chídào.",
+          "english": "He's often late."
+        }
+      ],
+      "related_words": ["经常", "时常", "总是"],
+      "usage_notes": "Indicates frequent occurrence"
+    },
+    {
+      "simplified": "一起",
+      "traditional": "一起",
+      "pinyin": "yìqǐ",
+      "english": "together",
+      "hsk_level": 2,
+      "word_type": "adverb",
+      "emoji": "👥",
+      "mnemonic": "One (一) + rise (起) - TOGETHER as one",
+      "etymology": "一 (one) + 起 (rise/together)",
+      "examples": [
+        {
+          "chinese": "我们一起去吧。",
+          "pinyin": "Wǒmen yìqǐ qù ba.",
+          "english": "Let's go together."
+        },
+        {
+          "chinese": "一起吃饭",
+          "pinyin": "yìqǐ chīfàn",
+          "english": "to eat together"
+        }
+      ],
+      "related_words": ["共同", "一同", "一块儿"],
+      "usage_notes": "Very common for doing things together"
+    },
+    {
+      "simplified": "一定",
+      "traditional": "一定",
+      "pinyin": "yídìng",
+      "english": "certainly; surely; must",
+      "hsk_level": 2,
+      "word_type": "adverb/adjective",
+      "emoji": "💯",
+      "mnemonic": "One (一) + fixed (定) - DEFINITELY/CERTAIN",
+      "etymology": "一 (one) + 定 (fixed/settled)",
+      "examples": [
+        {
+          "chinese": "一定要去！",
+          "pinyin": "Yídìng yào qù!",
+          "english": "You must go!"
+        },
+        {
+          "chinese": "我一定会来。",
+          "pinyin": "Wǒ yídìng huì lái.",
+          "english": "I will definitely come."
+        }
+      ],
+      "related_words": ["肯定", "必须", "当然"],
+      "usage_notes": "Expresses certainty or necessity"
+    },
+    {
+      "simplified": "快",
+      "traditional": "快",
+      "pinyin": "kuài",
+      "english": "fast; quick; soon",
+      "hsk_level": 2,
+      "word_type": "adjective/adverb",
+      "emoji": "⚡",
+      "mnemonic": "Heart (忄) + deciding (夬) - QUICK decisions",
+      "etymology": "Heart radical + phonetic meaning swift",
+      "examples": [
+        {
+          "chinese": "快点儿！",
+          "pinyin": "Kuài diǎnr!",
+          "english": "Hurry up!"
+        },
+        {
+          "chinese": "快要下雨了。",
+          "pinyin": "Kuài yào xià yǔ le.",
+          "english": "It's about to rain."
+        }
+      ],
+      "related_words": ["慢", "快乐", "赶快"],
+      "usage_notes": "Can mean fast or soon"
+    },
+    {
+      "simplified": "慢",
+      "traditional": "慢",
+      "pinyin": "màn",
+      "english": "slow",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "🐌",
+      "mnemonic": "Heart (忄) + man (曼) - SLOW and relaxed heart",
+      "etymology": "Heart radical + phonetic",
+      "examples": [
+        {
+          "chinese": "慢点儿！",
+          "pinyin": "Màn diǎnr!",
+          "english": "Slow down!"
+        },
+        {
+          "chinese": "说得太慢。",
+          "pinyin": "Shuō de tài màn.",
+          "english": "Speaking too slowly."
+        }
+      ],
+      "related_words": ["快", "缓慢", "慢慢"],
+      "usage_notes": "Opposite of 快"
+    },
+    {
+      "simplified": "长",
+      "traditional": "長",
+      "pinyin": "cháng",
+      "english": "long",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "📏",
+      "mnemonic": "Long hair flowing - LONG",
+      "etymology": "Depicts long flowing hair",
+      "examples": [
+        {
+          "chinese": "很长的路",
+          "pinyin": "hěn cháng de lù",
+          "english": "a very long road"
+        },
+        {
+          "chinese": "头发很长。",
+          "pinyin": "Tóufa hěn cháng.",
+          "english": "The hair is very long."
+        }
+      ],
+      "related_words": ["短", "长短", "长度"],
+      "usage_notes": "Pronunciation changes to zhǎng when meaning 'to grow'"
+    },
+    {
+      "simplified": "短",
+      "traditional": "短",
+      "pinyin": "duǎn",
+      "english": "short",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "📐",
+      "mnemonic": "Arrow (矢) + bean (豆) - SHORT like a bean",
+      "etymology": "Arrow radical + phonetic",
+      "examples": [
+        {
+          "chinese": "短头发",
+          "pinyin": "duǎn tóufa",
+          "english": "short hair"
+        },
+        {
+          "chinese": "时间很短。",
+          "pinyin": "Shíjiān hěn duǎn.",
+          "english": "The time is very short."
+        }
+      ],
+      "related_words": ["长", "短暂", "缩短"],
+      "usage_notes": "Opposite of 长"
+    },
+    {
+      "simplified": "高兴",
+      "traditional": "高興",
+      "pinyin": "gāoxìng",
+      "english": "happy; glad",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "😊",
+      "mnemonic": "High (高) + excitement (兴) - HAPPY and excited",
+      "etymology": "高 (high) + 兴 (mood/interest)",
+      "examples": [
+        {
+          "chinese": "我很高兴。",
+          "pinyin": "Wǒ hěn gāoxìng.",
+          "english": "I'm very happy."
+        },
+        {
+          "chinese": "见到你很高兴。",
+          "pinyin": "Jiàndào nǐ hěn gāoxìng.",
+          "english": "Nice to meet you."
+        }
+      ],
+      "related_words": ["开心", "快乐", "愉快"],
+      "usage_notes": "Common word for happiness"
+    },
+    {
+      "simplified": "累",
+      "traditional": "累",
+      "pinyin": "lèi",
+      "english": "tired",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "😴",
+      "mnemonic": "Thread (糸) + fields (田田) - TIRED from farming",
+      "etymology": "Shows accumulated tiredness",
+      "examples": [
+        {
+          "chinese": "我很累。",
+          "pinyin": "Wǒ hěn lèi.",
+          "english": "I'm very tired."
+        },
+        {
+          "chinese": "不累吗？",
+          "pinyin": "Bú lèi ma?",
+          "english": "Aren't you tired?"
+        }
+      ],
+      "related_words": ["疲劳", "疲惫", "劳累"],
+      "usage_notes": "Common way to express tiredness"
+    },
+    {
+      "simplified": "准备",
+      "traditional": "準備",
+      "pinyin": "zhǔnbèi",
+      "english": "to prepare; to get ready",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "📋",
+      "mnemonic": "Standard (准) + prepare (备) - PREPARE properly",
+      "etymology": "准 (standard) + 备 (prepare)",
+      "examples": [
+        {
+          "chinese": "准备好了吗？",
+          "pinyin": "Zhǔnbèi hǎo le ma?",
+          "english": "Are you ready?"
+        },
+        {
+          "chinese": "我在准备考试。",
+          "pinyin": "Wǒ zài zhǔnbèi kǎoshì.",
+          "english": "I'm preparing for an exam."
+        }
+      ],
+      "related_words": ["预备", "准备好", "筹备"],
+      "usage_notes": "Used for preparation and readiness"
+    },
+    {
+      "simplified": "开始",
+      "traditional": "開始",
+      "pinyin": "kāishǐ",
+      "english": "to begin; to start",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "▶️",
+      "mnemonic": "Open (开) + beginning (始) - START/BEGIN",
+      "etymology": "开 (open) + 始 (begin)",
+      "examples": [
+        {
+          "chinese": "开始吧！",
+          "pinyin": "Kāishǐ ba!",
+          "english": "Let's start!"
+        },
+        {
+          "chinese": "什么时候开始？",
+          "pinyin": "Shénme shíhou kāishǐ?",
+          "english": "When does it start?"
+        }
+      ],
+      "related_words": ["结束", "开端", "起始"],
+      "usage_notes": "Can be verb or noun"
+    },
+    {
+      "simplified": "结束",
+      "traditional": "結束",
+      "pinyin": "jiéshù",
+      "english": "to end; to finish",
+      "hsk_level": 2,
+      "word_type": "verb",
+      "emoji": "⏹️",
+      "mnemonic": "Tie (结) + bind (束) - END by tying up",
+      "etymology": "结 (tie/knot) + 束 (bundle)",
+      "examples": [
+        {
+          "chinese": "课结束了。",
+          "pinyin": "Kè jiéshù le.",
+          "english": "Class is over."
+        },
+        {
+          "chinese": "什么时候结束？",
+          "pinyin": "Shénme shíhou jiéshù?",
+          "english": "When does it end?"
+        }
+      ],
+      "related_words": ["开始", "完成", "终止"],
+      "usage_notes": "Opposite of 开始"
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "你好",
+      "traditional": "你好",
+      "pinyin": "nǐhǎo",
+      "english": "hello; hi",
+      "hsk_level": 1,
+      "word_type": "greeting",
+      "emoji": "👋",
+      "mnemonic": "You + good = HELLO (wishing you well)",
+      "etymology": "Combination of 你 (you) and 好 (good)",
+      "examples": [
+        {
+          "chinese": "你好！很高兴见到你。",
+          "pinyin": "Nǐhǎo! Hěn gāoxìng jiàndào nǐ.",
+          "english": "Hello! Nice to meet you."
+        },
+        {
+          "chinese": "你好，请问...？",
+          "pinyin": "Nǐhǎo, qǐngwèn...?",
+          "english": "Hello, may I ask...?"
+        }
+      ],
+      "related_words": ["您好", "大家好", "早上好"],
+      "usage_notes": "Most common greeting in Chinese"
+    },
+    {
+      "simplified": "再见",
+      "traditional": "再見",
+      "pinyin": "zàijiàn",
+      "english": "goodbye",
+      "hsk_level": 1,
+      "word_type": "phrase",
+      "emoji": "👋",
+      "mnemonic": "Again + see = see you again, GOODBYE",
+      "etymology": "再 (again) + 见 (meet/see)",
+      "examples": [
+        {
+          "chinese": "再见！明天见。",
+          "pinyin": "Zàijiàn! Míngtiān jiàn.",
+          "english": "Goodbye! See you tomorrow."
+        },
+        {
+          "chinese": "好的，再见！",
+          "pinyin": "Hǎo de, zàijiàn!",
+          "english": "OK, goodbye!"
+        }
+      ],
+      "related_words": ["拜拜", "回见", "一会儿见"],
+      "usage_notes": "Standard goodbye, implies seeing again"
+    },
+    {
+      "simplified": "谢谢",
+      "traditional": "謝謝",
+      "pinyin": "xièxie",
+      "english": "thank you; thanks",
+      "hsk_level": 1,
+      "word_type": "phrase",
+      "emoji": "🙏",
+      "mnemonic": "Words (讠) + body (身) + inch (寸) - bowing to THANK someone",
+      "etymology": "Repeated 谢 (to thank) for emphasis",
+      "examples": [
+        {
+          "chinese": "谢谢你！",
+          "pinyin": "Xièxie nǐ!",
+          "english": "Thank you!"
+        },
+        {
+          "chinese": "非常感谢！",
+          "pinyin": "Fēicháng gǎnxiè!",
+          "english": "Thank you very much!"
+        }
+      ],
+      "related_words": ["感谢", "多谢", "不客气"],
+      "usage_notes": "Most common way to express gratitude"
+    },
+    {
+      "simplified": "不客气",
+      "traditional": "不客氣",
+      "pinyin": "bú kèqi",
+      "english": "you're welcome; not at all",
+      "hsk_level": 1,
+      "word_type": "phrase",
+      "emoji": "😊",
+      "mnemonic": "Not + polite/guest = DON'T be so polite (you're welcome)",
+      "etymology": "不 (not) + 客气 (polite/courteous)",
+      "examples": [
+        {
+          "chinese": "谢谢你！不客气。",
+          "pinyin": "Xièxie nǐ! Bú kèqi.",
+          "english": "Thank you! You're welcome."
+        },
+        {
+          "chinese": "不客气，应该的。",
+          "pinyin": "Bú kèqi, yīnggāi de.",
+          "english": "You're welcome, it's what I should do."
+        }
+      ],
+      "related_words": ["没事", "不用谢", "别客气"],
+      "usage_notes": "Standard response to 谢谢"
+    },
+    {
+      "simplified": "对不起",
+      "traditional": "對不起",
+      "pinyin": "duìbuqǐ",
+      "english": "sorry; excuse me",
+      "hsk_level": 1,
+      "word_type": "phrase",
+      "emoji": "🙇",
+      "mnemonic": "Face + not + rise = can't face you, SORRY",
+      "etymology": "对 (face) + 不起 (cannot rise/lift)",
+      "examples": [
+        {
+          "chinese": "对不起，我迟到了。",
+          "pinyin": "Duìbuqǐ, wǒ chídào le.",
+          "english": "Sorry, I'm late."
+        },
+        {
+          "chinese": "对不起，打扰一下。",
+          "pinyin": "Duìbuqǐ, dǎrǎo yíxià.",
+          "english": "Excuse me, sorry to bother you."
+        }
+      ],
+      "related_words": ["抱歉", "不好意思", "没关系"],
+      "usage_notes": "Formal apology, shows genuine regret"
+    },
+    {
+      "simplified": "没关系",
+      "traditional": "沒關係",
+      "pinyin": "méi guānxi",
+      "english": "it's okay; no problem; never mind",
+      "hsk_level": 1,
+      "word_type": "phrase",
+      "emoji": "👌",
+      "mnemonic": "No + relationship/connection = IT'S OK, no problem",
+      "etymology": "没 (not have) + 关系 (relationship/concern)",
+      "examples": [
+        {
+          "chinese": "对不起！没关系。",
+          "pinyin": "Duìbuqǐ! Méi guānxi.",
+          "english": "Sorry! It's okay."
+        },
+        {
+          "chinese": "没关系，别担心。",
+          "pinyin": "Méi guānxi, bié dānxīn.",
+          "english": "No problem, don't worry."
+        }
+      ],
+      "related_words": ["没事", "不要紧", "算了"],
+      "usage_notes": "Response to apologies or to dismiss concerns"
+    },
+    {
+      "simplified": "请",
+      "traditional": "請",
+      "pinyin": "qǐng",
+      "english": "please; to invite; to request",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🙏",
+      "mnemonic": "Words (讠) + green/clear (青) - PLEASE speak clearly",
+      "etymology": "Speech radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "请坐。",
+          "pinyin": "Qǐng zuò.",
+          "english": "Please sit."
+        },
+        {
+          "chinese": "请问，厕所在哪儿？",
+          "pinyin": "Qǐngwèn, cèsuǒ zài nǎr?",
+          "english": "Excuse me, where is the bathroom?"
+        }
+      ],
+      "related_words": ["请问", "请进", "申请"],
+      "usage_notes": "Makes requests polite, very important in Chinese"
+    },
+    {
+      "simplified": "名字",
+      "traditional": "名字",
+      "pinyin": "míngzi",
+      "english": "name",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📛",
+      "mnemonic": "Evening (夕) + mouth (口) + child (子) - NAME called out",
+      "etymology": "名 (name/fame) + 字 (character/word)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个名字"
+      },
+      "examples": [
+        {
+          "chinese": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "english": "What's your name?"
+        },
+        {
+          "chinese": "我的名字是小明。",
+          "pinyin": "Wǒ de míngzi shì Xiǎomíng.",
+          "english": "My name is Xiaoming."
+        }
+      ],
+      "related_words": ["姓名", "大名", "昵称"],
+      "usage_notes": "First question when meeting someone"
+    },
+    {
+      "simplified": "叫",
+      "traditional": "叫",
+      "pinyin": "jiào",
+      "english": "to call; to be called",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "📢",
+      "mnemonic": "Mouth (口) + intersect (丩) - CALL out to someone",
+      "etymology": "Mouth radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "我叫李明。",
+          "pinyin": "Wǒ jiào Lǐ Míng.",
+          "english": "I'm called Li Ming."
+        },
+        {
+          "chinese": "这个叫什么？",
+          "pinyin": "Zhège jiào shénme?",
+          "english": "What is this called?"
+        }
+      ],
+      "related_words": ["叫做", "称呼", "喊"],
+      "usage_notes": "Used for names and calling someone"
+    },
+    {
+      "simplified": "哪",
+      "traditional": "哪",
+      "pinyin": "nǎ",
+      "english": "which; where",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "❔",
+      "mnemonic": "Mouth (口) + inside (内) - asking WHICH one",
+      "etymology": "Question word combining mouth and phonetic",
+      "examples": [
+        {
+          "chinese": "你是哪国人？",
+          "pinyin": "Nǐ shì nǎ guó rén?",
+          "english": "Which country are you from?"
+        },
+        {
+          "chinese": "哪个更好？",
+          "pinyin": "Nǎge gèng hǎo?",
+          "english": "Which one is better?"
+        }
+      ],
+      "related_words": ["哪儿", "哪里", "哪个"],
+      "usage_notes": "Question word for selection or location"
+    },
+    {
+      "simplified": "哪儿",
+      "traditional": "哪兒",
+      "pinyin": "nǎr",
+      "english": "where",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "📍",
+      "mnemonic": "Which + suffix = WHERE is it",
+      "etymology": "哪 (which) + 儿 (suffix)",
+      "examples": [
+        {
+          "chinese": "你去哪儿？",
+          "pinyin": "Nǐ qù nǎr?",
+          "english": "Where are you going?"
+        },
+        {
+          "chinese": "厕所在哪儿？",
+          "pinyin": "Cèsuǒ zài nǎr?",
+          "english": "Where is the bathroom?"
+        }
+      ],
+      "related_words": ["哪里", "这儿", "那儿"],
+      "usage_notes": "Northern Chinese prefer 哪儿, south uses 哪里"
+    },
+    {
+      "simplified": "这儿",
+      "traditional": "這兒",
+      "pinyin": "zhèr",
+      "english": "here",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "👇",
+      "mnemonic": "This + place suffix = HERE",
+      "etymology": "这 (this) + 儿 (suffix)",
+      "examples": [
+        {
+          "chinese": "在这儿等我。",
+          "pinyin": "Zài zhèr děng wǒ.",
+          "english": "Wait for me here."
+        },
+        {
+          "chinese": "这儿有wifi吗？",
+          "pinyin": "Zhèr yǒu wifi ma?",
+          "english": "Is there wifi here?"
+        }
+      ],
+      "related_words": ["这里", "那儿", "哪儿"],
+      "usage_notes": "More colloquial than 这里"
+    },
+    {
+      "simplified": "那儿",
+      "traditional": "那兒",
+      "pinyin": "nàr",
+      "english": "there",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "👉",
+      "mnemonic": "That + place suffix = THERE",
+      "etymology": "那 (that) + 儿 (suffix)",
+      "examples": [
+        {
+          "chinese": "我在那儿等你。",
+          "pinyin": "Wǒ zài nàr děng nǐ.",
+          "english": "I'll wait for you there."
+        },
+        {
+          "chinese": "那儿是图书馆。",
+          "pinyin": "Nàr shì túshūguǎn.",
+          "english": "That's the library."
+        }
+      ],
+      "related_words": ["那里", "这儿", "哪儿"],
+      "usage_notes": "Indicates a specific distant location"
+    },
+    {
+      "simplified": "怎么",
+      "traditional": "怎麼",
+      "pinyin": "zěnme",
+      "english": "how; what; why",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "🤷",
+      "mnemonic": "How + hemp/what = HOW to do something",
+      "etymology": "怎 (how) + 么 (question particle)",
+      "examples": [
+        {
+          "chinese": "怎么走？",
+          "pinyin": "Zěnme zǒu?",
+          "english": "How do I get there?"
+        },
+        {
+          "chinese": "你怎么了？",
+          "pinyin": "Nǐ zěnme le?",
+          "english": "What's wrong with you?"
+        }
+      ],
+      "related_words": ["怎么样", "为什么", "怎样"],
+      "usage_notes": "Asks about method, manner, or reason"
+    },
+    {
+      "simplified": "怎么样",
+      "traditional": "怎麼樣",
+      "pinyin": "zěnmeyàng",
+      "english": "how; how about; what do you think",
+      "hsk_level": 1,
+      "word_type": "phrase",
+      "emoji": "🤔",
+      "mnemonic": "How + appearance = HOW is it (opinion)",
+      "etymology": "怎么 (how) + 样 (appearance/manner)",
+      "examples": [
+        {
+          "chinese": "这个怎么样？",
+          "pinyin": "Zhège zěnmeyàng?",
+          "english": "How about this one?"
+        },
+        {
+          "chinese": "你觉得怎么样？",
+          "pinyin": "Nǐ juéde zěnmeyàng?",
+          "english": "What do you think?"
+        }
+      ],
+      "related_words": ["怎么", "如何", "怎样"],
+      "usage_notes": "Asks for opinion or evaluation"
+    },
+    {
+      "simplified": "多少",
+      "traditional": "多少",
+      "pinyin": "duōshao",
+      "english": "how many; how much",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "🔢",
+      "mnemonic": "Much + less = HOW MUCH (quantity)",
+      "etymology": "多 (many) + 少 (few)",
+      "examples": [
+        {
+          "chinese": "多少钱？",
+          "pinyin": "Duōshao qián?",
+          "english": "How much money?"
+        },
+        {
+          "chinese": "你有多少个？",
+          "pinyin": "Nǐ yǒu duōshao ge?",
+          "english": "How many do you have?"
+        }
+      ],
+      "related_words": ["几", "多", "少"],
+      "usage_notes": "Used for quantities, especially larger numbers"
+    },
+    {
+      "simplified": "几",
+      "traditional": "幾",
+      "pinyin": "jǐ",
+      "english": "how many; several",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "🔢",
+      "mnemonic": "Table (几) with items - HOW MANY things",
+      "etymology": "Simplified from 幾, depicting fine silk threads (counting)",
+      "examples": [
+        {
+          "chinese": "几点了？",
+          "pinyin": "Jǐ diǎn le?",
+          "english": "What time is it?"
+        },
+        {
+          "chinese": "你有几个？",
+          "pinyin": "Nǐ yǒu jǐ ge?",
+          "english": "How many do you have?"
+        }
+      ],
+      "related_words": ["多少", "几个", "好几"],
+      "usage_notes": "Used for small quantities (under 10), requires measure word"
+    },
+    {
+      "simplified": "时候",
+      "traditional": "時候",
+      "pinyin": "shíhou",
+      "english": "time; moment; (a duration of) time",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "⏰",
+      "mnemonic": "Time (时) + wait (候) = specific TIME/moment",
+      "etymology": "时 (time/season) + 候 (to wait/period)",
+      "examples": [
+        {
+          "chinese": "什么时候去？",
+          "pinyin": "Shénme shíhou qù?",
+          "english": "When are we going?"
+        },
+        {
+          "chinese": "那个时候我很小。",
+          "pinyin": "Nàge shíhou wǒ hěn xiǎo.",
+          "english": "I was very young at that time."
+        }
+      ],
+      "related_words": ["时间", "时刻", "这时候"],
+      "usage_notes": "Refers to a point in time or period"
+    },
+    {
+      "simplified": "现在",
+      "traditional": "現在",
+      "pinyin": "xiànzài",
+      "english": "now; at present",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "⏰",
+      "mnemonic": "Appear (现) + at (在) = appearing NOW",
+      "etymology": "现 (appear/current) + 在 (at/exist)",
+      "examples": [
+        {
+          "chinese": "我现在很忙。",
+          "pinyin": "Wǒ xiànzài hěn máng.",
+          "english": "I'm very busy now."
+        },
+        {
+          "chinese": "现在几点了？",
+          "pinyin": "Xiànzài jǐ diǎn le?",
+          "english": "What time is it now?"
+        }
+      ],
+      "related_words": ["今天", "当前", "目前"],
+      "usage_notes": "Refers to the present moment"
+    },
+    {
+      "simplified": "今天",
+      "traditional": "今天",
+      "pinyin": "jīntiān",
+      "english": "today",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📅",
+      "mnemonic": "Present (今) + day (天) = TODAY",
+      "etymology": "今 (now/present) + 天 (day/sky)",
+      "examples": [
+        {
+          "chinese": "今天天气很好。",
+          "pinyin": "Jīntiān tiānqì hěn hǎo.",
+          "english": "The weather is very good today."
+        },
+        {
+          "chinese": "今天星期几？",
+          "pinyin": "Jīntiān xīngqī jǐ?",
+          "english": "What day is it today?"
+        }
+      ],
+      "related_words": ["明天", "昨天", "每天"],
+      "usage_notes": "Most common time word for current day"
+    },
+    {
+      "simplified": "明天",
+      "traditional": "明天",
+      "pinyin": "míngtiān",
+      "english": "tomorrow",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📆",
+      "mnemonic": "Bright (明) + day (天) = the bright day coming, TOMORROW",
+      "etymology": "明 (bright/next) + 天 (day)",
+      "examples": [
+        {
+          "chinese": "明天见！",
+          "pinyin": "Míngtiān jiàn!",
+          "english": "See you tomorrow!"
+        },
+        {
+          "chinese": "明天我们去哪儿？",
+          "pinyin": "Míngtiān wǒmen qù nǎr?",
+          "english": "Where are we going tomorrow?"
+        }
+      ],
+      "related_words": ["今天", "昨天", "后天"],
+      "usage_notes": "The day after today"
+    },
+    {
+      "simplified": "昨天",
+      "traditional": "昨天",
+      "pinyin": "zuótiān",
+      "english": "yesterday",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📅",
+      "mnemonic": "Past (昨) + day (天) = YESTERDAY",
+      "etymology": "昨 (past/previous) + 天 (day)",
+      "examples": [
+        {
+          "chinese": "昨天我去了北京。",
+          "pinyin": "Zuótiān wǒ qù le Běijīng.",
+          "english": "I went to Beijing yesterday."
+        },
+        {
+          "chinese": "昨天天气怎么样？",
+          "pinyin": "Zuótiān tiānqì zěnmeyàng?",
+          "english": "How was the weather yesterday?"
+        }
+      ],
+      "related_words": ["今天", "明天", "前天"],
+      "usage_notes": "The day before today"
+    },
+    {
+      "simplified": "上午",
+      "traditional": "上午",
+      "pinyin": "shàngwǔ",
+      "english": "morning; a.m.",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🌅",
+      "mnemonic": "Up (上) + noon (午) = before noon, MORNING",
+      "etymology": "上 (up/before) + 午 (noon)",
+      "examples": [
+        {
+          "chinese": "上午九点",
+          "pinyin": "shàngwǔ jiǔ diǎn",
+          "english": "9 a.m."
+        },
+        {
+          "chinese": "上午我有课。",
+          "pinyin": "Shàngwǔ wǒ yǒu kè.",
+          "english": "I have class in the morning."
+        }
+      ],
+      "related_words": ["下午", "中午", "早上"],
+      "usage_notes": "Roughly 6am-12pm"
+    },
+    {
+      "simplified": "下午",
+      "traditional": "下午",
+      "pinyin": "xiàwǔ",
+      "english": "afternoon; p.m.",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🌤️",
+      "mnemonic": "Down (下) + noon (午) = after noon, AFTERNOON",
+      "etymology": "下 (down/after) + 午 (noon)",
+      "examples": [
+        {
+          "chinese": "下午三点",
+          "pinyin": "xiàwǔ sān diǎn",
+          "english": "3 p.m."
+        },
+        {
+          "chinese": "下午见！",
+          "pinyin": "Xiàwǔ jiàn!",
+          "english": "See you this afternoon!"
+        }
+      ],
+      "related_words": ["上午", "晚上", "傍晚"],
+      "usage_notes": "Roughly 12pm-6pm"
+    },
+    {
+      "simplified": "点",
+      "traditional": "點",
+      "pinyin": "diǎn",
+      "english": "o'clock; point; dot",
+      "hsk_level": 1,
+      "word_type": "measure word",
+      "emoji": "🕐",
+      "mnemonic": "Fire (灬) + divination (占) = POINT on clock",
+      "etymology": "Originally meant 'dot' or 'point', used for hours",
+      "examples": [
+        {
+          "chinese": "现在三点。",
+          "pinyin": "Xiànzài sān diǎn.",
+          "english": "It's 3 o'clock now."
+        },
+        {
+          "chinese": "几点了？",
+          "pinyin": "Jǐ diǎn le?",
+          "english": "What time is it?"
+        }
+      ],
+      "related_words": ["点钟", "时间", "分"],
+      "usage_notes": "Measure word for hours on the clock"
+    },
+    {
+      "simplified": "分",
+      "traditional": "分",
+      "pinyin": "fēn",
+      "english": "minute; cent; to divide",
+      "hsk_level": 1,
+      "word_type": "measure word",
+      "emoji": "⏱️",
+      "mnemonic": "Knife (刀) cutting eight (八) - dividing MINUTES",
+      "etymology": "Depicts a knife dividing something",
+      "examples": [
+        {
+          "chinese": "三点二十分",
+          "pinyin": "sān diǎn èrshí fēn",
+          "english": "3:20"
+        },
+        {
+          "chinese": "五分钟",
+          "pinyin": "wǔ fēnzhōng",
+          "english": "five minutes"
+        }
+      ],
+      "related_words": ["分钟", "点", "秒"],
+      "usage_notes": "Used for minutes in time expressions"
+    },
+    {
+      "simplified": "半",
+      "traditional": "半",
+      "pinyin": "bàn",
+      "english": "half; semi-",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "½",
+      "mnemonic": "Cow (牛) split down middle with line - HALF",
+      "etymology": "Shows dividing something into two halves",
+      "examples": [
+        {
+          "chinese": "三点半",
+          "pinyin": "sān diǎn bàn",
+          "english": "3:30 (half past three)"
+        },
+        {
+          "chinese": "半小时",
+          "pinyin": "bàn xiǎoshí",
+          "english": "half an hour"
+        }
+      ],
+      "related_words": ["一半", "半天", "半年"],
+      "usage_notes": "Commonly used in time expressions"
+    },
+    {
+      "simplified": "年",
+      "traditional": "年",
+      "pinyin": "nián",
+      "english": "year",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📅",
+      "mnemonic": "Person (人) carrying grain (禾) - harvest comes once a YEAR",
+      "etymology": "Originally depicted a person carrying grain, yearly harvest",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个年"
+      },
+      "examples": [
+        {
+          "chinese": "今年",
+          "pinyin": "jīnnián",
+          "english": "this year"
+        },
+        {
+          "chinese": "一年有十二个月。",
+          "pinyin": "Yì nián yǒu shí'èr ge yuè.",
+          "english": "A year has twelve months."
+        }
+      ],
+      "related_words": ["去年", "明年", "年龄"],
+      "usage_notes": "Essential time word for years"
+    },
+    {
+      "simplified": "月",
+      "traditional": "月",
+      "pinyin": "yuè",
+      "english": "month; moon",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🌙",
+      "mnemonic": "Crescent MOON shape = one lunar MONTH",
+      "etymology": "Pictograph of crescent moon",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个月"
+      },
+      "examples": [
+        {
+          "chinese": "一月",
+          "pinyin": "yīyuè",
+          "english": "January"
+        },
+        {
+          "chinese": "下个月见。",
+          "pinyin": "Xià ge yuè jiàn.",
+          "english": "See you next month."
+        }
+      ],
+      "related_words": ["月份", "月亮", "上个月"],
+      "usage_notes": "Used for months and the moon"
+    },
+    {
+      "simplified": "天",
+      "traditional": "天",
+      "pinyin": "tiān",
+      "english": "day; sky; heaven",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "☀️",
+      "mnemonic": "Person (大) with line above - SKY above person, one DAY",
+      "etymology": "Person with emphasis on head/top, representing sky",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个天"
+      },
+      "examples": [
+        {
+          "chinese": "今天天气好。",
+          "pinyin": "Jīntiān tiānqì hǎo.",
+          "english": "The weather is good today."
+        },
+        {
+          "chinese": "三天",
+          "pinyin": "sān tiān",
+          "english": "three days"
+        }
+      ],
+      "related_words": ["每天", "白天", "天气"],
+      "usage_notes": "Very common character with multiple meanings"
+    },
+    {
+      "simplified": "号",
+      "traditional": "號",
+      "pinyin": "hào",
+      "english": "date; number; size",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📅",
+      "mnemonic": "Mouth (口) + tiger (虎) sound - NUMBER/date called out",
+      "etymology": "Simplified from 號, mouth making a call",
+      "examples": [
+        {
+          "chinese": "今天几号？",
+          "pinyin": "Jīntiān jǐ hào?",
+          "english": "What's the date today?"
+        },
+        {
+          "chinese": "五号",
+          "pinyin": "wǔ hào",
+          "english": "the 5th (date)"
+        }
+      ],
+      "related_words": ["日", "号码", "电话号码"],
+      "usage_notes": "Used for dates (day of month) in spoken Chinese"
+    },
+    {
+      "simplified": "星期",
+      "traditional": "星期",
+      "pinyin": "xīngqī",
+      "english": "week; day of the week",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📆",
+      "mnemonic": "Star (星) + period (期) = stellar WEEK cycle",
+      "etymology": "星 (star) + 期 (period), from Christian calendar terminology",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个星期"
+      },
+      "examples": [
+        {
+          "chinese": "星期一",
+          "pinyin": "xīngqīyī",
+          "english": "Monday"
+        },
+        {
+          "chinese": "这个星期",
+          "pinyin": "zhège xīngqī",
+          "english": "this week"
+        }
+      ],
+      "related_words": ["周", "礼拜", "星期天"],
+      "usage_notes": "Most common word for week and weekdays"
+    }
+  ]
+}

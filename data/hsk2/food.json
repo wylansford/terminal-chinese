@@ -1,0 +1,434 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "鸡蛋",
+      "traditional": "雞蛋",
+      "pinyin": "jīdàn",
+      "english": "egg; chicken egg",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🥚",
+      "mnemonic": "Chicken (鸡) + egg (蛋) - CHICKEN EGG",
+      "etymology": "鸡 (chicken) + 蛋 (egg)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个鸡蛋"
+      },
+      "examples": [
+        {
+          "chinese": "我想吃鸡蛋。",
+          "pinyin": "Wǒ xiǎng chī jīdàn.",
+          "english": "I want to eat eggs."
+        },
+        {
+          "chinese": "煮鸡蛋",
+          "pinyin": "zhǔ jīdàn",
+          "english": "boiled egg"
+        }
+      ],
+      "related_words": ["蛋", "鸭蛋", "蛋糕"],
+      "usage_notes": "Common breakfast food"
+    },
+    {
+      "simplified": "牛奶",
+      "traditional": "牛奶",
+      "pinyin": "niúnǎi",
+      "english": "milk; cow's milk",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🥛",
+      "mnemonic": "Cow (牛) + milk (奶) - COW'S MILK",
+      "etymology": "牛 (cow) + 奶 (milk)",
+      "measure_word": {
+        "character": "杯",
+        "pinyin": "bēi",
+        "example": "一杯牛奶"
+      },
+      "examples": [
+        {
+          "chinese": "我每天喝牛奶。",
+          "pinyin": "Wǒ měitiān hē niúnǎi.",
+          "english": "I drink milk every day."
+        },
+        {
+          "chinese": "一杯牛奶",
+          "pinyin": "yì bēi niúnǎi",
+          "english": "a glass of milk"
+        }
+      ],
+      "related_words": ["奶", "豆奶", "酸奶"],
+      "usage_notes": "Common breakfast drink"
+    },
+    {
+      "simplified": "咖啡",
+      "traditional": "咖啡",
+      "pinyin": "kāfēi",
+      "english": "coffee",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "☕",
+      "mnemonic": "Sound (咖啡) - phonetic for COFFEE",
+      "etymology": "Phonetic transliteration from English 'coffee'",
+      "measure_word": {
+        "character": "杯",
+        "pinyin": "bēi",
+        "example": "一杯咖啡"
+      },
+      "examples": [
+        {
+          "chinese": "我要一杯咖啡。",
+          "pinyin": "Wǒ yào yì bēi kāfēi.",
+          "english": "I want a cup of coffee."
+        },
+        {
+          "chinese": "喝咖啡",
+          "pinyin": "hē kāfēi",
+          "english": "to drink coffee"
+        }
+      ],
+      "related_words": ["茶", "咖啡厅", "奶咖"],
+      "usage_notes": "Popular drink especially in cities"
+    },
+    {
+      "simplified": "果汁",
+      "traditional": "果汁",
+      "pinyin": "guǒzhī",
+      "english": "juice; fruit juice",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🧃",
+      "mnemonic": "Fruit (果) + juice (汁) - FRUIT JUICE",
+      "etymology": "果 (fruit) + 汁 (juice)",
+      "measure_word": {
+        "character": "杯",
+        "pinyin": "bēi",
+        "example": "一杯果汁"
+      },
+      "examples": [
+        {
+          "chinese": "橙汁",
+          "pinyin": "chéngzhī",
+          "english": "orange juice"
+        },
+        {
+          "chinese": "我想喝果汁。",
+          "pinyin": "Wǒ xiǎng hē guǒzhī.",
+          "english": "I want to drink juice."
+        }
+      ],
+      "related_words": ["水果", "汁", "饮料"],
+      "usage_notes": "Healthy drink option"
+    },
+    {
+      "simplified": "啤酒",
+      "traditional": "啤酒",
+      "pinyin": "píjiǔ",
+      "english": "beer",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🍺",
+      "mnemonic": "Mouth (口) + beer (啤酒) - phonetic for BEER",
+      "etymology": "Phonetic transliteration",
+      "measure_word": {
+        "character": "瓶",
+        "pinyin": "píng",
+        "example": "一瓶啤酒"
+      },
+      "examples": [
+        {
+          "chinese": "来一瓶啤酒。",
+          "pinyin": "Lái yì píng píjiǔ.",
+          "english": "Bring a bottle of beer."
+        },
+        {
+          "chinese": "喝啤酒",
+          "pinyin": "hē píjiǔ",
+          "english": "to drink beer"
+        }
+      ],
+      "related_words": ["酒", "白酒", "红酒"],
+      "usage_notes": "Popular drink at meals"
+    },
+    {
+      "simplified": "肉",
+      "traditional": "肉",
+      "pinyin": "ròu",
+      "english": "meat",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🍖",
+      "mnemonic": "Person (人) inside (内) - MEAT inside body",
+      "etymology": "Depicts sliced meat",
+      "measure_word": {
+        "character": "块",
+        "pinyin": "kuài",
+        "example": "一块肉"
+      },
+      "examples": [
+        {
+          "chinese": "我喜欢吃肉。",
+          "pinyin": "Wǒ xǐhuan chī ròu.",
+          "english": "I like eating meat."
+        },
+        {
+          "chinese": "牛肉",
+          "pinyin": "niúròu",
+          "english": "beef"
+        }
+      ],
+      "related_words": ["猪肉", "牛肉", "羊肉"],
+      "usage_notes": "Generic word for meat"
+    },
+    {
+      "simplified": "鱼",
+      "traditional": "魚",
+      "pinyin": "yú",
+      "english": "fish",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🐟",
+      "mnemonic": "Pictograph of a FISH with tail and scales",
+      "etymology": "Ancient pictograph depicting a fish",
+      "measure_word": {
+        "character": "条",
+        "pinyin": "tiáo",
+        "example": "一条鱼"
+      },
+      "examples": [
+        {
+          "chinese": "吃鱼",
+          "pinyin": "chī yú",
+          "english": "to eat fish"
+        },
+        {
+          "chinese": "这条鱼很新鲜。",
+          "pinyin": "Zhè tiáo yú hěn xīnxiān.",
+          "english": "This fish is very fresh."
+        }
+      ],
+      "related_words": ["鱼肉", "钓鱼", "鲤鱼"],
+      "usage_notes": "Important in Chinese cuisine"
+    },
+    {
+      "simplified": "羊肉",
+      "traditional": "羊肉",
+      "pinyin": "yángròu",
+      "english": "lamb; mutton",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🐑",
+      "mnemonic": "Sheep (羊) + meat (肉) - LAMB/MUTTON",
+      "etymology": "羊 (sheep) + 肉 (meat)",
+      "measure_word": {
+        "character": "块",
+        "pinyin": "kuài",
+        "example": "一块羊肉"
+      },
+      "examples": [
+        {
+          "chinese": "羊肉串",
+          "pinyin": "yángròu chuàn",
+          "english": "lamb skewer"
+        },
+        {
+          "chinese": "我喜欢吃羊肉。",
+          "pinyin": "Wǒ xǐhuan chī yángròu.",
+          "english": "I like eating lamb."
+        }
+      ],
+      "related_words": ["牛肉", "猪肉", "羊"],
+      "usage_notes": "Popular in northern China"
+    },
+    {
+      "simplified": "西瓜",
+      "traditional": "西瓜",
+      "pinyin": "xīguā",
+      "english": "watermelon",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🍉",
+      "mnemonic": "West (西) + melon (瓜) - WATERMELON from the west",
+      "etymology": "西 (west, where it originated) + 瓜 (melon)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个西瓜"
+      },
+      "examples": [
+        {
+          "chinese": "夏天吃西瓜。",
+          "pinyin": "Xiàtiān chī xīguā.",
+          "english": "Eat watermelon in summer."
+        },
+        {
+          "chinese": "西瓜很甜。",
+          "pinyin": "Xīguā hěn tián.",
+          "english": "Watermelon is very sweet."
+        }
+      ],
+      "related_words": ["瓜", "水果", "甜瓜"],
+      "usage_notes": "Popular summer fruit"
+    },
+    {
+      "simplified": "香蕉",
+      "traditional": "香蕉",
+      "pinyin": "xiāngjiāo",
+      "english": "banana",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🍌",
+      "mnemonic": "Fragrant (香) + plantain (蕉) - fragrant BANANA",
+      "etymology": "香 (fragrant) + 蕉 (plantain type)",
+      "measure_word": {
+        "character": "根",
+        "pinyin": "gēn",
+        "example": "一根香蕉"
+      },
+      "examples": [
+        {
+          "chinese": "我喜欢吃香蕉。",
+          "pinyin": "Wǒ xǐhuan chī xiāngjiāo.",
+          "english": "I like eating bananas."
+        },
+        {
+          "chinese": "香蕉很便宜。",
+          "pinyin": "Xiāngjiāo hěn piányi.",
+          "english": "Bananas are very cheap."
+        }
+      ],
+      "related_words": ["水果", "苹果", "橙子"],
+      "usage_notes": "Common fruit year-round"
+    },
+    {
+      "simplified": "蔬菜",
+      "traditional": "蔬菜",
+      "pinyin": "shūcài",
+      "english": "vegetables",
+      "hsk_level": 2,
+      "word_type": "noun",
+      "emoji": "🥗",
+      "mnemonic": "Vegetables (蔬) + food (菜) - VEGETABLES",
+      "etymology": "蔬 (vegetables) + 菜 (vegetables/food)",
+      "measure_word": {
+        "character": "种",
+        "pinyin": "zhǒng",
+        "example": "一种蔬菜"
+      },
+      "examples": [
+        {
+          "chinese": "多吃蔬菜。",
+          "pinyin": "Duō chī shūcài.",
+          "english": "Eat more vegetables."
+        },
+        {
+          "chinese": "新鲜蔬菜",
+          "pinyin": "xīnxiān shūcài",
+          "english": "fresh vegetables"
+        }
+      ],
+      "related_words": ["菜", "青菜", "水果"],
+      "usage_notes": "Important for healthy diet"
+    },
+    {
+      "simplified": "饿",
+      "traditional": "餓",
+      "pinyin": "è",
+      "english": "hungry",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "😋",
+      "mnemonic": "Food (饣) + self (我) - I need FOOD, hungry",
+      "etymology": "Food radical + phonetic",
+      "examples": [
+        {
+          "chinese": "我饿了。",
+          "pinyin": "Wǒ è le.",
+          "english": "I'm hungry."
+        },
+        {
+          "chinese": "你饿不饿？",
+          "pinyin": "Nǐ è bù è?",
+          "english": "Are you hungry?"
+        }
+      ],
+      "related_words": ["饥饿", "肚子饿", "饱"],
+      "usage_notes": "Common way to express hunger"
+    },
+    {
+      "simplified": "渴",
+      "traditional": "渴",
+      "pinyin": "kě",
+      "english": "thirsty",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "🥤",
+      "mnemonic": "Water (氵) + music/yue (曷) - THIRSTY for water",
+      "etymology": "Water radical + phonetic",
+      "examples": [
+        {
+          "chinese": "我渴了。",
+          "pinyin": "Wǒ kě le.",
+          "english": "I'm thirsty."
+        },
+        {
+          "chinese": "口渴",
+          "pinyin": "kǒukě",
+          "english": "thirsty"
+        }
+      ],
+      "related_words": ["口渴", "渴望", "干渴"],
+      "usage_notes": "Common way to express thirst"
+    },
+    {
+      "simplified": "甜",
+      "traditional": "甜",
+      "pinyin": "tián",
+      "english": "sweet",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "🍬",
+      "mnemonic": "Tongue (舌) + sweet (甘) - SWEET taste on tongue",
+      "etymology": "Tongue + sweet component",
+      "examples": [
+        {
+          "chinese": "很甜",
+          "pinyin": "hěn tián",
+          "english": "very sweet"
+        },
+        {
+          "chinese": "这个太甜了。",
+          "pinyin": "Zhège tài tián le.",
+          "english": "This is too sweet."
+        }
+      ],
+      "related_words": ["甜美", "香甜", "苦"],
+      "usage_notes": "One of the basic tastes"
+    },
+    {
+      "simplified": "辣",
+      "traditional": "辣",
+      "pinyin": "là",
+      "english": "spicy; hot (food)",
+      "hsk_level": 2,
+      "word_type": "adjective",
+      "emoji": "🌶️",
+      "mnemonic": "Bundle (束) + pungent (辛) - SPICY/HOT flavor",
+      "etymology": "Pungent component showing spicy taste",
+      "examples": [
+        {
+          "chinese": "很辣",
+          "pinyin": "hěn là",
+          "english": "very spicy"
+        },
+        {
+          "chinese": "我不能吃辣的。",
+          "pinyin": "Wǒ bù néng chī là de.",
+          "english": "I can't eat spicy food."
+        }
+      ],
+      "related_words": ["麻辣", "辛辣", "火辣"],
+      "usage_notes": "Important in Sichuan and Hunan cuisine"
+    }
+  ]
+}

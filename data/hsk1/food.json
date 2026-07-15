@@ -1,0 +1,404 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "吃",
+      "traditional": "吃",
+      "pinyin": "chī",
+      "english": "to eat",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🍽️",
+      "mnemonic": "Mouth (口) + beg (乞) - mouth begging to EAT",
+      "etymology": "Mouth radical + phonetic component meaning to beg",
+      "examples": [
+        {
+          "chinese": "我想吃饭。",
+          "pinyin": "Wǒ xiǎng chīfàn.",
+          "english": "I want to eat."
+        },
+        {
+          "chinese": "你吃了吗？",
+          "pinyin": "Nǐ chī le ma?",
+          "english": "Have you eaten? (common greeting)"
+        }
+      ],
+      "related_words": ["吃饭", "吃饱", "好吃"],
+      "usage_notes": "One of the most common verbs in daily Chinese"
+    },
+    {
+      "simplified": "喝",
+      "traditional": "喝",
+      "pinyin": "hē",
+      "english": "to drink",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🥤",
+      "mnemonic": "Mouth (口) + yawn (曷) - open mouth to DRINK",
+      "etymology": "Mouth radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "我要喝水。",
+          "pinyin": "Wǒ yào hē shuǐ.",
+          "english": "I want to drink water."
+        },
+        {
+          "chinese": "你喝什么？",
+          "pinyin": "Nǐ hē shénme?",
+          "english": "What would you like to drink?"
+        }
+      ],
+      "related_words": ["喝水", "喝茶", "喝酒"],
+      "usage_notes": "Used for all types of drinking"
+    },
+    {
+      "simplified": "水",
+      "traditional": "水",
+      "pinyin": "shuǐ",
+      "english": "water",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "💧",
+      "mnemonic": "Looks like WATER flowing in a stream",
+      "etymology": "Pictograph of flowing water",
+      "measure_word": {
+        "character": "杯",
+        "pinyin": "bēi",
+        "example": "一杯水"
+      },
+      "examples": [
+        {
+          "chinese": "我要一杯水。",
+          "pinyin": "Wǒ yào yì bēi shuǐ.",
+          "english": "I want a glass of water."
+        },
+        {
+          "chinese": "这水很干净。",
+          "pinyin": "Zhè shuǐ hěn gānjìng.",
+          "english": "This water is very clean."
+        }
+      ],
+      "related_words": ["开水", "热水", "冷水"],
+      "usage_notes": "Essential word for hydration"
+    },
+    {
+      "simplified": "茶",
+      "traditional": "茶",
+      "pinyin": "chá",
+      "english": "tea",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🍵",
+      "mnemonic": "Grass (艹) + person (人) + wood (木) - TEA plant",
+      "etymology": "Grass radical over person picking from tree",
+      "measure_word": {
+        "character": "杯",
+        "pinyin": "bēi",
+        "example": "一杯茶"
+      },
+      "examples": [
+        {
+          "chinese": "我喜欢喝茶。",
+          "pinyin": "Wǒ xǐhuan hē chá.",
+          "english": "I like drinking tea."
+        },
+        {
+          "chinese": "来，喝杯茶吧。",
+          "pinyin": "Lái, hē bēi chá ba.",
+          "english": "Come, have a cup of tea."
+        }
+      ],
+      "related_words": ["绿茶", "红茶", "茶叶"],
+      "usage_notes": "Tea is central to Chinese culture"
+    },
+    {
+      "simplified": "米饭",
+      "traditional": "米飯",
+      "pinyin": "mǐfàn",
+      "english": "cooked rice",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🍚",
+      "mnemonic": "Rice (米) + meal (饭) = COOKED RICE",
+      "etymology": "米 (uncooked rice) + 饭 (meal/cooked food)",
+      "measure_word": {
+        "character": "碗",
+        "pinyin": "wǎn",
+        "example": "一碗米饭"
+      },
+      "examples": [
+        {
+          "chinese": "我想吃米饭。",
+          "pinyin": "Wǒ xiǎng chī mǐfàn.",
+          "english": "I want to eat rice."
+        },
+        {
+          "chinese": "这碗米饭很香。",
+          "pinyin": "Zhè wǎn mǐfàn hěn xiāng.",
+          "english": "This bowl of rice smells good."
+        }
+      ],
+      "related_words": ["饭", "白米饭", "炒饭"],
+      "usage_notes": "Staple food in Chinese cuisine"
+    },
+    {
+      "simplified": "面包",
+      "traditional": "麵包",
+      "pinyin": "miànbāo",
+      "english": "bread",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🍞",
+      "mnemonic": "Noodle (面) + wrap (包) = BREAD (wrapped dough)",
+      "etymology": "面 (flour/noodle) + 包 (wrap/bun)",
+      "measure_word": {
+        "character": "片",
+        "pinyin": "piàn",
+        "example": "一片面包"
+      },
+      "examples": [
+        {
+          "chinese": "我早上吃面包。",
+          "pinyin": "Wǒ zǎoshang chī miànbāo.",
+          "english": "I eat bread in the morning."
+        },
+        {
+          "chinese": "这个面包很好吃。",
+          "pinyin": "Zhège miànbāo hěn hǎochī.",
+          "english": "This bread is delicious."
+        }
+      ],
+      "related_words": ["面", "包子", "馒头"],
+      "usage_notes": "Common breakfast food"
+    },
+    {
+      "simplified": "苹果",
+      "traditional": "蘋果",
+      "pinyin": "píngguǒ",
+      "english": "apple",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🍎",
+      "mnemonic": "Grass (艹) + peace (平) + fruit (果) = APPLE",
+      "etymology": "Phonetic transliteration + fruit",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个苹果"
+      },
+      "examples": [
+        {
+          "chinese": "我想吃苹果。",
+          "pinyin": "Wǒ xiǎng chī píngguǒ.",
+          "english": "I want to eat an apple."
+        },
+        {
+          "chinese": "一天一苹果，医生远离我。",
+          "pinyin": "Yì tiān yì píngguǒ, yīshēng yuǎnlí wǒ.",
+          "english": "An apple a day keeps the doctor away."
+        }
+      ],
+      "related_words": ["水果", "香蕉", "橙子"],
+      "usage_notes": "Most common fruit word for beginners"
+    },
+    {
+      "simplified": "菜",
+      "traditional": "菜",
+      "pinyin": "cài",
+      "english": "dish; vegetable; food",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🥬",
+      "mnemonic": "Grass (艹) + pick (采) = VEGETABLES picked from plants",
+      "etymology": "Grass radical + phonetic meaning to pick",
+      "measure_word": {
+        "character": "道",
+        "pinyin": "dào",
+        "example": "一道菜"
+      },
+      "examples": [
+        {
+          "chinese": "这个菜很好吃。",
+          "pinyin": "Zhège cài hěn hǎochī.",
+          "english": "This dish is delicious."
+        },
+        {
+          "chinese": "点菜",
+          "pinyin": "diǎn cài",
+          "english": "to order food"
+        }
+      ],
+      "related_words": ["青菜", "蔬菜", "菜单"],
+      "usage_notes": "Can mean vegetable or any cooked dish"
+    },
+    {
+      "simplified": "饭",
+      "traditional": "飯",
+      "pinyin": "fàn",
+      "english": "meal; cooked rice; food",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🍱",
+      "mnemonic": "Food (饣) + reverse (反) = MEAL turned into energy",
+      "etymology": "Food radical + phonetic component",
+      "measure_word": {
+        "character": "顿",
+        "pinyin": "dùn",
+        "example": "一顿饭"
+      },
+      "examples": [
+        {
+          "chinese": "吃饭了吗？",
+          "pinyin": "Chīfàn le ma?",
+          "english": "Have you eaten?"
+        },
+        {
+          "chinese": "我们一起吃饭吧。",
+          "pinyin": "Wǒmen yìqǐ chīfàn ba.",
+          "english": "Let's eat together."
+        }
+      ],
+      "related_words": ["米饭", "吃饭", "饭店"],
+      "usage_notes": "吃饭 is a common greeting meaning 'Have you eaten?'"
+    },
+    {
+      "simplified": "杯子",
+      "traditional": "杯子",
+      "pinyin": "bēizi",
+      "english": "cup; glass",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🥤",
+      "mnemonic": "Wood (木) + not (不) + child (子) = CUP made of wood",
+      "etymology": "杯 (cup) + 子 (suffix)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个杯子"
+      },
+      "examples": [
+        {
+          "chinese": "这是我的杯子。",
+          "pinyin": "Zhè shì wǒ de bēizi.",
+          "english": "This is my cup."
+        },
+        {
+          "chinese": "给我一个杯子。",
+          "pinyin": "Gěi wǒ yí ge bēizi.",
+          "english": "Give me a cup."
+        }
+      ],
+      "related_words": ["杯", "茶杯", "水杯"],
+      "usage_notes": "Common noun for drinking vessels"
+    },
+    {
+      "simplified": "钱",
+      "traditional": "錢",
+      "pinyin": "qián",
+      "english": "money",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "💰",
+      "mnemonic": "Metal (钅) +戋 (small) = small metal coins, MONEY",
+      "etymology": "Metal radical + phonetic, originally meant small metal pieces",
+      "measure_word": {
+        "character": "块",
+        "pinyin": "kuài",
+        "example": "一块钱"
+      },
+      "examples": [
+        {
+          "chinese": "多少钱？",
+          "pinyin": "Duōshao qián?",
+          "english": "How much money?"
+        },
+        {
+          "chinese": "我没有钱。",
+          "pinyin": "Wǒ méiyǒu qián.",
+          "english": "I don't have money."
+        }
+      ],
+      "related_words": ["现金", "零钱", "花钱"],
+      "usage_notes": "Essential for shopping and transactions"
+    },
+    {
+      "simplified": "块",
+      "traditional": "塊",
+      "pinyin": "kuài",
+      "english": "piece; chunk; yuan (money)",
+      "hsk_level": 1,
+      "word_type": "measure word",
+      "emoji": "💴",
+      "mnemonic": "Earth (土) + deciding (夬) = PIECE of earth/money",
+      "etymology": "Earth radical + phonetic meaning to split",
+      "examples": [
+        {
+          "chinese": "五块钱",
+          "pinyin": "wǔ kuài qián",
+          "english": "five yuan"
+        },
+        {
+          "chinese": "这个多少块？",
+          "pinyin": "Zhège duōshao kuài?",
+          "english": "How many yuan is this?"
+        }
+      ],
+      "related_words": ["一块", "块钱", "几块"],
+      "usage_notes": "Colloquial measure word for yuan (RMB)"
+    },
+    {
+      "simplified": "买",
+      "traditional": "買",
+      "pinyin": "mǎi",
+      "english": "to buy",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "🛒",
+      "mnemonic": "Net (罒) + shells (贝) = BUY with shells (ancient money)",
+      "etymology": "Net over shells, shells were ancient currency",
+      "examples": [
+        {
+          "chinese": "我想买这个。",
+          "pinyin": "Wǒ xiǎng mǎi zhège.",
+          "english": "I want to buy this."
+        },
+        {
+          "chinese": "在哪儿买？",
+          "pinyin": "Zài nǎr mǎi?",
+          "english": "Where to buy it?"
+        }
+      ],
+      "related_words": ["购买", "买东西", "卖"],
+      "usage_notes": "Essential verb for shopping"
+    },
+    {
+      "simplified": "东西",
+      "traditional": "東西",
+      "pinyin": "dōngxi",
+      "english": "thing; stuff",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📦",
+      "mnemonic": "East (东) + West (西) = everything from EAST to WEST",
+      "etymology": "东 (east) + 西 (west), means all things",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个东西"
+      },
+      "examples": [
+        {
+          "chinese": "这是什么东西？",
+          "pinyin": "Zhè shì shénme dōngxi?",
+          "english": "What is this thing?"
+        },
+        {
+          "chinese": "买东西",
+          "pinyin": "mǎi dōngxi",
+          "english": "to buy things; to shop"
+        }
+      ],
+      "related_words": ["东", "西", "物品"],
+      "usage_notes": "Very common word for any object or thing"
+    }
+  ]
+}

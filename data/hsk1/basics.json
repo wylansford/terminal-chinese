@@ -1,0 +1,1054 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "我",
+      "traditional": "我",
+      "pinyin": "wǒ",
+      "english": "I; me",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "👤",
+      "mnemonic": "The character looks like a hand holding a weapon - 'I' protect myself",
+      "etymology": "Originally depicted a weapon with three prongs, later came to mean 'I' or 'me'",
+      "examples": [
+        {
+          "chinese": "我是学生。",
+          "pinyin": "Wǒ shì xuésheng.",
+          "english": "I am a student."
+        },
+        {
+          "chinese": "我爱你。",
+          "pinyin": "Wǒ ài nǐ.",
+          "english": "I love you."
+        },
+        {
+          "chinese": "我很好。",
+          "pinyin": "Wǒ hěn hǎo.",
+          "english": "I'm very well."
+        }
+      ],
+      "related_words": ["你", "他", "她"],
+      "usage_notes": "Most basic pronoun, used constantly in daily conversation"
+    },
+    {
+      "simplified": "你",
+      "traditional": "你",
+      "pinyin": "nǐ",
+      "english": "you",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "👉",
+      "mnemonic": "Person (亻) + you (尔) - pointing at YOU",
+      "etymology": "Combines person radical with phonetic component meaning 'you'",
+      "examples": [
+        {
+          "chinese": "你好吗？",
+          "pinyin": "Nǐ hǎo ma?",
+          "english": "How are you?"
+        },
+        {
+          "chinese": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "english": "What is your name?"
+        },
+        {
+          "chinese": "你去哪儿？",
+          "pinyin": "Nǐ qù nǎr?",
+          "english": "Where are you going?"
+        }
+      ],
+      "related_words": ["我", "他", "您"],
+      "usage_notes": "Informal 'you' for friends, family, and peers"
+    },
+    {
+      "simplified": "他",
+      "traditional": "他",
+      "pinyin": "tā",
+      "english": "he; him",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "👨",
+      "mnemonic": "Person (亻) + also (也) - HE is also a person",
+      "etymology": "Person radical + phonetic component 也",
+      "examples": [
+        {
+          "chinese": "他是我朋友。",
+          "pinyin": "Tā shì wǒ péngyou.",
+          "english": "He is my friend."
+        },
+        {
+          "chinese": "他在哪儿？",
+          "pinyin": "Tā zài nǎr?",
+          "english": "Where is he?"
+        },
+        {
+          "chinese": "他很高。",
+          "pinyin": "Tā hěn gāo.",
+          "english": "He is very tall."
+        }
+      ],
+      "related_words": ["她", "我", "你"],
+      "usage_notes": "Male third person pronoun"
+    },
+    {
+      "simplified": "她",
+      "traditional": "她",
+      "pinyin": "tā",
+      "english": "she; her",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "👩",
+      "mnemonic": "Woman (女) + also (也) - SHE is also a person",
+      "etymology": "Woman radical + phonetic component, created in modern times",
+      "examples": [
+        {
+          "chinese": "她很漂亮。",
+          "pinyin": "Tā hěn piàoliang.",
+          "english": "She is very beautiful."
+        },
+        {
+          "chinese": "她是老师。",
+          "pinyin": "Tā shì lǎoshī.",
+          "english": "She is a teacher."
+        },
+        {
+          "chinese": "她喜欢看书。",
+          "pinyin": "Tā xǐhuan kàn shū.",
+          "english": "She likes reading books."
+        }
+      ],
+      "related_words": ["他", "我", "你"],
+      "usage_notes": "Female third person pronoun"
+    },
+    {
+      "simplified": "们",
+      "traditional": "們",
+      "pinyin": "men",
+      "english": "plural marker",
+      "hsk_level": 1,
+      "word_type": "particle",
+      "emoji": "👥",
+      "mnemonic": "Door (门) opens to many people - makes things plural",
+      "etymology": "Simplified from 們, which has person radical + door",
+      "examples": [
+        {
+          "chinese": "我们都是中国人。",
+          "pinyin": "Wǒmen dōu shì Zhōngguó rén.",
+          "english": "We are all Chinese."
+        },
+        {
+          "chinese": "孩子们在玩儿。",
+          "pinyin": "Háizimen zài wánr.",
+          "english": "The children are playing."
+        },
+        {
+          "chinese": "你们好！",
+          "pinyin": "Nǐmen hǎo!",
+          "english": "Hello everyone!"
+        }
+      ],
+      "related_words": ["我们", "你们", "他们"],
+      "usage_notes": "Added to pronouns and nouns to indicate plural"
+    },
+    {
+      "simplified": "是",
+      "traditional": "是",
+      "pinyin": "shì",
+      "english": "to be; yes",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "✅",
+      "mnemonic": "Sun (日) + correct (正) = IS correct, affirms existence",
+      "etymology": "Ancient character combining sun and correct, meaning 'to be right/true'",
+      "examples": [
+        {
+          "chinese": "这是我的书。",
+          "pinyin": "Zhè shì wǒ de shū.",
+          "english": "This is my book."
+        },
+        {
+          "chinese": "今天是星期一。",
+          "pinyin": "Jīntiān shì xīngqīyī.",
+          "english": "Today is Monday."
+        },
+        {
+          "chinese": "他是医生。",
+          "pinyin": "Tā shì yīshēng.",
+          "english": "He is a doctor."
+        }
+      ],
+      "related_words": ["不是", "在", "有"],
+      "usage_notes": "Links subject and predicate, indicates identity or existence"
+    },
+    {
+      "simplified": "不",
+      "traditional": "不",
+      "pinyin": "bù",
+      "english": "no; not",
+      "hsk_level": 1,
+      "word_type": "adverb",
+      "emoji": "❌",
+      "mnemonic": "Looks like a bird that flew away - NOT here anymore",
+      "etymology": "Depicts a flower that hasn't bloomed, representing negation",
+      "examples": [
+        {
+          "chinese": "我不喜欢。",
+          "pinyin": "Wǒ bù xǐhuan.",
+          "english": "I don't like it."
+        },
+        {
+          "chinese": "这不对。",
+          "pinyin": "Zhè bú duì.",
+          "english": "This is not correct."
+        },
+        {
+          "chinese": "我不知道。",
+          "pinyin": "Wǒ bù zhīdào.",
+          "english": "I don't know."
+        }
+      ],
+      "related_words": ["没", "别", "不要"],
+      "usage_notes": "Main negation word, tone changes to 2nd tone before 4th tone"
+    },
+    {
+      "simplified": "有",
+      "traditional": "有",
+      "pinyin": "yǒu",
+      "english": "to have; there is/are",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "✋",
+      "mnemonic": "Hand (又) over moon (月) - HAVE the moon in your hand",
+      "etymology": "Hand grasping moon, symbolizing possession",
+      "examples": [
+        {
+          "chinese": "我有一个问题。",
+          "pinyin": "Wǒ yǒu yí ge wèntí.",
+          "english": "I have a question."
+        },
+        {
+          "chinese": "这里有wifi吗？",
+          "pinyin": "Zhèlǐ yǒu wifi ma?",
+          "english": "Is there wifi here?"
+        },
+        {
+          "chinese": "你有时间吗？",
+          "pinyin": "Nǐ yǒu shíjiān ma?",
+          "english": "Do you have time?"
+        }
+      ],
+      "related_words": ["没有", "拥有", "具有"],
+      "usage_notes": "Indicates possession or existence"
+    },
+    {
+      "simplified": "的",
+      "traditional": "的",
+      "pinyin": "de",
+      "english": "possessive particle; of",
+      "hsk_level": 1,
+      "word_type": "particle",
+      "emoji": "🎯",
+      "mnemonic": "White (白) + spoon (勺) - the target OF ownership",
+      "etymology": "Originally meant 'target', now primary possessive marker",
+      "examples": [
+        {
+          "chinese": "我的手机",
+          "pinyin": "wǒ de shǒujī",
+          "english": "my phone"
+        },
+        {
+          "chinese": "红色的车",
+          "pinyin": "hóngsè de chē",
+          "english": "red car"
+        },
+        {
+          "chinese": "她的朋友",
+          "pinyin": "tā de péngyou",
+          "english": "her friend"
+        }
+      ],
+      "related_words": ["得", "地"],
+      "usage_notes": "Most common particle, shows possession and modification"
+    },
+    {
+      "simplified": "一",
+      "traditional": "一",
+      "pinyin": "yī",
+      "english": "one; a/an",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "1️⃣",
+      "mnemonic": "ONE horizontal line = the number one",
+      "etymology": "Simple pictograph of one horizontal stroke",
+      "examples": [
+        {
+          "chinese": "一个人",
+          "pinyin": "yí ge rén",
+          "english": "one person"
+        },
+        {
+          "chinese": "一起去吧！",
+          "pinyin": "Yìqǐ qù ba!",
+          "english": "Let's go together!"
+        },
+        {
+          "chinese": "一点儿",
+          "pinyin": "yìdiǎnr",
+          "english": "a little bit"
+        }
+      ],
+      "related_words": ["二", "三", "第一"],
+      "usage_notes": "Tone changes based on following syllable"
+    },
+    {
+      "simplified": "二",
+      "traditional": "二",
+      "pinyin": "èr",
+      "english": "two",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "2️⃣",
+      "mnemonic": "TWO horizontal lines = the number two",
+      "etymology": "Two horizontal strokes representing the number",
+      "examples": [
+        {
+          "chinese": "二月",
+          "pinyin": "èryuè",
+          "english": "February"
+        },
+        {
+          "chinese": "第二次",
+          "pinyin": "dì èr cì",
+          "english": "the second time"
+        },
+        {
+          "chinese": "星期二",
+          "pinyin": "xīngqī'èr",
+          "english": "Tuesday"
+        }
+      ],
+      "related_words": ["两", "一", "三"],
+      "usage_notes": "Used in counting and ordinals; 两 used with measure words"
+    },
+    {
+      "simplified": "三",
+      "traditional": "三",
+      "pinyin": "sān",
+      "english": "three",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "3️⃣",
+      "mnemonic": "THREE horizontal lines = the number three",
+      "etymology": "Three horizontal strokes representing the number",
+      "examples": [
+        {
+          "chinese": "三个人",
+          "pinyin": "sān ge rén",
+          "english": "three people"
+        },
+        {
+          "chinese": "三点钟",
+          "pinyin": "sān diǎn zhōng",
+          "english": "three o'clock"
+        },
+        {
+          "chinese": "三天",
+          "pinyin": "sān tiān",
+          "english": "three days"
+        }
+      ],
+      "related_words": ["一", "二", "四"],
+      "usage_notes": "Used in counting and time expressions"
+    },
+    {
+      "simplified": "四",
+      "traditional": "四",
+      "pinyin": "sì",
+      "english": "four",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "4️⃣",
+      "mnemonic": "Enclosed box with divisions - FOUR corners",
+      "etymology": "Depicts breath expanding in four directions",
+      "examples": [
+        {
+          "chinese": "四川菜",
+          "pinyin": "Sìchuān cài",
+          "english": "Sichuan cuisine"
+        },
+        {
+          "chinese": "星期四",
+          "pinyin": "xīngqīsì",
+          "english": "Thursday"
+        },
+        {
+          "chinese": "四月",
+          "pinyin": "sìyuè",
+          "english": "April"
+        }
+      ],
+      "related_words": ["三", "五", "十四"],
+      "usage_notes": "Some people avoid this number as it sounds like 死 (death)"
+    },
+    {
+      "simplified": "五",
+      "traditional": "五",
+      "pinyin": "wǔ",
+      "english": "five",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "5️⃣",
+      "mnemonic": "X marks the spot with a line across - FIVE elements crossing",
+      "etymology": "Represents the crossing of yin and yang, the five elements",
+      "examples": [
+        {
+          "chinese": "五块钱",
+          "pinyin": "wǔ kuài qián",
+          "english": "five yuan"
+        },
+        {
+          "chinese": "五月",
+          "pinyin": "wǔyuè",
+          "english": "May"
+        },
+        {
+          "chinese": "五点半",
+          "pinyin": "wǔ diǎn bàn",
+          "english": "five thirty"
+        }
+      ],
+      "related_words": ["四", "六", "十五"],
+      "usage_notes": "Important in Chinese culture (five elements)"
+    },
+    {
+      "simplified": "六",
+      "traditional": "六",
+      "pinyin": "liù",
+      "english": "six",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "6️⃣",
+      "mnemonic": "Roof over eight (八) - SIX as lucky number for smooth sailing",
+      "etymology": "Ancient pictograph, exact origin uncertain",
+      "examples": [
+        {
+          "chinese": "六点半",
+          "pinyin": "liù diǎn bàn",
+          "english": "six thirty"
+        },
+        {
+          "chinese": "星期六",
+          "pinyin": "xīngqīliù",
+          "english": "Saturday"
+        },
+        {
+          "chinese": "六月",
+          "pinyin": "liùyuè",
+          "english": "June"
+        }
+      ],
+      "related_words": ["五", "七", "十六"],
+      "usage_notes": "Lucky number, sounds like 流 (flow)"
+    },
+    {
+      "simplified": "七",
+      "traditional": "七",
+      "pinyin": "qī",
+      "english": "seven",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "7️⃣",
+      "mnemonic": "Cross cut - SEVEN cuts to make perfection",
+      "etymology": "Depicts something cut, representing division",
+      "examples": [
+        {
+          "chinese": "七月",
+          "pinyin": "qīyuè",
+          "english": "July"
+        },
+        {
+          "chinese": "七十",
+          "pinyin": "qīshí",
+          "english": "seventy"
+        },
+        {
+          "chinese": "七点钟",
+          "pinyin": "qī diǎn zhōng",
+          "english": "seven o'clock"
+        }
+      ],
+      "related_words": ["六", "八", "十七"],
+      "usage_notes": "Used in dates, times, and counting"
+    },
+    {
+      "simplified": "八",
+      "traditional": "八",
+      "pinyin": "bā",
+      "english": "eight",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "8️⃣",
+      "mnemonic": "Two paths splitting apart - EIGHT directions",
+      "etymology": "Depicts division or separation into parts",
+      "examples": [
+        {
+          "chinese": "八点钟",
+          "pinyin": "bā diǎn zhōng",
+          "english": "eight o'clock"
+        },
+        {
+          "chinese": "八月",
+          "pinyin": "bāyuè",
+          "english": "August"
+        },
+        {
+          "chinese": "八十",
+          "pinyin": "bāshí",
+          "english": "eighty"
+        }
+      ],
+      "related_words": ["七", "九", "十八"],
+      "usage_notes": "Very lucky number, sounds like 发 (prosperity)"
+    },
+    {
+      "simplified": "九",
+      "traditional": "九",
+      "pinyin": "jiǔ",
+      "english": "nine",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "9️⃣",
+      "mnemonic": "Bent elbow - NINE is almost ten, bending around",
+      "etymology": "Ancient character representing a bent arm",
+      "examples": [
+        {
+          "chinese": "九十九",
+          "pinyin": "jiǔshíjiǔ",
+          "english": "ninety-nine"
+        },
+        {
+          "chinese": "九月",
+          "pinyin": "jiǔyuè",
+          "english": "September"
+        },
+        {
+          "chinese": "九点",
+          "pinyin": "jiǔ diǎn",
+          "english": "nine o'clock"
+        }
+      ],
+      "related_words": ["八", "十", "十九"],
+      "usage_notes": "Lucky number, sounds like 久 (long-lasting)"
+    },
+    {
+      "simplified": "十",
+      "traditional": "十",
+      "pinyin": "shí",
+      "english": "ten",
+      "hsk_level": 1,
+      "word_type": "number",
+      "emoji": "🔟",
+      "mnemonic": "Plus sign + - TEN fingers to add",
+      "etymology": "Cross symbol representing completeness, ten fingers",
+      "examples": [
+        {
+          "chinese": "十块钱",
+          "pinyin": "shí kuài qián",
+          "english": "ten yuan"
+        },
+        {
+          "chinese": "十月",
+          "pinyin": "shíyuè",
+          "english": "October"
+        },
+        {
+          "chinese": "十一点",
+          "pinyin": "shíyī diǎn",
+          "english": "eleven o'clock"
+        }
+      ],
+      "related_words": ["九", "百", "十一"],
+      "usage_notes": "Base unit in Chinese number system"
+    },
+    {
+      "simplified": "个",
+      "traditional": "個",
+      "pinyin": "gè",
+      "english": "general measure word",
+      "hsk_level": 1,
+      "word_type": "measure word",
+      "emoji": "📦",
+      "mnemonic": "Person (亻) + fixed (固) - ONE individual unit",
+      "etymology": "Simplified from 個, person radical + phonetic",
+      "examples": [
+        {
+          "chinese": "一个苹果",
+          "pinyin": "yí ge píngguǒ",
+          "english": "one apple"
+        },
+        {
+          "chinese": "三个人",
+          "pinyin": "sān ge rén",
+          "english": "three people"
+        },
+        {
+          "chinese": "这个很好。",
+          "pinyin": "Zhège hěn hǎo.",
+          "english": "This one is very good."
+        }
+      ],
+      "related_words": ["这个", "那个", "哪个"],
+      "usage_notes": "Most common measure word, used with many nouns"
+    },
+    {
+      "simplified": "在",
+      "traditional": "在",
+      "pinyin": "zài",
+      "english": "at; in; on; to be (located)",
+      "hsk_level": 1,
+      "word_type": "verb/preposition",
+      "emoji": "📍",
+      "mnemonic": "Earth (土) + exist (才) - EXISTS at a location",
+      "etymology": "Earth radical + phonetic component, indicating location",
+      "examples": [
+        {
+          "chinese": "我在家。",
+          "pinyin": "Wǒ zài jiā.",
+          "english": "I'm at home."
+        },
+        {
+          "chinese": "他在工作。",
+          "pinyin": "Tā zài gōngzuò.",
+          "english": "He is working."
+        },
+        {
+          "chinese": "书在桌子上。",
+          "pinyin": "Shū zài zhuōzi shang.",
+          "english": "The book is on the table."
+        }
+      ],
+      "related_words": ["存在", "现在", "不在"],
+      "usage_notes": "Indicates location or ongoing action"
+    },
+    {
+      "simplified": "这",
+      "traditional": "這",
+      "pinyin": "zhè",
+      "english": "this",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "👇",
+      "mnemonic": "Walking (辶) + text (文) - THIS one I'm walking to",
+      "etymology": "Simplified from 這, movement radical + phonetic",
+      "examples": [
+        {
+          "chinese": "这是什么？",
+          "pinyin": "Zhè shì shénme?",
+          "english": "What is this?"
+        },
+        {
+          "chinese": "这个很好。",
+          "pinyin": "Zhège hěn hǎo.",
+          "english": "This one is very good."
+        },
+        {
+          "chinese": "这里",
+          "pinyin": "zhèlǐ",
+          "english": "here"
+        }
+      ],
+      "related_words": ["那", "这个", "这里"],
+      "usage_notes": "Demonstrative pronoun for nearby things"
+    },
+    {
+      "simplified": "那",
+      "traditional": "那",
+      "pinyin": "nà",
+      "english": "that",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "👈",
+      "mnemonic": "City (阝) + crown (冄) - THAT place over there",
+      "etymology": "Place radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "那是谁？",
+          "pinyin": "Nà shì shéi?",
+          "english": "Who is that?"
+        },
+        {
+          "chinese": "那个人很高。",
+          "pinyin": "Nàge rén hěn gāo.",
+          "english": "That person is very tall."
+        },
+        {
+          "chinese": "那里",
+          "pinyin": "nàlǐ",
+          "english": "there"
+        }
+      ],
+      "related_words": ["这", "那个", "那里"],
+      "usage_notes": "Demonstrative pronoun for distant things"
+    },
+    {
+      "simplified": "什么",
+      "traditional": "什麼",
+      "pinyin": "shénme",
+      "english": "what; something",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "❓",
+      "mnemonic": "Ten (什) + hemp (么) - WHAT tangled question",
+      "etymology": "Combination meaning 'what thing'",
+      "examples": [
+        {
+          "chinese": "你说什么？",
+          "pinyin": "Nǐ shuō shénme?",
+          "english": "What did you say?"
+        },
+        {
+          "chinese": "这是什么意思？",
+          "pinyin": "Zhè shì shénme yìsi?",
+          "english": "What does this mean?"
+        },
+        {
+          "chinese": "你想吃什么？",
+          "pinyin": "Nǐ xiǎng chī shénme?",
+          "english": "What do you want to eat?"
+        }
+      ],
+      "related_words": ["为什么", "怎么", "哪"],
+      "usage_notes": "Question word or indefinite pronoun"
+    },
+    {
+      "simplified": "吗",
+      "traditional": "嗎",
+      "pinyin": "ma",
+      "english": "question particle",
+      "hsk_level": 1,
+      "word_type": "particle",
+      "emoji": "❔",
+      "mnemonic": "Mouth (口) + horse (马) - ASK with your mouth",
+      "etymology": "Mouth radical + phonetic, creates yes/no questions",
+      "examples": [
+        {
+          "chinese": "你好吗？",
+          "pinyin": "Nǐ hǎo ma?",
+          "english": "How are you?"
+        },
+        {
+          "chinese": "你是学生吗？",
+          "pinyin": "Nǐ shì xuésheng ma?",
+          "english": "Are you a student?"
+        },
+        {
+          "chinese": "这个贵吗？",
+          "pinyin": "Zhège guì ma?",
+          "english": "Is this expensive?"
+        }
+      ],
+      "related_words": ["呢", "吧", "啊"],
+      "usage_notes": "Makes a statement into a yes/no question"
+    },
+    {
+      "simplified": "呢",
+      "traditional": "呢",
+      "pinyin": "ne",
+      "english": "question particle; how about",
+      "hsk_level": 1,
+      "word_type": "particle",
+      "emoji": "🤔",
+      "mnemonic": "Mouth (口) + woolen fabric (尼) - soft questioning tone",
+      "etymology": "Mouth radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "你呢？",
+          "pinyin": "Nǐ ne?",
+          "english": "How about you?"
+        },
+        {
+          "chinese": "他在哪儿呢？",
+          "pinyin": "Tā zài nǎr ne?",
+          "english": "Where is he?"
+        },
+        {
+          "chinese": "我很好，你呢？",
+          "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+          "english": "I'm fine, and you?"
+        }
+      ],
+      "related_words": ["吗", "吧", "啊"],
+      "usage_notes": "Continues a topic or softens questions"
+    },
+    {
+      "simplified": "好",
+      "traditional": "好",
+      "pinyin": "hǎo",
+      "english": "good; well; ok",
+      "hsk_level": 1,
+      "word_type": "adjective",
+      "emoji": "👍",
+      "mnemonic": "Woman (女) + child (子) = GOOD family harmony",
+      "etymology": "Woman and child together symbolizes goodness",
+      "examples": [
+        {
+          "chinese": "好的！",
+          "pinyin": "Hǎo de!",
+          "english": "OK! / Alright!"
+        },
+        {
+          "chinese": "天气很好。",
+          "pinyin": "Tiānqì hěn hǎo.",
+          "english": "The weather is very good."
+        },
+        {
+          "chinese": "你好！",
+          "pinyin": "Nǐ hǎo!",
+          "english": "Hello!"
+        }
+      ],
+      "related_words": ["很好", "好吃", "好看"],
+      "usage_notes": "Extremely common, used in greetings and descriptions"
+    },
+    {
+      "simplified": "很",
+      "traditional": "很",
+      "pinyin": "hěn",
+      "english": "very; quite",
+      "hsk_level": 1,
+      "word_type": "adverb",
+      "emoji": "💯",
+      "mnemonic": "Step (彳) + stubborn (艮) - VERY stubbornly persistent",
+      "etymology": "Walking radical + stubborn component",
+      "examples": [
+        {
+          "chinese": "很好！",
+          "pinyin": "Hěn hǎo!",
+          "english": "Very good!"
+        },
+        {
+          "chinese": "我很喜欢。",
+          "pinyin": "Wǒ hěn xǐhuan.",
+          "english": "I like it very much."
+        },
+        {
+          "chinese": "很贵",
+          "pinyin": "hěn guì",
+          "english": "very expensive"
+        }
+      ],
+      "related_words": ["非常", "太", "特别"],
+      "usage_notes": "Required before adjectives in simple sentences"
+    },
+    {
+      "simplified": "了",
+      "traditional": "了",
+      "pinyin": "le",
+      "english": "completed action particle",
+      "hsk_level": 1,
+      "word_type": "particle",
+      "emoji": "✔️",
+      "mnemonic": "Child (子) with one arm - action is DONE/finished",
+      "etymology": "Modified child character, indicates completion",
+      "examples": [
+        {
+          "chinese": "我吃了。",
+          "pinyin": "Wǒ chī le.",
+          "english": "I ate."
+        },
+        {
+          "chinese": "太贵了！",
+          "pinyin": "Tài guì le!",
+          "english": "Too expensive!"
+        },
+        {
+          "chinese": "他走了。",
+          "pinyin": "Tā zǒu le.",
+          "english": "He left."
+        }
+      ],
+      "related_words": ["过", "着"],
+      "usage_notes": "Indicates completed action or change of state"
+    },
+    {
+      "simplified": "都",
+      "traditional": "都",
+      "pinyin": "dōu",
+      "english": "all; both; already",
+      "hsk_level": 1,
+      "word_type": "adverb",
+      "emoji": "💯",
+      "mnemonic": "City (阝) + person (者) - ALL people in the city",
+      "etymology": "City radical + phonetic, meaning capital or all",
+      "examples": [
+        {
+          "chinese": "我们都去。",
+          "pinyin": "Wǒmen dōu qù.",
+          "english": "We all go."
+        },
+        {
+          "chinese": "都八点了！",
+          "pinyin": "Dōu bā diǎn le!",
+          "english": "It's already 8 o'clock!"
+        },
+        {
+          "chinese": "我都知道。",
+          "pinyin": "Wǒ dōu zhīdào.",
+          "english": "I know it all."
+        }
+      ],
+      "related_words": ["全都", "也都"],
+      "usage_notes": "Means 'all' or emphasizes already"
+    },
+    {
+      "simplified": "也",
+      "traditional": "也",
+      "pinyin": "yě",
+      "english": "also; too",
+      "hsk_level": 1,
+      "word_type": "adverb",
+      "emoji": "➕",
+      "mnemonic": "Snake curling - ALSO includes another thing",
+      "etymology": "Ancient pictograph, possibly depicting a vessel",
+      "examples": [
+        {
+          "chinese": "我也是。",
+          "pinyin": "Wǒ yě shì.",
+          "english": "Me too."
+        },
+        {
+          "chinese": "她也去吗？",
+          "pinyin": "Tā yě qù ma?",
+          "english": "Is she going too?"
+        },
+        {
+          "chinese": "我也喜欢。",
+          "pinyin": "Wǒ yě xǐhuan.",
+          "english": "I also like it."
+        }
+      ],
+      "related_words": ["都", "还"],
+      "usage_notes": "Comes before verbs to indicate 'also'"
+    },
+    {
+      "simplified": "没",
+      "traditional": "沒",
+      "pinyin": "méi",
+      "english": "not; haven't",
+      "hsk_level": 1,
+      "word_type": "adverb",
+      "emoji": "🚫",
+      "mnemonic": "Water (氵) disappears - NONE left",
+      "etymology": "Water radical, originally meant 'to sink', now means negation",
+      "examples": [
+        {
+          "chinese": "我没钱。",
+          "pinyin": "Wǒ méi qián.",
+          "english": "I don't have money."
+        },
+        {
+          "chinese": "没有问题。",
+          "pinyin": "Méiyǒu wèntí.",
+          "english": "No problem."
+        },
+        {
+          "chinese": "我没吃。",
+          "pinyin": "Wǒ méi chī.",
+          "english": "I didn't eat."
+        }
+      ],
+      "related_words": ["没有", "不", "别"],
+      "usage_notes": "Negates 有 and past actions"
+    },
+    {
+      "simplified": "会",
+      "traditional": "會",
+      "pinyin": "huì",
+      "english": "can; will; to meet",
+      "hsk_level": 1,
+      "word_type": "verb/auxiliary",
+      "emoji": "🤝",
+      "mnemonic": "Lid (亼) + say (曰) - people CAN meet and discuss",
+      "etymology": "People gathering to discuss, implies ability or future action",
+      "examples": [
+        {
+          "chinese": "我会说中文。",
+          "pinyin": "Wǒ huì shuō Zhōngwén.",
+          "english": "I can speak Chinese."
+        },
+        {
+          "chinese": "明天会下雨。",
+          "pinyin": "Míngtiān huì xiàyǔ.",
+          "english": "It will rain tomorrow."
+        },
+        {
+          "chinese": "你会做饭吗？",
+          "pinyin": "Nǐ huì zuòfàn ma?",
+          "english": "Can you cook?"
+        }
+      ],
+      "related_words": ["能", "可以", "开会"],
+      "usage_notes": "Indicates learned ability or future possibility"
+    },
+    {
+      "simplified": "能",
+      "traditional": "能",
+      "pinyin": "néng",
+      "english": "can; able to",
+      "hsk_level": 1,
+      "word_type": "auxiliary verb",
+      "emoji": "💪",
+      "mnemonic": "Bear (熊) character components - powerful ABILITY",
+      "etymology": "Originally depicted a bear, symbolizing strength and ability",
+      "examples": [
+        {
+          "chinese": "你能帮我吗？",
+          "pinyin": "Nǐ néng bāng wǒ ma?",
+          "english": "Can you help me?"
+        },
+        {
+          "chinese": "我能走了吗？",
+          "pinyin": "Wǒ néng zǒu le ma?",
+          "english": "Can I leave now?"
+        },
+        {
+          "chinese": "他能来。",
+          "pinyin": "Tā néng lái.",
+          "english": "He can come."
+        }
+      ],
+      "related_words": ["会", "可以", "能力"],
+      "usage_notes": "Indicates physical or circumstantial ability"
+    },
+    {
+      "simplified": "想",
+      "traditional": "想",
+      "pinyin": "xiǎng",
+      "english": "to think; to want; to miss",
+      "hsk_level": 1,
+      "word_type": "verb",
+      "emoji": "💭",
+      "mnemonic": "Heart/mind (心) + eye (目) + tree (木) - THINKING with heart and sight",
+      "etymology": "Heart radical + phonetic, represents mental activity",
+      "examples": [
+        {
+          "chinese": "我想你。",
+          "pinyin": "Wǒ xiǎng nǐ.",
+          "english": "I miss you."
+        },
+        {
+          "chinese": "你想吃什么？",
+          "pinyin": "Nǐ xiǎng chī shénme?",
+          "english": "What do you want to eat?"
+        },
+        {
+          "chinese": "我想学中文。",
+          "pinyin": "Wǒ xiǎng xué Zhōngwén.",
+          "english": "I want to learn Chinese."
+        }
+      ],
+      "related_words": ["思想", "想念", "想要"],
+      "usage_notes": "Can mean 'to think', 'to want', or 'to miss'"
+    }
+  ]
+}

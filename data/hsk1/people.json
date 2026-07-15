@@ -1,0 +1,479 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "人",
+      "traditional": "人",
+      "pinyin": "rén",
+      "english": "person; people",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👤",
+      "mnemonic": "Side view of a PERSON with two legs",
+      "etymology": "Ancient pictograph depicting a standing person",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个人"
+      },
+      "examples": [
+        {
+          "chinese": "他是好人。",
+          "pinyin": "Tā shì hǎorén.",
+          "english": "He is a good person."
+        },
+        {
+          "chinese": "这里有很多人。",
+          "pinyin": "Zhèlǐ yǒu hěnduō rén.",
+          "english": "There are many people here."
+        }
+      ],
+      "related_words": ["人们", "别人", "个人"],
+      "usage_notes": "Most basic word for person/people"
+    },
+    {
+      "simplified": "朋友",
+      "traditional": "朋友",
+      "pinyin": "péngyou",
+      "english": "friend",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👥",
+      "mnemonic": "Two moons (朋) + hand/again (友) = FRIENDS side by side",
+      "etymology": "朋 (companion) + 友 (friend), both ancient characters",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个朋友"
+      },
+      "examples": [
+        {
+          "chinese": "他是我的朋友。",
+          "pinyin": "Tā shì wǒ de péngyou.",
+          "english": "He is my friend."
+        },
+        {
+          "chinese": "我有很多朋友。",
+          "pinyin": "Wǒ yǒu hěnduō péngyou.",
+          "english": "I have many friends."
+        }
+      ],
+      "related_words": ["好友", "友谊", "交朋友"],
+      "usage_notes": "Common word for friends of all types"
+    },
+    {
+      "simplified": "老师",
+      "traditional": "老師",
+      "pinyin": "lǎoshī",
+      "english": "teacher",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👨‍🏫",
+      "mnemonic": "Old (老) + master (师) = wise TEACHER",
+      "etymology": "老 (old/experienced) + 师 (master/expert)",
+      "measure_word": {
+        "character": "位",
+        "pinyin": "wèi",
+        "example": "一位老师"
+      },
+      "examples": [
+        {
+          "chinese": "她是我的老师。",
+          "pinyin": "Tā shì wǒ de lǎoshī.",
+          "english": "She is my teacher."
+        },
+        {
+          "chinese": "老师好！",
+          "pinyin": "Lǎoshī hǎo!",
+          "english": "Hello, teacher!"
+        }
+      ],
+      "related_words": ["教师", "学生", "老板"],
+      "usage_notes": "Respectful term for teachers, used as title"
+    },
+    {
+      "simplified": "学生",
+      "traditional": "學生",
+      "pinyin": "xuésheng",
+      "english": "student",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👨‍🎓",
+      "mnemonic": "Learn (学) + give birth (生) = one who learns, STUDENT",
+      "etymology": "学 (study/learn) + 生 (born/person)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个学生"
+      },
+      "examples": [
+        {
+          "chinese": "我是学生。",
+          "pinyin": "Wǒ shì xuésheng.",
+          "english": "I am a student."
+        },
+        {
+          "chinese": "他是大学生。",
+          "pinyin": "Tā shì dàxuésheng.",
+          "english": "He is a university student."
+        }
+      ],
+      "related_words": ["同学", "小学生", "老师"],
+      "usage_notes": "Used for students at all levels"
+    },
+    {
+      "simplified": "医生",
+      "traditional": "醫生",
+      "pinyin": "yīshēng",
+      "english": "doctor; physician",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👨‍⚕️",
+      "mnemonic": "Medicine (医) + person (生) = DOCTOR",
+      "etymology": "医 (medicine/heal) + 生 (person)",
+      "measure_word": {
+        "character": "位",
+        "pinyin": "wèi",
+        "example": "一位医生"
+      },
+      "examples": [
+        {
+          "chinese": "我想看医生。",
+          "pinyin": "Wǒ xiǎng kàn yīshēng.",
+          "english": "I want to see a doctor."
+        },
+        {
+          "chinese": "她是医生。",
+          "pinyin": "Tā shì yīshēng.",
+          "english": "She is a doctor."
+        }
+      ],
+      "related_words": ["医院", "护士", "病人"],
+      "usage_notes": "Used for medical doctors"
+    },
+    {
+      "simplified": "爸爸",
+      "traditional": "爸爸",
+      "pinyin": "bàba",
+      "english": "dad; father",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👨",
+      "mnemonic": "Father (父) + mouth (巴) repeated = DAD calling",
+      "etymology": "Phonetic duplication, common in kinship terms",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个爸爸"
+      },
+      "examples": [
+        {
+          "chinese": "我爸爸是老师。",
+          "pinyin": "Wǒ bàba shì lǎoshī.",
+          "english": "My dad is a teacher."
+        },
+        {
+          "chinese": "爸爸，我爱你。",
+          "pinyin": "Bàba, wǒ ài nǐ.",
+          "english": "Dad, I love you."
+        }
+      ],
+      "related_words": ["父亲", "妈妈", "爹"],
+      "usage_notes": "Informal, affectionate term for father"
+    },
+    {
+      "simplified": "妈妈",
+      "traditional": "媽媽",
+      "pinyin": "māma",
+      "english": "mom; mother",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👩",
+      "mnemonic": "Woman (女) + horse (马) repeated = MOM",
+      "etymology": "Woman radical + phonetic, duplicated",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个妈妈"
+      },
+      "examples": [
+        {
+          "chinese": "妈妈在家吗？",
+          "pinyin": "Māma zài jiā ma?",
+          "english": "Is mom at home?"
+        },
+        {
+          "chinese": "我妈妈是医生。",
+          "pinyin": "Wǒ māma shì yīshēng.",
+          "english": "My mom is a doctor."
+        }
+      ],
+      "related_words": ["母亲", "爸爸", "娘"],
+      "usage_notes": "Informal, affectionate term for mother"
+    },
+    {
+      "simplified": "儿子",
+      "traditional": "兒子",
+      "pinyin": "érzi",
+      "english": "son",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👦",
+      "mnemonic": "Child (儿) + suffix (子) = SON",
+      "etymology": "儿 (child) + 子 (offspring)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个儿子"
+      },
+      "examples": [
+        {
+          "chinese": "我有一个儿子。",
+          "pinyin": "Wǒ yǒu yí ge érzi.",
+          "english": "I have a son."
+        },
+        {
+          "chinese": "他是我儿子。",
+          "pinyin": "Tā shì wǒ érzi.",
+          "english": "He is my son."
+        }
+      ],
+      "related_words": ["女儿", "孩子", "儿童"],
+      "usage_notes": "Common family relationship term"
+    },
+    {
+      "simplified": "女儿",
+      "traditional": "女兒",
+      "pinyin": "nǚ'ér",
+      "english": "daughter",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👧",
+      "mnemonic": "Woman (女) + child (儿) = DAUGHTER",
+      "etymology": "女 (woman/female) + 儿 (child)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个女儿"
+      },
+      "examples": [
+        {
+          "chinese": "我有一个女儿。",
+          "pinyin": "Wǒ yǒu yí ge nǚ'ér.",
+          "english": "I have a daughter."
+        },
+        {
+          "chinese": "她是我女儿。",
+          "pinyin": "Tā shì wǒ nǚ'ér.",
+          "english": "She is my daughter."
+        }
+      ],
+      "related_words": ["儿子", "女孩", "孩子"],
+      "usage_notes": "Common family relationship term"
+    },
+    {
+      "simplified": "男人",
+      "traditional": "男人",
+      "pinyin": "nánrén",
+      "english": "man; male",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🚹",
+      "mnemonic": "Field (田) + strength (力) + person (人) = MAN working field",
+      "etymology": "男 (male, field+strength) + 人 (person)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个男人"
+      },
+      "examples": [
+        {
+          "chinese": "那个男人是谁？",
+          "pinyin": "Nàge nánrén shì shéi?",
+          "english": "Who is that man?"
+        },
+        {
+          "chinese": "他是好男人。",
+          "pinyin": "Tā shì hǎo nánrén.",
+          "english": "He is a good man."
+        }
+      ],
+      "related_words": ["女人", "男生", "先生"],
+      "usage_notes": "General term for adult male"
+    },
+    {
+      "simplified": "女人",
+      "traditional": "女人",
+      "pinyin": "nǚrén",
+      "english": "woman; female",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🚺",
+      "mnemonic": "Woman (女) + person (人) = WOMAN",
+      "etymology": "女 (woman/female) + 人 (person)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个女人"
+      },
+      "examples": [
+        {
+          "chinese": "那个女人很漂亮。",
+          "pinyin": "Nàge nǚrén hěn piàoliang.",
+          "english": "That woman is very beautiful."
+        },
+        {
+          "chinese": "她是独立的女人。",
+          "pinyin": "Tā shì dúlì de nǚrén.",
+          "english": "She is an independent woman."
+        }
+      ],
+      "related_words": ["男人", "女生", "女士"],
+      "usage_notes": "General term for adult female"
+    },
+    {
+      "simplified": "同学",
+      "traditional": "同學",
+      "pinyin": "tóngxué",
+      "english": "classmate; schoolmate",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🎓",
+      "mnemonic": "Same (同) + study (学) = CLASSMATE studying together",
+      "etymology": "同 (same/together) + 学 (study)",
+      "measure_word": {
+        "character": "位",
+        "pinyin": "wèi",
+        "example": "一位同学"
+      },
+      "examples": [
+        {
+          "chinese": "他是我同学。",
+          "pinyin": "Tā shì wǒ tóngxué.",
+          "english": "He is my classmate."
+        },
+        {
+          "chinese": "同学们好！",
+          "pinyin": "Tóngxuémen hǎo!",
+          "english": "Hello, classmates!"
+        }
+      ],
+      "related_words": ["学生", "同事", "校友"],
+      "usage_notes": "Also used as polite address for students"
+    },
+    {
+      "simplified": "先生",
+      "traditional": "先生",
+      "pinyin": "xiānsheng",
+      "english": "Mr.; sir; husband; teacher",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👔",
+      "mnemonic": "First (先) + born (生) = elder, MR./SIR",
+      "etymology": "先 (first/before) + 生 (born), meaning elder",
+      "measure_word": {
+        "character": "位",
+        "pinyin": "wèi",
+        "example": "一位先生"
+      },
+      "examples": [
+        {
+          "chinese": "这位先生是谁？",
+          "pinyin": "Zhè wèi xiānsheng shì shéi?",
+          "english": "Who is this gentleman?"
+        },
+        {
+          "chinese": "王先生",
+          "pinyin": "Wáng xiānsheng",
+          "english": "Mr. Wang"
+        }
+      ],
+      "related_words": ["女士", "太太", "老师"],
+      "usage_notes": "Polite title for men, also means husband or teacher"
+    },
+    {
+      "simplified": "小姐",
+      "traditional": "小姐",
+      "pinyin": "xiǎojiě",
+      "english": "Miss; young lady",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "👧",
+      "mnemonic": "Small (小) + older sister (姐) = young MISS",
+      "etymology": "小 (small/young) + 姐 (elder sister)",
+      "measure_word": {
+        "character": "位",
+        "pinyin": "wèi",
+        "example": "一位小姐"
+      },
+      "examples": [
+        {
+          "chinese": "小姐，请问...？",
+          "pinyin": "Xiǎojiě, qǐngwèn...?",
+          "english": "Miss, may I ask...?"
+        },
+        {
+          "chinese": "那位小姐很漂亮。",
+          "pinyin": "Nà wèi xiǎojiě hěn piàoliang.",
+          "english": "That young lady is very beautiful."
+        }
+      ],
+      "related_words": ["女士", "太太", "姐姐"],
+      "usage_notes": "Be careful: in some regions has negative connotations"
+    },
+    {
+      "simplified": "谁",
+      "traditional": "誰",
+      "pinyin": "shéi",
+      "english": "who; whom",
+      "hsk_level": 1,
+      "word_type": "pronoun",
+      "emoji": "❓",
+      "mnemonic": "Words (讠) + who (隹) = asking WHO",
+      "etymology": "Speech radical + phonetic component",
+      "examples": [
+        {
+          "chinese": "他是谁？",
+          "pinyin": "Tā shì shéi?",
+          "english": "Who is he?"
+        },
+        {
+          "chinese": "谁在家？",
+          "pinyin": "Shéi zài jiā?",
+          "english": "Who's at home?"
+        }
+      ],
+      "related_words": ["什么", "哪", "为什么"],
+      "usage_notes": "Question word for asking about people. Also pronounced 'shuí'"
+    },
+    {
+      "simplified": "中国",
+      "traditional": "中國",
+      "pinyin": "Zhōngguó",
+      "english": "China",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🇨🇳",
+      "mnemonic": "Middle (中) + country (国) = the Middle Kingdom, CHINA",
+      "etymology": "中 (center/middle) + 国 (country), ancient self-reference",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个中国"
+      },
+      "examples": [
+        {
+          "chinese": "我是中国人。",
+          "pinyin": "Wǒ shì Zhōngguó rén.",
+          "english": "I am Chinese."
+        },
+        {
+          "chinese": "我来自中国。",
+          "pinyin": "Wǒ láizì Zhōngguó.",
+          "english": "I come from China."
+        }
+      ],
+      "related_words": ["中文", "中国人", "汉语"],
+      "usage_notes": "Literally means 'Middle Kingdom'"
+    }
+  ]
+}

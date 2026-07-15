@@ -1,0 +1,334 @@
+{
+  "vocabulary": [
+    {
+      "simplified": "家",
+      "traditional": "家",
+      "pinyin": "jiā",
+      "english": "home; family",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🏠",
+      "mnemonic": "Roof (宀) + pig (豕) - HOME with animals",
+      "etymology": "Roof over pig, representing household",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个家"
+      },
+      "examples": [
+        {
+          "chinese": "回家",
+          "pinyin": "huí jiā",
+          "english": "to go home"
+        },
+        {
+          "chinese": "我在家。",
+          "pinyin": "Wǒ zài jiā.",
+          "english": "I'm at home."
+        }
+      ],
+      "related_words": ["家人", "家里", "回家"],
+      "usage_notes": "Central concept in Chinese culture"
+    },
+    {
+      "simplified": "学校",
+      "traditional": "學校",
+      "pinyin": "xuéxiào",
+      "english": "school",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🏫",
+      "mnemonic": "Learn (学) + building (校) - SCHOOL building",
+      "etymology": "学 (study/learn) + 校 (institution)",
+      "measure_word": {
+        "character": "所",
+        "pinyin": "suǒ",
+        "example": "一所学校"
+      },
+      "examples": [
+        {
+          "chinese": "我去学校。",
+          "pinyin": "Wǒ qù xuéxiào.",
+          "english": "I go to school."
+        },
+        {
+          "chinese": "这是我的学校。",
+          "pinyin": "Zhè shì wǒ de xuéxiào.",
+          "english": "This is my school."
+        }
+      ],
+      "related_words": ["学生", "学习", "大学"],
+      "usage_notes": "Used for all types of schools"
+    },
+    {
+      "simplified": "医院",
+      "traditional": "醫院",
+      "pinyin": "yīyuàn",
+      "english": "hospital",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🏥",
+      "mnemonic": "Medicine (医) + courtyard (院) - HOSPITAL compound",
+      "etymology": "医 (medicine) + 院 (institution/courtyard)",
+      "measure_word": {
+        "character": "家",
+        "pinyin": "jiā",
+        "example": "一家医院"
+      },
+      "examples": [
+        {
+          "chinese": "去医院",
+          "pinyin": "qù yīyuàn",
+          "english": "to go to the hospital"
+        },
+        {
+          "chinese": "他在医院工作。",
+          "pinyin": "Tā zài yīyuàn gōngzuò.",
+          "english": "He works at a hospital."
+        }
+      ],
+      "related_words": ["医生", "诊所", "病院"],
+      "usage_notes": "Important public place"
+    },
+    {
+      "simplified": "饭店",
+      "traditional": "飯店",
+      "pinyin": "fàndiàn",
+      "english": "restaurant; hotel",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🍽️",
+      "mnemonic": "Meal (饭) + shop (店) - RESTAURANT",
+      "etymology": "饭 (meal) + 店 (shop/store)",
+      "measure_word": {
+        "character": "家",
+        "pinyin": "jiā",
+        "example": "一家饭店"
+      },
+      "examples": [
+        {
+          "chinese": "我们去饭店吃饭。",
+          "pinyin": "Wǒmen qù fàndiàn chīfàn.",
+          "english": "Let's go to the restaurant to eat."
+        },
+        {
+          "chinese": "这家饭店很好。",
+          "pinyin": "Zhè jiā fàndiàn hěn hǎo.",
+          "english": "This restaurant is very good."
+        }
+      ],
+      "related_words": ["餐厅", "饭馆", "酒店"],
+      "usage_notes": "Can mean restaurant or hotel depending on context"
+    },
+    {
+      "simplified": "商店",
+      "traditional": "商店",
+      "pinyin": "shāngdiàn",
+      "english": "shop; store",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🏪",
+      "mnemonic": "Commerce (商) + shop (店) - STORE",
+      "etymology": "商 (commerce) + 店 (shop)",
+      "measure_word": {
+        "character": "家",
+        "pinyin": "jiā",
+        "example": "一家商店"
+      },
+      "examples": [
+        {
+          "chinese": "商店在哪儿？",
+          "pinyin": "Shāngdiàn zài nǎr?",
+          "english": "Where is the shop?"
+        },
+        {
+          "chinese": "我去商店买东西。",
+          "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
+          "english": "I'm going to the store to buy things."
+        }
+      ],
+      "related_words": ["店", "超市", "商场"],
+      "usage_notes": "General term for retail shops"
+    },
+    {
+      "simplified": "北京",
+      "traditional": "北京",
+      "pinyin": "Běijīng",
+      "english": "Beijing",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🏛️",
+      "mnemonic": "North (北) + capital (京) - Northern capital, BEIJING",
+      "etymology": "北 (north) + 京 (capital city)",
+      "measure_word": {
+        "character": "个",
+        "pinyin": "gè",
+        "example": "一个北京"
+      },
+      "examples": [
+        {
+          "chinese": "我在北京工作。",
+          "pinyin": "Wǒ zài Běijīng gōngzuò.",
+          "english": "I work in Beijing."
+        },
+        {
+          "chinese": "北京是中国的首都。",
+          "pinyin": "Běijīng shì Zhōngguó de shǒudū.",
+          "english": "Beijing is China's capital."
+        }
+      ],
+      "related_words": ["上海", "中国", "首都"],
+      "usage_notes": "Capital city of China"
+    },
+    {
+      "simplified": "上",
+      "traditional": "上",
+      "pinyin": "shàng",
+      "english": "up; above; on; to go up",
+      "hsk_level": 1,
+      "word_type": "noun/verb",
+      "emoji": "⬆️",
+      "mnemonic": "Short line ABOVE long line = UP",
+      "etymology": "Pictograph showing position above",
+      "examples": [
+        {
+          "chinese": "上面",
+          "pinyin": "shàngmiàn",
+          "english": "above; on top"
+        },
+        {
+          "chinese": "上车",
+          "pinyin": "shàng chē",
+          "english": "to board a vehicle"
+        }
+      ],
+      "related_words": ["下", "上面", "上班"],
+      "usage_notes": "Very versatile character with many uses"
+    },
+    {
+      "simplified": "下",
+      "traditional": "下",
+      "pinyin": "xià",
+      "english": "down; below; under; to go down",
+      "hsk_level": 1,
+      "word_type": "noun/verb",
+      "emoji": "⬇️",
+      "mnemonic": "Short line BELOW long line = DOWN",
+      "etymology": "Pictograph showing position below",
+      "examples": [
+        {
+          "chinese": "下面",
+          "pinyin": "xiàmiàn",
+          "english": "below; underneath"
+        },
+        {
+          "chinese": "下雨",
+          "pinyin": "xià yǔ",
+          "english": "to rain"
+        }
+      ],
+      "related_words": ["上", "下面", "下班"],
+      "usage_notes": "Opposite of 上, many compound uses"
+    },
+    {
+      "simplified": "里",
+      "traditional": "裡",
+      "pinyin": "lǐ",
+      "english": "inside; in; within",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "📦",
+      "mnemonic": "Inside field (里) - INSIDE",
+      "etymology": "Simplified from 裡 with clothing radical",
+      "examples": [
+        {
+          "chinese": "里面",
+          "pinyin": "lǐmiàn",
+          "english": "inside"
+        },
+        {
+          "chinese": "家里",
+          "pinyin": "jiā lǐ",
+          "english": "at home; inside the house"
+        }
+      ],
+      "related_words": ["外", "里面", "这里"],
+      "usage_notes": "Indicates interior or inside"
+    },
+    {
+      "simplified": "前",
+      "traditional": "前",
+      "pinyin": "qián",
+      "english": "front; before; ahead",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "⏩",
+      "mnemonic": "Knife (刂) + boat (月) + stop (止) - FRONT of boat",
+      "etymology": "Complex character showing forward position",
+      "examples": [
+        {
+          "chinese": "前面",
+          "pinyin": "qiánmiàn",
+          "english": "in front; ahead"
+        },
+        {
+          "chinese": "以前",
+          "pinyin": "yǐqián",
+          "english": "before; previously"
+        }
+      ],
+      "related_words": ["后", "前面", "之前"],
+      "usage_notes": "Indicates front or prior time"
+    },
+    {
+      "simplified": "后",
+      "traditional": "後",
+      "pinyin": "hòu",
+      "english": "back; behind; after",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "⏪",
+      "mnemonic": "Step (彳) + short (幺) + mouth (口) - walking BEHIND",
+      "etymology": "Simplified from 後, showing rear position",
+      "examples": [
+        {
+          "chinese": "后面",
+          "pinyin": "hòumiàn",
+          "english": "behind; at the back"
+        },
+        {
+          "chinese": "以后",
+          "pinyin": "yǐhòu",
+          "english": "after; later"
+        }
+      ],
+      "related_words": ["前", "后面", "之后"],
+      "usage_notes": "Indicates back or later time"
+    },
+    {
+      "simplified": "外",
+      "traditional": "外",
+      "pinyin": "wài",
+      "english": "outside; foreign",
+      "hsk_level": 1,
+      "word_type": "noun",
+      "emoji": "🚪",
+      "mnemonic": "Evening (夕) + divination (卜) - OUTSIDE in the night",
+      "etymology": "Evening + divination, representing outside",
+      "examples": [
+        {
+          "chinese": "外面",
+          "pinyin": "wàimiàn",
+          "english": "outside"
+        },
+        {
+          "chinese": "外国",
+          "pinyin": "wàiguó",
+          "english": "foreign country"
+        }
+      ],
+      "related_words": ["里", "外面", "国外"],
+      "usage_notes": "Indicates exterior or foreign"
+    }
+  ]
+}

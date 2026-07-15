@@ -1,0 +1,3 @@
+fsrs>=6.0.0
+rich>=13.0.0
+anthropic>=0.40.0  # only needed for `ct add` / `ct add-many` / `ct generate`
