@@ -37,5 +37,5 @@ build/
 .env
 .secrets
 
-# Internal data-generation tooling (not part of the published CLI)
-scripts/
+# Internal data-generation caches
+scripts/__pycache__/

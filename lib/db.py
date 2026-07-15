@@ -16,6 +16,7 @@ CARD_QUERY = """
     FROM fsrs_cards c
     JOIN vocabulary v ON c.word_id = v.word_id
 """
+SCHEMA_VERSION = 1
 
 
 def utcnow_iso() -> str:
@@ -44,6 +45,7 @@ class Database:
         self.conn = sqlite3.connect(str(self.db_path))
         self.conn.row_factory = sqlite3.Row
         self.conn.execute("PRAGMA foreign_keys = ON")
+        self.conn.execute("PRAGMA busy_timeout = 5000")
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
@@ -132,6 +134,13 @@ class Database:
             CREATE INDEX IF NOT EXISTS idx_vocab_hsk ON vocabulary(hsk_level);
             CREATE INDEX IF NOT EXISTS idx_vocab_source ON vocabulary(source);
         """)
+        current_version = self.conn.execute("PRAGMA user_version").fetchone()[0]
+        if current_version > SCHEMA_VERSION:
+            raise RuntimeError(
+                f"database schema {current_version} is newer than this version supports ({SCHEMA_VERSION})"
+            )
+        if current_version < SCHEMA_VERSION:
+            self.conn.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
         self.conn.commit()
 
     # ── vocabulary ────────────────────────────────────────────────
@@ -222,6 +231,54 @@ class Database:
     def existing_words(self) -> set:
         rows = self.conn.execute("SELECT simplified FROM vocabulary").fetchall()
         return {row[0] for row in rows}
+
+    def update_bundled_vocabulary(self, word: Dict[str, Any], source: str) -> Optional[int]:
+        """Insert or refresh a bundled word without changing its FSRS card.
+
+        Bundled rows are identified by their source marker. User-imported and
+        AI-created rows with the same characters are never overwritten.
+        Returns the word_id for a new or updated bundled row, or None when an
+        existing user-owned row wins.
+        """
+        hsk_level = word.get('hsk_level')
+        if hsk_level is None:
+            hsk_level = self.frontier_level()
+        bundled_source = f'bundled:{source}'
+        row = self.conn.execute(
+            "SELECT word_id, source FROM vocabulary WHERE simplified = ? AND pinyin = ?",
+            (word['simplified'], word['pinyin']),
+        ).fetchone()
+        if row and row['source'] and not (
+            row['source'] == Path(source).name or row['source'].startswith('bundled:')
+        ):
+            return None
+        values = (
+            word.get('traditional'), word['english'], hsk_level, word.get('word_type'),
+            word.get('examples'), word.get('usage_notes'), word.get('mnemonic'),
+            word.get('etymology'), word.get('related_words'), word.get('measure_word'),
+            word.get('emoji'), bundled_source,
+        )
+        if row:
+            self.conn.execute("""
+                UPDATE vocabulary SET traditional = ?, english = ?, hsk_level = ?,
+                    word_type = ?, examples = ?, usage_notes = ?, mnemonic = ?,
+                    etymology = ?, related_words = ?, measure_word = ?, emoji = ?, source = ?
+                WHERE word_id = ?
+            """, (*values, row['word_id']))
+            return row['word_id']
+        cursor = self.conn.execute("""
+            INSERT INTO vocabulary
+            (simplified, traditional, pinyin, english, hsk_level, word_type, examples,
+             usage_notes, mnemonic, etymology, related_words, measure_word, emoji, source)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            word['simplified'], word.get('traditional'), word['pinyin'], word['english'],
+            hsk_level, word.get('word_type'), word.get('examples'), word.get('usage_notes'),
+            word.get('mnemonic'), word.get('etymology'), word.get('related_words'),
+            word.get('measure_word'), word.get('emoji'), bundled_source,
+        ))
+        self.conn.execute("INSERT INTO fsrs_cards (word_id, state) VALUES (?, 'New')", (cursor.lastrowid,))
+        return cursor.lastrowid
 
     # ── card selection ────────────────────────────────────────────
 

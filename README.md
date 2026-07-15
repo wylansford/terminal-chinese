@@ -45,6 +45,14 @@ The hook defines the `ct` alias and shows one card per new terminal - nothing ru
 
 For a separate development install, run `./install.sh --dev`. It installs `terminal-chinese-dev`, keeps its database and config under `~/.config/terminal-chinese-dev/`, and does not add a shell startup hook. Production progress remains under `~/.config/terminal-chinese/`.
 
+Run the repository health checks with:
+
+```sh
+python3 -m unittest discover -s tests -v
+python3 -m py_compile bin/terminal-chinese lib/*.py
+bash -n install.sh uninstall.sh
+```
+
 More vocab packs: `cp data/hsk2/*.json ~/.config/terminal-chinese/vocabulary/`
 
 ## Reviewing
@@ -79,6 +87,8 @@ ct generate 'business vocab' --count 50 --hsk 4 --import
 ct import my_words.json
 ct export backup.json            # optionally --hsk N
 ```
+
+The checked-in HSK packs are the runtime vocabulary. The enrichment checkpoint in `data/generated/enriched.jsonl` is retained for the data-generation workflow; it is not imported separately because it duplicates the generated HSK packs.
 
 ## Progress
 

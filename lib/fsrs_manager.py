@@ -56,6 +56,8 @@ def next_due_human(due_iso: Optional[str]) -> str:
     if due is None:
         return "later"
     diff = due - datetime.now(timezone.utc)
+    if diff.total_seconds() <= 0:
+        return "now"
     days, hours, minutes = diff.days, diff.seconds // 3600, (diff.seconds % 3600) // 60
     if days > 30:
         months = days // 30

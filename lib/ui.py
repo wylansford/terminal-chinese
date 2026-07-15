@@ -12,7 +12,20 @@ console = Console(highlight=False)
 
 MAX_CARD_WIDTH = 60
 
-STATE_STYLES = {'New': 'cyan', 'Learning': 'yellow', 'Review': 'green', 'Relearning': 'red'}
+COLORS = {
+    'accent': 'bright_cyan',
+    'muted_accent': 'cyan',
+    'positive': 'green',
+    'caution': 'yellow',
+    'negative': 'red',
+    'muted': 'dim',
+}
+STATE_STYLES = {
+    'New': COLORS['muted_accent'],
+    'Learning': COLORS['caution'],
+    'Review': COLORS['positive'],
+    'Relearning': COLORS['negative'],
+}
 RATING_FEEDBACK = {
     4: ('✓', 'green', 'got it'),
     2: ('~', 'yellow', 'close'),
@@ -55,9 +68,9 @@ def center(*parts, style: Optional[str] = None):
 
 def _hanzi_line(card: Dict[str, Any], reveal: bool = False) -> Text:
     text = Text()
-    text.append(card['simplified'], style='bold bright_cyan')
+    text.append(card['simplified'], style=f"bold {COLORS['accent']}")
     if card['traditional'] != card['simplified']:
-        text.append(f" · {card['traditional']}", style='cyan')
+        text.append(f" · {card['traditional']}", style=COLORS['muted_accent'])
     if reveal:
         text.append(f" · {card['pinyin']}", style='bold')
         if card.get('emoji'):
@@ -75,7 +88,7 @@ def render_card(card: Dict[str, Any], show_pinyin: bool, due_count: int):
     console.print()
     center(_hanzi_line(card))
     if show_pinyin:
-        center((card['pinyin'], 'cyan'))
+        center((card['pinyin'], COLORS['muted_accent']))
     console.print()
     center((seen, f"dim {STATE_STYLES.get(state, '')}"), ('  ·  ', 'dim'), (f"{due_count} due", 'dim'))
 
@@ -195,8 +208,8 @@ def render_stats(stats: Dict[str, Any], spark: Optional[str] = None):
         peak = max(stats['hsk'].values())
         for level in sorted(stats['hsk']):
             count = stats['hsk'][level]
-            line = Text(f'  hsk {level}  ', style='dim')
-            line.append('▓' * max(1, round(10 * count / peak)), style='cyan')
+            line = Text(f'  hsk {level}  ', style=COLORS['muted'])
+            line.append('▓' * max(1, round(10 * count / peak)), style=COLORS['muted_accent'])
             line.append(f' {count}', style='dim')
             console.print(line)
     console.print()
