@@ -1,10 +1,27 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-APP_DIR="${TERMINAL_CHINESE_HOME:-$HOME/.local/share/terminal-chinese}"
-CONFIG_DIR="$HOME/.config/terminal-chinese"
+MODE="production"
+if [[ "${1:-}" == "--dev" ]]; then
+    MODE="dev"
+    shift
+elif [[ $# -gt 0 ]]; then
+    echo "Usage: $0 [--dev]" >&2
+    exit 2
+fi
 
-echo "🗑️  Uninstalling terminal-chinese..."
+DEFAULT_APP_DIR="$HOME/.local/share/terminal-chinese"
+DEFAULT_CONFIG_DIR="$HOME/.config/terminal-chinese"
+BIN_NAME="terminal-chinese"
+if [[ "$MODE" == "dev" ]]; then
+    DEFAULT_APP_DIR="$HOME/.local/share/terminal-chinese-dev"
+    DEFAULT_CONFIG_DIR="$HOME/.config/terminal-chinese-dev"
+    BIN_NAME="terminal-chinese-dev"
+fi
+APP_DIR="${TERMINAL_CHINESE_HOME:-$DEFAULT_APP_DIR}"
+CONFIG_DIR="$DEFAULT_CONFIG_DIR"
+
+echo "🗑️  Uninstalling terminal-chinese ($MODE)..."
 echo ""
 echo "This removes the app ($APP_DIR) and all data in $CONFIG_DIR"
 echo "(database, learning progress, vocabulary)."
@@ -19,7 +36,7 @@ if [[ ! $REPLY =~ ^[Nn]$ && -d "$CONFIG_DIR" ]]; then
 fi
 
 rm -rf "$CONFIG_DIR" "$APP_DIR"
-rm -f "$HOME/.local/bin/terminal-chinese"
+rm -f "$HOME/.local/bin/$BIN_NAME"
 
 cat <<'EOF'
 

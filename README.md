@@ -41,7 +41,9 @@ curl -fsSL https://raw.githubusercontent.com/wylansford/terminal-chinese/main/in
 brew install wylansford/tap/terminal-chinese
 ```
 
-The hook defines the `ct` alias and shows one card per new terminal - nothing runs in the background. HSK 1-6 vocabulary imports automatically on first run. Set `TERMINAL_CHINESE_DISABLE=1` to silence startup cards.
+The hook defines the `ct` alias and shows one card per new terminal - nothing runs in the background. HSK 1-6 vocabulary imports automatically on first run and new bundled packs sync on upgrades. Set `TERMINAL_CHINESE_DISABLE=1` to silence startup cards.
+
+For a separate development install, run `./install.sh --dev`. It installs `terminal-chinese-dev`, keeps its database and config under `~/.config/terminal-chinese-dev/`, and does not add a shell startup hook. Production progress remains under `~/.config/terminal-chinese/`.
 
 More vocab packs: `cp data/hsk2/*.json ~/.config/terminal-chinese/vocabulary/`
 
@@ -87,7 +89,7 @@ ct graph --days 90 --metric reviews_done
 
 ## Configuration
 
-All 6 HSK packs (~5,700 words) import automatically on first run, but only **HSK 1** is used to introduce new words at first. Change that with:
+All 6 HSK packs (~5,700 words) import automatically, including for existing installs when bundled packs are added or updated. Only **HSK 1** is used to introduce new words at first. Change that with:
 
 ```sh
 ct config --hsk 1,2,3     # draw new words from HSK 1-3
@@ -100,7 +102,7 @@ Only affects which *new* words get introduced - words already started keep their
 { "max_new_cards_per_day": 10, "hsk_levels": [1, 2, 3] }
 ```
 
-Database lives at `~/.config/terminal-chinese/tutor.db`. Uninstall with `brew uninstall terminal-chinese` or the repo's `uninstall.sh` (offers a backup first).
+Database lives at `~/.config/terminal-chinese/tutor.db`. Uninstall with `brew uninstall terminal-chinese` or the repo's `uninstall.sh` (offers a backup first). For ad-hoc repo development without installing, prefix commands with `TERMINAL_CHINESE_PROFILE=dev`; this uses the same isolated development data directory.
 
 ## License
 

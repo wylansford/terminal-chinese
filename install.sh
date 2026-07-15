@@ -4,10 +4,25 @@
 set -euo pipefail
 
 REPO="https://github.com/wylansford/terminal-chinese"
-APP_DIR="${TERMINAL_CHINESE_HOME:-$HOME/.local/share/terminal-chinese}"
-BIN_DIR="$HOME/.local/bin"
+MODE="production"
+if [[ "${1:-}" == "--dev" ]]; then
+    MODE="dev"
+    shift
+elif [[ $# -gt 0 ]]; then
+    echo "Usage: $0 [--dev]" >&2
+    exit 2
+fi
 
-echo "🇨🇳 Installing terminal-chinese..."
+DEFAULT_APP_DIR="$HOME/.local/share/terminal-chinese"
+[[ "$MODE" == "dev" ]] && DEFAULT_APP_DIR="$HOME/.local/share/terminal-chinese-dev"
+APP_DIR="${TERMINAL_CHINESE_HOME:-$DEFAULT_APP_DIR}"
+BIN_DIR="$HOME/.local/bin"
+BIN_NAME="terminal-chinese"
+[[ "$MODE" == "dev" ]] && BIN_NAME="terminal-chinese-dev"
+DB_PROFILE="default"
+[[ "$MODE" == "dev" ]] && DB_PROFILE="dev"
+
+echo "🇨🇳 Installing terminal-chinese ($MODE)..."
 
 command -v python3 >/dev/null || { echo "❌ python3 is required."; exit 1; }
 command -v git >/dev/null || { echo "❌ git is required."; exit 1; }
@@ -25,11 +40,23 @@ fi
 "$APP_DIR/.venv/bin/pip" install -q -r "$APP_DIR/requirements.txt"
 
 mkdir -p "$BIN_DIR"
-cat > "$BIN_DIR/terminal-chinese" <<EOF
+cat > "$BIN_DIR/$BIN_NAME" <<EOF
 #!/bin/sh
-exec "$APP_DIR/.venv/bin/python3" "$APP_DIR/bin/terminal-chinese" "\$@"
+exec env TERMINAL_CHINESE_PROFILE="$DB_PROFILE" "$APP_DIR/.venv/bin/python3" "$APP_DIR/bin/terminal-chinese" "\$@"
 EOF
-chmod +x "$BIN_DIR/terminal-chinese"
+chmod +x "$BIN_DIR/$BIN_NAME"
+
+if [[ "$MODE" == "dev" ]]; then
+    cat <<EOF
+
+✅ Development install complete.
+   Command: $BIN_NAME
+   Data:    $HOME/.config/terminal-chinese-dev/
+   This install does not add a startup hook. Run `$BIN_NAME review` manually.
+   Production data remains in $HOME/.config/terminal-chinese/.
+EOF
+    exit 0
+fi
 
 # Hook the shell so cards appear on terminal startup. The hook text is
 # generated once, here, and written as-is -- not re-generated via
@@ -44,7 +71,7 @@ MARKER="# terminal-chinese - vocabulary card on terminal startup"
 if grep -qs "$MARKER" "$RC_FILE"; then
     HOOK_MSG="terminal-chinese is already wired into $RC_FILE."
 else
-    HOOK_TEXT="$(TERMINAL_CHINESE_BIN="$BIN_DIR/terminal-chinese" "$BIN_DIR/terminal-chinese" init "$SHELL_NAME")"
+    HOOK_TEXT="$(TERMINAL_CHINESE_BIN="$BIN_DIR/$BIN_NAME" "$BIN_DIR/$BIN_NAME" init "$SHELL_NAME")"
     {
         echo ""
         echo "$MARKER (terminal-chinese.lansford.dev)"
