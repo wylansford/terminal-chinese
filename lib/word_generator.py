@@ -124,4 +124,4 @@ def preview(word: Dict[str, Any], index: int = None) -> str:
     if word.get('traditional') and word['traditional'] != hanzi:
         hanzi += f" ({word['traditional']})"
     emoji = f" {word['emoji']}" if word.get('emoji') else ""
-    return f"{prefix}{hanzi}{emoji}  {word['pinyin']} — {word['english']}"
+    return f"{prefix}{hanzi}{emoji}  {word['pinyin']} - {word['english']}"

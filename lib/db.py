@@ -134,7 +134,7 @@ class Database:
         """Insert a word (JSON fields already serialized) and its FSRS card.
 
         Words with no hsk_level (custom/AI-added, or a dropped-in JSON file that
-        omits it) get one assigned via frontier_level() instead of staying NULL —
+        omits it) get one assigned via frontier_level() instead of staying NULL --
         NULL sorts behind every leveled word forever, so an unleveled word could
         never surface as long as any leveled backlog remained.
 
@@ -169,7 +169,7 @@ class Database:
         Walks the ladder from HSK 1: each level where you've started (state !=
         'New') at least half its words promotes the frontier to the next level.
         Stops at the first level under 50%, so custom words track roughly where
-        you actually are — not stuck at 1 forever, not dumped at 6 on day one.
+        you actually are -- not stuck at 1 forever, not dumped at 6 on day one.
 
         Clamped to the highest HSK level enabled in config, so a word is never
         assigned a level get_next_card would then refuse to ever show it.
@@ -230,7 +230,7 @@ class Database:
     def get_next_card(self, max_new_per_day: int = 10, hsk_levels: Optional[List[int]] = None) -> Optional[Dict[str, Any]]:
         """Next card to review: overdue reviews, then learning, then new (daily-capped).
 
-        hsk_levels restricts which *new* cards are introduced — words already in
+        hsk_levels restricts which *new* cards are introduced -- words already in
         Learning/Review/Relearning keep being reviewed regardless, and words with
         no HSK level (custom/AI-added) are always eligible.
         """

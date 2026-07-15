@@ -39,7 +39,7 @@ case "${SHELL:-}" in
     */bash) RC_FILE="$HOME/.bashrc"; SHELL_NAME="bash" ;;
     *)      RC_FILE="$HOME/.zshrc";  SHELL_NAME="zsh"  ;;
 esac
-MARKER="# terminal-chinese — vocabulary card on terminal startup"
+MARKER="# terminal-chinese - vocabulary card on terminal startup"
 
 if grep -qs "$MARKER" "$RC_FILE"; then
     HOOK_MSG="terminal-chinese is already wired into $RC_FILE."
@@ -56,7 +56,7 @@ fi
 cat <<EOF
 
 ✅ $HOOK_MSG
-   Open a new terminal to see your first card — HSK 1-6 vocabulary ships in
+   Open a new terminal to see your first card - HSK 1-6 vocabulary ships in
    the box, starting with HSK 1 (widen anytime with: ct config --hsk 1,2,3).
    Happy learning! 加油！
 

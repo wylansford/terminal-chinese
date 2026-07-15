@@ -1,4 +1,4 @@
-"""Interactive review session — a single process for the whole loop"""
+"""Interactive review session -- a single process for the whole loop"""
 
 from pathlib import Path
 from typing import Dict
@@ -103,7 +103,7 @@ def _next_due(db: Database) -> str:
 def _ensure_vocabulary(db: Database) -> bool:
     """First run: silently import every bundled HSK pack (1-6, ~350 words).
 
-    New cards default to HSK 1 only (config['hsk_levels']) — the rest sit in
+    New cards default to HSK 1 only (config['hsk_levels']) -- the rest sit in
     the deck ready to go the moment the level is widened with `ct config --hsk`.
     """
     if db.conn.execute("SELECT COUNT(*) FROM vocabulary").fetchone()[0]:
@@ -111,14 +111,14 @@ def _ensure_vocabulary(db: Database) -> bool:
     data_dir = Path(__file__).resolve().parent.parent / 'data'
     packs = sorted(data_dir.glob('hsk*/*.json'))
     if not packs:
-        ui.console.print('[dim]no vocabulary yet — add words with: ct add <word>[/]')
+        ui.console.print('[dim]no vocabulary yet - add words with: ct add <word>[/]')
         return False
 
     from importer import import_json
     total = sum(import_json(f, db) for f in packs)
     ui.console.print(
-        f'[bold bright_cyan]terminal-chinese[/] — imported {total} words (HSK 1-6).\n'
-        f'[dim]Starting with HSK 1 — widen anytime: ct config --hsk 1,2,3[/]\n'
+        f'[bold bright_cyan]terminal-chinese[/] - imported {total} words (HSK 1-6).\n'
+        f'[dim]Starting with HSK 1 - widen anytime: ct config --hsk 1,2,3[/]\n'
     )
     return True
 
@@ -129,4 +129,4 @@ def _auto_import(db: Database, vocab_dir: Path):
         return
     from importer import auto_import
     for filename, count in auto_import(db, vocab_dir):
-        ui.console.print(f'[dim]imported {filename} — {count} words[/]')
+        ui.console.print(f'[dim]imported {filename} - {count} words[/]')

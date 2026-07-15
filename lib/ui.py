@@ -61,7 +61,7 @@ def _hanzi_line(card: Dict[str, Any], reveal: bool = False) -> Text:
     if reveal:
         text.append(f" · {card['pinyin']}", style='bold')
         if card.get('emoji'):
-            text.append(f"  {card['emoji']}")  # only after reveal — it hints the meaning
+            text.append(f"  {card['emoji']}")  # only after reveal -- it hints the meaning
     return text
 
 
@@ -119,7 +119,7 @@ def render_reveal(card: Dict[str, Any], feedback: Text):
 
     for ex in (card.get('examples') or []):
         console.print(Text(f"  {ex.get('chinese', '')}"))
-        detail = ' — '.join(filter(None, [ex.get('pinyin'), ex.get('english')]))
+        detail = ' - '.join(filter(None, [ex.get('pinyin'), ex.get('english')]))
         if detail:
             console.print(Text(f"    {detail}", style='dim'))
     if card.get('examples'):
@@ -140,14 +140,14 @@ def feedback_text(rating: int, next_due: str) -> Text:
     symbol, style, word = RATING_FEEDBACK[rating]
     text = Text()
     text.append(f'{symbol} {word}', style=f'bold {style}')
-    text.append(f' — next review {next_due}', style='default')
+    text.append(f' - next review {next_due}', style='default')
     return text
 
 
 def render_all_done(reviewed: int, next_due: Optional[str]):
     console.print()
     if reviewed:
-        console.print(Text(f'✓ all caught up — {reviewed} reviewed', style='bold green'))
+        console.print(Text(f'✓ all caught up - {reviewed} reviewed', style='bold green'))
     else:
         console.print(Text('✓ all caught up', style='bold green'))
     if next_due:

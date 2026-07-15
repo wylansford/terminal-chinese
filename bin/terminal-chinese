@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""terminal-chinese — FSRS-based Chinese vocabulary in your terminal"""
+"""terminal-chinese - FSRS-based Chinese vocabulary in your terminal"""
 
 import json
 import os
@@ -33,16 +33,14 @@ SHELL_HOOKS = {
     'zsh': """\
 if [ -x {bin} ]; then
     alias ct={bin}
-    if [[ -o interactive && -t 0 && $SHLVL -eq 1 && "$TERM_PROGRAM" != "vscode" \\
-          && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
+    if [[ -o interactive && -t 0 && $SHLVL -eq 1 && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
         {bin} review
     fi
 fi""",
     'bash': """\
 if [ -x {bin} ]; then
     alias ct={bin}
-    if [[ $- == *i* && -t 0 && $SHLVL -eq 1 && "$TERM_PROGRAM" != "vscode" \\
-          && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
+    if [[ $- == *i* && -t 0 && $SHLVL -eq 1 && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
         {bin} review
     fi
 fi""",
