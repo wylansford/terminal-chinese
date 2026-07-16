@@ -37,17 +37,27 @@ DEFAULT_CONFIG = {'max_new_cards_per_day': 10, 'hsk_levels': [1]}
 # startup on every subshell just to regenerate identical text.
 SHELL_HOOKS = {
     'zsh': """\
-if [ -x {bin} ]; then
-    alias ct={bin}
+if command -v {command} >/dev/null 2>&1; then
+    TERMINAL_CHINESE_CMD={command}
+elif [ -x {bin} ]; then
+    TERMINAL_CHINESE_CMD={bin}
+fi
+if [ -n "${{TERMINAL_CHINESE_CMD:-}}" ]; then
+    alias ct="$TERMINAL_CHINESE_CMD"
     if [[ -o interactive && -t 0 && $SHLVL -eq 1 && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
-        {bin} review
+        "$TERMINAL_CHINESE_CMD" review
     fi
 fi""",
     'bash': """\
-if [ -x {bin} ]; then
-    alias ct={bin}
+if command -v {command} >/dev/null 2>&1; then
+    TERMINAL_CHINESE_CMD={command}
+elif [ -x {bin} ]; then
+    TERMINAL_CHINESE_CMD={bin}
+fi
+if [ -n "${{TERMINAL_CHINESE_CMD:-}}" ]; then
+    alias ct="$TERMINAL_CHINESE_CMD"
     if [[ $- == *i* && -t 0 && $SHLVL -eq 1 && -z "$TERMINAL_CHINESE_DISABLE" ]]; then
-        {bin} review
+        "$TERMINAL_CHINESE_CMD" review
     fi
 fi""",
 }
@@ -89,7 +99,8 @@ def cmd_init(args):
     # skipping the wrapper's venv activation entirely. Callers that wrap
     # this script must set TERMINAL_CHINESE_BIN to their own stable path.
     bin_path = os.environ.get('TERMINAL_CHINESE_BIN') or os.path.abspath(sys.argv[0])
-    print(SHELL_HOOKS[args.shell].format(bin=shlex.quote(bin_path)))
+    command = shlex.quote(os.path.basename(bin_path))
+    print(SHELL_HOOKS[args.shell].format(command=command, bin=shlex.quote(bin_path)))
 
 
 def cmd_review(args):
